@@ -7,5 +7,6 @@ data/*.npz
 .venv/
 *.tmp
 results/smoke/
+results/diagnostic_smoke*/
 Darcy-U*.zip
 Darcy-U*.bundle

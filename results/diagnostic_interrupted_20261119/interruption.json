@@ -1,0 +1,7 @@
+{
+  "exit_code": 143,
+  "status": "incomplete: excluded from final comparison",
+  "cause": "process terminated by SIGTERM; issuer not determined",
+  "saved_rows": 420,
+  "action": "Restart entire preregistered run in a new directory, preserving this partial run."
+}

@@ -1,0 +1,92 @@
+{
+  "role": "separate instrumented microprofile",
+  "n": 128,
+  "coarse_dimension": 53,
+  "records": [
+    {
+      "backend": "dense",
+      "repeat": 0,
+      "calls": 12,
+      "seconds": 0.0729385840240866
+    },
+    {
+      "backend": "sparse",
+      "repeat": 0,
+      "calls": 12,
+      "seconds": 0.013801597990095615
+    },
+    {
+      "backend": "sparse",
+      "repeat": 1,
+      "calls": 12,
+      "seconds": 0.01301111001521349
+    },
+    {
+      "backend": "dense",
+      "repeat": 1,
+      "calls": 12,
+      "seconds": 0.07182164583355188
+    },
+    {
+      "backend": "dense",
+      "repeat": 2,
+      "calls": 12,
+      "seconds": 0.07167174713686109
+    },
+    {
+      "backend": "sparse",
+      "repeat": 2,
+      "calls": 12,
+      "seconds": 0.013948565116152167
+    },
+    {
+      "backend": "sparse",
+      "repeat": 3,
+      "calls": 12,
+      "seconds": 0.012926975963637233
+    },
+    {
+      "backend": "dense",
+      "repeat": 3,
+      "calls": 12,
+      "seconds": 0.07161048008129
+    },
+    {
+      "backend": "dense",
+      "repeat": 4,
+      "calls": 12,
+      "seconds": 0.07214722991921008
+    },
+    {
+      "backend": "sparse",
+      "repeat": 4,
+      "calls": 12,
+      "seconds": 0.013937305891886353
+    }
+  ],
+  "relative_application_difference": 1.5376198088691109e-12,
+  "dense_setup": {
+    "setup_seconds": 0.0645087119191885,
+    "local_factor_seconds": 0.06252597691491246,
+    "coarse_setup_seconds": 0.0019706080202013254,
+    "new_local_factors": 64,
+    "coarse_dimension": 53,
+    "coarse_nnz": 419,
+    "interpolation_nnz": 22383
+  },
+  "sparse_setup_and_profile": {
+    "setup_seconds": 0.02524427301250398,
+    "local_factor_seconds": 0.023402217077091336,
+    "coarse_setup_seconds": 0.0018054840620607138,
+    "new_local_factors": 64,
+    "coarse_dimension": 53,
+    "coarse_nnz": 419,
+    "interpolation_nnz": 22383,
+    "profile_enabled": true,
+    "apply_calls": 62,
+    "apply_local_seconds": 0.067595393396914,
+    "apply_coarse_seconds": 0.002987035783007741,
+    "local_apply_calls": 3968,
+    "coarse_apply_calls": 62
+  }
+}
