@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "status": "stopped_after_development",
+  "finished_utc": "2026-11-19T09:26:56Z",
+  "confirmation_run": false,
+  "selected_rank": null,
+  "training_authorized": false,
+  "freeze_sha256": "29b7d704361e002370e4a07d40f7979c4fb9bb3461ac8bce34f07a7b1bfabdea",
+  "decision_sha256": "13d6f702c608243575a8ba4243d2ea718b6b6c8a8b28763076d195f5ff96b3c1"
+}

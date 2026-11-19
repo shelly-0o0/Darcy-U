@@ -1,0 +1,136 @@
+{
+  "created_utc": "2026-11-19T09:26:56Z",
+  "freeze_sha256": "29b7d704361e002370e4a07d40f7979c4fb9bb3461ac8bce34f07a7b1bfabdea",
+  "development_sha256": {
+    "results/stage8_development_preparation.json": "8868bb662fd8dc4d6ce0074b9fc41f73aab63ffe7e3779673b5496142ec6bb7a",
+    "results/stage8_development128/complete.json": "48bc4ef50623ad9af9911956a60390610910ea24c0dce45699592819670d1eae",
+    "results/stage8_development128/execution_order.json": "d0e7dd76aa4246e362f7b9c14189f1e52f8dfdf2e6ff056257c7636ef25f97f9",
+    "results/stage8_development128/manifest.json": "4bc92974695baa91b794ad402114c4efddf89e76e8c85ff4aba905b1aa72314f",
+    "results/stage8_development128/measurements.json": "a3a25e3e0c2185e890cfbb75b0c6d36aff55c213734a56ff762346bc16eaf12c",
+    "results/stage8_development128/reference_metadata.json": "cc26362a3f509d2ca543c0c2943278f96836b8c33320f93360c223aac221f3f8",
+    "results/stage8_development128/summary.json": "63107b8f358ebd62fad764d8210c74ea78fc9b7e3b38a4dfd276193d3bc03d67",
+    "results/stage8_development256/complete.json": "b85e727296b13271fa47b0f969717a1cc20f99ad3502d2000171d7ef7c115d30",
+    "results/stage8_development256/execution_order.json": "434f5a53c87587f9135106cbf233ad6b533c149784d6e93328f26de90ba2c13e",
+    "results/stage8_development256/manifest.json": "2ffa6f19ab27e38f8451d589b2504c31b1d6f91a9d3124234cc47e66ca7010ad",
+    "results/stage8_development256/measurements.json": "126d04bfc661a6f9b5638cf35325713ef277afd5495917c954365ea204ba3014",
+    "results/stage8_development256/reference_metadata.json": "3a62add525a5c1e3053eea49926721f4c52a9ef989229bea4e53457418739ac8",
+    "results/stage8_development256/summary.json": "2d3d0e7aa7ed4ec9bb21b8cf3ac9cd49c16218085fee289ddc7992f9c9ab472a"
+  },
+  "numerically_valid": true,
+  "candidates": {
+    "4": {
+      "cases": [
+        {
+          "n": 128,
+          "seed": 46001,
+          "baseline_seconds": 0.5456487340852618,
+          "reference_path_seconds": 0.4369802565779537,
+          "time_ratio": 0.800845359442678,
+          "construction_budget_seconds": -0.00046126930974421665,
+          "construction_budget_seconds_per_system": -2.3063465487210832e-05,
+          "passes_time_gate": false
+        },
+        {
+          "n": 128,
+          "seed": 46002,
+          "baseline_seconds": 0.5483696707524359,
+          "reference_path_seconds": 0.4307292194571346,
+          "time_ratio": 0.7854723600342758,
+          "construction_budget_seconds": 0.007966517144814167,
+          "construction_budget_seconds_per_system": 0.00039832585724070837,
+          "passes_time_gate": true
+        },
+        {
+          "n": 128,
+          "seed": 46003,
+          "baseline_seconds": 0.5610154494643211,
+          "reference_path_seconds": 0.44029034627601504,
+          "time_ratio": 0.7848096637916496,
+          "construction_budget_seconds": 0.008522013295441888,
+          "construction_budget_seconds_per_system": 0.0004261006647720944,
+          "passes_time_gate": true
+        },
+        {
+          "n": 256,
+          "seed": 46001,
+          "baseline_seconds": 2.7396611655130982,
+          "reference_path_seconds": 2.1370739941485226,
+          "time_ratio": 0.7800504752376122,
+          "construction_budget_seconds": 0.05465493826195589,
+          "construction_budget_seconds_per_system": 0.0027327469130977943,
+          "passes_time_gate": true
+        },
+        {
+          "n": 256,
+          "seed": 46002,
+          "baseline_seconds": 2.695318151731044,
+          "reference_path_seconds": 2.1167333950288594,
+          "time_ratio": 0.7853371200981992,
+          "construction_budget_seconds": 0.039521126355976044,
+          "construction_budget_seconds_per_system": 0.0019760563177988024,
+          "passes_time_gate": true
+        }
+      ],
+      "passes_all_geometries": false
+    },
+    "8": {
+      "cases": [
+        {
+          "n": 128,
+          "seed": 46001,
+          "baseline_seconds": 0.5456487340852618,
+          "reference_path_seconds": 0.4668814172036946,
+          "time_ratio": 0.85564464469323,
+          "construction_budget_seconds": -0.030362429935485102,
+          "construction_budget_seconds_per_system": -0.001518121496774255,
+          "passes_time_gate": false
+        },
+        {
+          "n": 128,
+          "seed": 46002,
+          "baseline_seconds": 0.5483696707524359,
+          "reference_path_seconds": 0.4500158582814038,
+          "time_ratio": 0.820643230804363,
+          "construction_budget_seconds": -0.011320121679455009,
+          "construction_budget_seconds_per_system": -0.0005660060839727504,
+          "passes_time_gate": false
+        },
+        {
+          "n": 128,
+          "seed": 46003,
+          "baseline_seconds": 0.5610154494643211,
+          "reference_path_seconds": 0.44903118652291596,
+          "time_ratio": 0.800390055125341,
+          "construction_budget_seconds": -0.00021882695145902797,
+          "construction_budget_seconds_per_system": -1.0941347572951398e-05,
+          "passes_time_gate": false
+        },
+        {
+          "n": 256,
+          "seed": 46001,
+          "baseline_seconds": 2.7396611655130982,
+          "reference_path_seconds": 2.3576119947247207,
+          "time_ratio": 0.8605487512114202,
+          "construction_budget_seconds": -0.1658830623142422,
+          "construction_budget_seconds_per_system": -0.00829415311571211,
+          "passes_time_gate": false
+        },
+        {
+          "n": 256,
+          "seed": 46002,
+          "baseline_seconds": 2.695318151731044,
+          "reference_path_seconds": 2.2919736434705555,
+          "time_ratio": 0.8503536556523229,
+          "construction_budget_seconds": -0.13571912208572012,
+          "construction_budget_seconds_per_system": -0.006785956104286006,
+          "passes_time_gate": false
+        }
+      ],
+      "passes_all_geometries": false
+    }
+  },
+  "selected_rank": null,
+  "proceed_to_confirmation": false,
+  "training_authorized": false,
+  "rule": "All five methods and references numerically valid; one fixed q passes <=0.8 SciPy on every geometry of both grids; prefer q4 if both pass. Zero construction budget is not training eligibility."
+}

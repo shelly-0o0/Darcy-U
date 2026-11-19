@@ -1,0 +1,77 @@
+{
+  "created_utc": "2026-11-19T09:24:20Z",
+  "specs": [
+    {
+      "name": "baseline_scipy",
+      "policy": "none",
+      "event_custom": false
+    },
+    {
+      "name": "baseline_event_custom",
+      "policy": "none",
+      "event_custom": true
+    },
+    {
+      "name": "frozen_all_balanced4",
+      "policy": "all_balanced",
+      "event_custom": true
+    },
+    {
+      "name": "current_reference4",
+      "policy": "current_reference",
+      "event_custom": true,
+      "rank": 4
+    },
+    {
+      "name": "current_reference8",
+      "policy": "current_reference",
+      "event_custom": true,
+      "rank": 8
+    }
+  ],
+  "ranks": [
+    4,
+    8
+  ],
+  "reference_limit": 64,
+  "repeats": 3,
+  "orthogonality_threshold": 1e-07,
+  "cache_threshold": 1e-07,
+  "development_cohorts": {
+    "128": [
+      46001,
+      46002,
+      46003
+    ],
+    "256": [
+      46001,
+      46002
+    ]
+  },
+  "confirmation_cohorts": {
+    "128": [
+      46011,
+      46012,
+      46013,
+      46014,
+      46015
+    ],
+    "256": [
+      46011,
+      46012
+    ]
+  },
+  "eigen_residual_gate": null,
+  "fixed_baseline": "baseline_scipy",
+  "source_sha256": {
+    "fields.py": "c81b5cc4dada82e2b19344017c60d4c32cd4044cbef8721b3add0edc654bc04c",
+    "numerics.py": "5a8eb53f701142d18eb67807078db912eb29b3b87d55bfb6677206909c3a5f12",
+    "sequence_baselines.py": "6da7fa625f33cbb0d2847c948c576fdaee8cb2451a6cda17116e617eeb557936",
+    "balanced_augmentation.py": "7d0a6db1717c3679c668af7f0291a4f1c653f2dc442c96abf3cc1f28f4edfa03",
+    "cached_pcg.py": "c936f42e028df1d24cadadcd287055059144fda5a243a3dda51396e85ff0bb38",
+    "persistent_recycling_experiment.py": "3e6ae2e4341f6a3909d144ce7b402aea94e01c7464bc0915904831336d984161",
+    "oracle_budget_experiment.py": "d778fe37ed0551abdea321a4d1e2fa057defd1059a935d8d648ab8a4592dcb85"
+  },
+  "protocol_sha256": "af0802d8c224a8c997870344ae8b74648a5d4aeef9aa5d45b9102bc1c49f6189",
+  "splits_sha256": "ea92e29c9daea190bb258dc2d7e45889143d9f2864c1c2a9ac972a4b3c45b898"
+}

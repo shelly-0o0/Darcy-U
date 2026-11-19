@@ -1,0 +1,152 @@
+[
+  {
+    "seed": 46001,
+    "repeat": 0,
+    "method": "baseline_scipy"
+  },
+  {
+    "seed": 46001,
+    "repeat": 0,
+    "method": "baseline_event_custom"
+  },
+  {
+    "seed": 46001,
+    "repeat": 0,
+    "method": "frozen_all_balanced4"
+  },
+  {
+    "seed": 46001,
+    "repeat": 0,
+    "method": "current_reference4"
+  },
+  {
+    "seed": 46001,
+    "repeat": 0,
+    "method": "current_reference8"
+  },
+  {
+    "seed": 46001,
+    "repeat": 1,
+    "method": "baseline_event_custom"
+  },
+  {
+    "seed": 46001,
+    "repeat": 1,
+    "method": "current_reference4"
+  },
+  {
+    "seed": 46001,
+    "repeat": 1,
+    "method": "baseline_scipy"
+  },
+  {
+    "seed": 46001,
+    "repeat": 1,
+    "method": "current_reference8"
+  },
+  {
+    "seed": 46001,
+    "repeat": 1,
+    "method": "frozen_all_balanced4"
+  },
+  {
+    "seed": 46001,
+    "repeat": 2,
+    "method": "frozen_all_balanced4"
+  },
+  {
+    "seed": 46001,
+    "repeat": 2,
+    "method": "current_reference4"
+  },
+  {
+    "seed": 46001,
+    "repeat": 2,
+    "method": "baseline_scipy"
+  },
+  {
+    "seed": 46001,
+    "repeat": 2,
+    "method": "baseline_event_custom"
+  },
+  {
+    "seed": 46001,
+    "repeat": 2,
+    "method": "current_reference8"
+  },
+  {
+    "seed": 46002,
+    "repeat": 0,
+    "method": "baseline_event_custom"
+  },
+  {
+    "seed": 46002,
+    "repeat": 0,
+    "method": "current_reference4"
+  },
+  {
+    "seed": 46002,
+    "repeat": 0,
+    "method": "baseline_scipy"
+  },
+  {
+    "seed": 46002,
+    "repeat": 0,
+    "method": "current_reference8"
+  },
+  {
+    "seed": 46002,
+    "repeat": 0,
+    "method": "frozen_all_balanced4"
+  },
+  {
+    "seed": 46002,
+    "repeat": 1,
+    "method": "frozen_all_balanced4"
+  },
+  {
+    "seed": 46002,
+    "repeat": 1,
+    "method": "current_reference4"
+  },
+  {
+    "seed": 46002,
+    "repeat": 1,
+    "method": "baseline_scipy"
+  },
+  {
+    "seed": 46002,
+    "repeat": 1,
+    "method": "baseline_event_custom"
+  },
+  {
+    "seed": 46002,
+    "repeat": 1,
+    "method": "current_reference8"
+  },
+  {
+    "seed": 46002,
+    "repeat": 2,
+    "method": "baseline_event_custom"
+  },
+  {
+    "seed": 46002,
+    "repeat": 2,
+    "method": "current_reference8"
+  },
+  {
+    "seed": 46002,
+    "repeat": 2,
+    "method": "current_reference4"
+  },
+  {
+    "seed": 46002,
+    "repeat": 2,
+    "method": "frozen_all_balanced4"
+  },
+  {
+    "seed": 46002,
+    "repeat": 2,
+    "method": "baseline_scipy"
+  }
+]

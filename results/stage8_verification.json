@@ -1,0 +1,25 @@
+{
+  "unit_tests": 98,
+  "unit_test_seconds": 1.679,
+  "unit_test_success": true,
+  "unit_test_log": "results/stage8_tests.log",
+  "unit_test_log_sha256": "b23560a8d8eafe7ab7a8b9bf9a31a7dede9d64039b0d9e8b43725d04d6a548a3",
+  "new_test_sha256": "faf3e7217a794ff03d72915e680eb4ef1674a8807681b9d96e8fb6d833eb3b74",
+  "integration_smoke": {
+    "seed": 75004,
+    "n": 32,
+    "methods": 5,
+    "steps": 20,
+    "path_rows": 100,
+    "all_final_converged": true,
+    "insufficient_reference_rank_observed": {
+      "rank_requested": 8,
+      "step": 2,
+      "actual_rank": 4
+    },
+    "rank_failure_preserved_and_gate_rejected": true,
+    "operator_identity_checked": true,
+    "truth_not_used_in_reference_source_history": true
+  },
+  "pre_run_review": "Independent read-only review confirmed reference isolation, batch preparation before timing, full path cost and fixed-rank gate."
+}

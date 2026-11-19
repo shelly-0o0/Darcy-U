@@ -1,0 +1,10 @@
+{
+  "prepared_utc": "2026-11-19T09:25:00Z",
+  "all_loaded_utc": "2026-11-19T09:25:01Z",
+  "loading_seconds": 0.4059103389736265,
+  "all_grids_prepared_and_loaded_before_measurement": true,
+  "reference_metadata_sha256": {
+    "128": "cc26362a3f509d2ca543c0c2943278f96836b8c33320f93360c223aac221f3f8",
+    "256": "3a62add525a5c1e3053eea49926721f4c52a9ef989229bea4e53457418739ac8"
+  }
+}
