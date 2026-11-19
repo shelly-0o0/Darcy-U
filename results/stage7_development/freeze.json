@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-11-19T07:27:12Z",
+  "fixed_hypothesis": "frozen_all_balanced4",
+  "confirmation_specs": [
+    {
+      "name": "baseline_scipy",
+      "policy": "none",
+      "event_custom": false
+    },
+    {
+      "name": "baseline_event_custom",
+      "policy": "none",
+      "event_custom": true
+    },
+    {
+      "name": "frozen_event_warm4",
+      "policy": "event_warm",
+      "event_custom": true
+    },
+    {
+      "name": "frozen_all_balanced4",
+      "policy": "all_balanced",
+      "event_custom": true
+    },
+    {
+      "name": "frozen_all_warm4",
+      "policy": "all_warm",
+      "event_custom": true
+    }
+  ],
+  "development_measurements_sha256": "b8ab0204bd6307db72984814a9527c5813e7c51d8969db9d118e85159608e337",
+  "development_manifest_sha256": "c27fa959fae139f74e75c03d0bee3303e21755d12c0712056e8f7414fa6782cf",
+  "rule": "All five methods numerically valid; no timing-based eligibility or method selection. Primary hypothesis fixed before development.",
+  "source_sha256": {
+    "fields.py": "c81b5cc4dada82e2b19344017c60d4c32cd4044cbef8721b3add0edc654bc04c",
+    "numerics.py": "5a8eb53f701142d18eb67807078db912eb29b3b87d55bfb6677206909c3a5f12",
+    "sequence_baselines.py": "6da7fa625f33cbb0d2847c948c576fdaee8cb2451a6cda17116e617eeb557936",
+    "balanced_augmentation.py": "7d0a6db1717c3679c668af7f0291a4f1c653f2dc442c96abf3cc1f28f4edfa03",
+    "cached_pcg.py": "c936f42e028df1d24cadadcd287055059144fda5a243a3dda51396e85ff0bb38",
+    "persistent_recycling_experiment.py": "3e6ae2e4341f6a3909d144ce7b402aea94e01c7464bc0915904831336d984161"
+  },
+  "protocol_sha256": "b0afa627a908790f1f7af918ac07f0047f085816accc8339da714d7228a361d0",
+  "splits_sha256": "cb7dff7949782080d86699db59e409a7793bc42012ed2b1d53915044ed29bd47"
+}

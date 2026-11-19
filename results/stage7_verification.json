@@ -1,0 +1,22 @@
+{
+  "unit_tests": 88,
+  "unit_test_seconds": 1.037,
+  "unit_test_success": true,
+  "new_test_sha256": "a9c07386d128cb127eff5f4c64df2d6fa169030bcaf8d36254f66e4ae41a803f",
+  "unit_test_log_sha256": "cbdf833e144f99b17348c62450cf19f38862845c915db391e360b2dc9ef1ae8f",
+  "integration_smoke": {
+    "seed": 75001,
+    "n": 32,
+    "steps": 20,
+    "methods": 5,
+    "rows": 100,
+    "all_final_converged": true,
+    "pcg_failures": 0,
+    "operator_identity_checked": true,
+    "capture_and_extraction_only_initial": true,
+    "initial_space_hashes_identical": true,
+    "role": "Included in six new end-to-end tests; independent true-residual recomputation; no timings used for selection. Seed already excluded by stage6."
+  },
+  "pre_run_review": "Independent read-only review found no blocking wiring, cost, split or freeze defects.",
+  "unit_test_log": "results/stage7_tests.log"
+}
