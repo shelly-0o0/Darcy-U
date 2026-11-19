@@ -106,7 +106,7 @@ AMG 的 `coarse_dimension` 表示其最后一层大小，而 Schwarz 方法的�
 
 ## 7. 支持的运行命令
 
-以下命令在代码目录 `experiments/darcy_incremental` 中运行。应使用已安装 `requirements.txt` 所列依赖的 Python；本机使用 `/home/user/miniconda3/envs/mini-rl/bin/python`，默认系统 Python 不含所需科学计算依赖。
+以下命令在 GitHub 仓库根目录中运行，即包含 `run_experiment.py` 的目录；在本次较大的本机工作区内，它对应 `experiments/darcy_incremental`。应先激活已安装 `requirements.txt` 所列依赖的 Python 环境。程序不要求特定环境名称，也不能假设系统默认 Python 已包含科学计算依赖。
 
 ```bash
 export OPENBLAS_NUM_THREADS=1

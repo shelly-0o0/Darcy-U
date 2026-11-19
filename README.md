@@ -15,15 +15,31 @@
 
 浮点接纳检查不是经过舍入误差验证的严格证书。训练用的平均覆盖损失下降，也不等于候选必然通过最坏方向检查或获得加速。
 
-## 当前运行
+## 已完成的本机实验
 
 已完成 48 条训练序列、12 条验证序列，分别得到 565/144 个局部训练/验证样本。训练对比度为 `1e2–1e4`，三个训练种子为 `7,17,27`，每个训练 50 轮，按验证损失选择模型。
 
 三个模型最佳验证损失为 `0.004247 / 0.004339 / 0.005594`；不添加方向的验证损失为 `0.068372`。这是子空间损失，不是压力误差。
 
-完整在线计时正在运行：N=128、20 步、测试种子 `90001,90002,90003`、对比度 `1e4`，每项计时重复 3 次。结果完成后发布到 `results/pilot_cpu/`。
+已完成 N=128、20 步、测试种子 `90001,90002,90003`、对比度 `1e4` 的完整对照，每项计时重复 3 次，共 63 次完整序列运行、1,260 次线性求解。17 项检查全部通过；全部求解的真残差低于 `1e-8`，没有直接求解恢复。
 
-运行环境：Python 3.10.21、NumPy 1.26.4、SciPy 1.15.3、PyTorch 2.6.0、PyAMG 5.4.1；当前 CUDA 不可用，所有已报告结果来自 CPU。BLAS 线程数为 1，PyTorch 线程数为 2。
+| 方法 | 每条 20 步序列中位总时间 / 秒 |
+|---|---:|
+| AMG | 0.767 |
+| 每步全谱重建 | 15.924 |
+| 自适应谱复用 | 9.295 |
+| 平滑误差增量 | 9.295 |
+| U-Net 增量 | 9.364 |
+
+先对重复计时取中位数，再对同一几何的模型取中位数，最后对三个几何取中位数；包含初始化及全部在线检查和回退成本。
+
+**本次没有观察到 AI 的端到端加速优势。** U-Net 候选通过了 9/36 次检查（含模型种子与计时重复，实际仅涉及 4 个不同局部更新案例），但总时间没有优于传统复用和相同流程的平滑误差候选。相对每步全谱重建的节省主要来自复用机制，不能全部归因于 AI；AMG 在当前问题上明显更快。
+
+完整记录见 [中文实验报告](results/pilot_cpu/REPORT_zh.md)、[原始测量](results/pilot_cpu/measurements.json) 和 [结果解读](docs/pilot_findings_zh.md)。当前结果可以指导下一轮研究，尚不能作为已获得加速的论文结论。
+
+![整条序列耗时](results/pilot_cpu/figures/sequence_timing.png)
+
+运行环境：Intel Core Ultra 7 265K，Python 3.10.21、NumPy 1.26.4、SciPy 1.15.3、PyTorch 2.6.0、PyAMG 5.4.1；当前 CUDA 不可用，所有已报告结果来自 CPU。BLAS 线程数为 1，PyTorch 线程数为 2。
 
 ## 复现
 
@@ -43,6 +59,7 @@ export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1
 python run_experiment.py benchmark --n 128 --steps 20 \
   --test-seeds 90001 90002 90003 --model-seeds 7 17 27 \
   --repeats 3 --run-name reproduced_cpu
+python plot_problem.py results/reproduced_cpu
 python report_results.py results/reproduced_cpu
 ```
 
@@ -57,9 +74,10 @@ GPU 参数 `--device cuda` 只迁移神经网络部分；SciPy 的有限元、�
 | `learning.py` | U-Net、基变换不变特征、子空间损失、训练 |
 | `run_experiment.py` | 数据、训练及公平计时入口 |
 | `report_results.py` | 从原始测量生成统计和科学图表 |
+| `plot_problem.py` | 离线生成渗透率与压力快照 |
 | `checkpoints/` | 三个模型权重及完整训练曲线 |
 | `data/pilot.manifest.json` | 数据种子、完整序列哈希及生成成本 |
-| `docs/` | 中文研究计划、相关工作及实现说明 |
+| `docs/` | 中文研究计划、相关工作、局部推导、实现说明及结果解读 |
 | `results/` | 实际配置、原始测量、图表和报告 |
 
 大体积训练数据可由代码重建，未上传；本机依赖副本和缓存不进入版本库。

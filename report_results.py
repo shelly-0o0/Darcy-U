@@ -58,6 +58,16 @@ def range_text(value, digits=3):
     return f"{number(value['min'], digits)}–{number(value['max'], digits)}"
 
 
+def residual_exceeds(row, default_rtol):
+    return float(row["final_relative_residual"]) > float(row.get("rtol", default_rtol))
+
+
+def final_failed(row, default_rtol):
+    residual = float(row["final_relative_residual"])
+    # Older smoke records predate final_converged: derive the flag explicitly.
+    return not bool(row.get("final_converged", np.isfinite(residual) and not residual_exceeds(row, default_rtol)))
+
+
 def load_and_summarize(run):
     measurements = run / "measurements.json"
     manifest_path = run / "manifest.json"
@@ -97,7 +107,10 @@ def load_and_summarize(run):
                      "candidate_checks": sum(row["candidate_checks"] for row in rows),
                      "candidate_passes": sum(row["candidate_passes"] for row in rows),
                      "spectral_repairs": sum(row["spectral_repairs"] for row in rows),
-                     "solver_fallbacks": sum(bool(row["solver_fallback"]) for row in rows)})
+                     "solver_fallbacks": sum(bool(row["solver_fallback"]) for row in rows),
+                     "final_converged_failures": sum(final_failed(row, config["rtol"]) for row in rows),
+                     "final_residual_exceeds_rtol": sum(residual_exceeds(row, config["rtol"]) for row in rows),
+                     "nonfinite_final_residuals": sum(not np.isfinite(row["final_relative_residual"]) for row in rows)})
     units = defaultdict(list)
     for result in runs:
         units[(result["method"], result["sequence_seed"], result["model_seed"])].append(result)
@@ -140,6 +153,9 @@ def load_and_summarize(run):
             "candidate_pass_rate": candidate_passes / candidate_checks if candidate_checks else None,
             "spectral_repairs_all_timed_runs": sum(r["spectral_repairs"] for r in own_rows),
             "solver_fallbacks_all_timed_runs": sum(bool(r["solver_fallback"]) for r in own_rows),
+            "final_converged_failures_all_timed_runs": sum(final_failed(r, config["rtol"]) for r in own_rows),
+            "final_residual_exceeds_rtol_all_timed_runs": sum(residual_exceeds(r, config["rtol"]) for r in own_rows),
+            "nonfinite_final_residuals_all_timed_runs": sum(not np.isfinite(r["final_relative_residual"]) for r in own_rows),
             "coarse_dimension_min": min(r["coarse_dimension"] for r in own_rows),
             "coarse_dimension_max": max(r["coarse_dimension"] for r in own_rows),
         }
@@ -261,17 +277,35 @@ def plot_sequences(records, summary, figures):
 
 def load_training(manifest, run):
     training = []
+    expected_hashes = manifest.get("checkpoint_sha256", {})
     for seed in manifest["configuration"].get("model_seeds", []):
         # Prefer benchmark-local snapshots if the runner provides them.
         candidates = [run / f"unet_seed{seed}.training.json", ROOT / "checkpoints" / f"unet_seed{seed}.training.json"]
         for path in candidates:
             if path.exists():
                 value = json.loads(path.read_text())
-                value["source_path"] = str(path)
+                value["source_path"] = os.path.relpath(path, run)
                 value["source_sha256"] = hashlib.sha256(path.read_bytes()).hexdigest()
                 value["benchmark_local_snapshot"] = path.parent == run
+                expected_history_hash = expected_hashes.get(path.name)
+                if expected_history_hash is not None and value["source_sha256"] != expected_history_hash:
+                    raise ValueError(f"Training history hash mismatch against benchmark manifest: {path}")
+                weights_name = f"unet_seed{seed}.pt"
+                weights = next((p for p in [run / weights_name, ROOT / "checkpoints" / weights_name] if p.exists()), None)
+                expected_weights_hash = expected_hashes.get(weights_name)
+                if weights is None and expected_weights_hash is not None:
+                    raise FileNotFoundError(f"Cannot verify recorded checkpoint hash: {weights_name}")
+                actual_weights_hash = hashlib.sha256(weights.read_bytes()).hexdigest() if weights else None
+                if expected_weights_hash is not None and actual_weights_hash != expected_weights_hash:
+                    raise ValueError(f"Checkpoint hash mismatch against benchmark manifest: {weights}")
+                value["checkpoint_sha256"] = actual_weights_hash
+                value["checkpoint_path"] = os.path.relpath(weights, run) if weights else None
+                value["manifest_hashes_verified"] = expected_history_hash is not None and expected_weights_hash is not None
                 training.append(value)
                 break
+        else:
+            if f"unet_seed{seed}.training.json" in expected_hashes:
+                raise FileNotFoundError(f"Missing benchmark-recorded training history for model seed {seed}")
     return training
 
 
@@ -286,6 +320,11 @@ def plot_training(training, figures):
         line, = ax.plot([v["epoch"] for v in h], [v["val_loss"] for v in h], label=f"seed {t['seed']} validation")
         ax.plot([v["epoch"] for v in h], [v["train_loss"] for v in h], ls="--", alpha=.6,
                 color=line.get_color(), label=f"seed {t['seed']} training")
+    zero_baselines = sorted(set(float(t["zero_update_baseline_loss"]["val"]) for t in training
+                                if isinstance(t.get("zero_update_baseline_loss"), dict)
+                                and t["zero_update_baseline_loss"].get("val") is not None))
+    for j, value in enumerate(zero_baselines):
+        ax.axhline(value, color="#273746", ls=":", alpha=.7, label="Zero-update validation" if j == 0 else None)
     ax.set_xlabel("Epoch"); ax.set_ylabel("Subspace coverage loss")
     ax.set_title("Training history (not online benchmark time)")
     ax.legend(fontsize=8, ncols=2, frameon=False); ax.grid(alpha=.18)
@@ -311,21 +350,29 @@ def write_report(run, manifest, summary, training, series, has_training_plot):
              "## 整条序列的在线时间与误差", "",
              "| 方法 | 中位总时间 / s | 几何间范围 / s | 几何×模型范围 / s | 最大 PCG 次数 | 最大相对残差 | 最大相对能量误差 |",
              "|---|---:|---:|---:|---:|---:|---:|"]
+    if (run / 'figures/problem_snapshots.png').exists():
+        lines[5:5] = ["![渗透率与离线参考压力](figures/problem_snapshots.png)", ""]
     for method, s in methods.items():
         lines.append(f"| {LABELS[method]} | {s['sequence_total_seconds']['median']:.3f} | {range_text(s['sequence_total_seconds'])} | "
                      f"{range_text(s['sequence_model_total_seconds'])} | {s['max_iterations']} | {s['max_relative_residual']:.3e} | {s['max_energy_relative_error']:.3e} |")
     lines += ["", "![整条序列耗时](figures/sequence_timing.png)", "", "![在线成本分解](figures/cost_breakdown.png)", "",
               "PCG 次数包含迭代尝试的实际工作量；若迭代失败后使用直接求解恢复，恢复耗时已计入在线总时间，"
               "最终误差可能来自恢复后的解。恢复次数见下表。", "", "## 候选接纳与修复", "",
-              "| 方法 | 候选通过 / 检查 | 通过率 | 谱修复次数 | 直接求解恢复次数 | 粗空间维数范围 |",
-              "|---|---:|---:|---:|---:|---:|"]
+              "| 方法 | 候选通过 / 检查 | 通过率 | 谱修复次数 | 直接求解恢复次数 | 最终未收敛次数 | 最终残差超过容差次数 | 粗空间维数范围 |",
+              "|---|---:|---:|---:|---:|---:|---:|---:|"]
     for method, s in methods.items():
         rate = "不适用（没有候选检查）" if s["candidate_pass_rate"] is None else f"{100*s['candidate_pass_rate']:.1f}%"
         lines.append(f"| {LABELS[method]} | {s['candidate_passes_all_timed_runs']} / {s['candidate_checks_all_timed_runs']} | {rate} | "
-                     f"{s['spectral_repairs_all_timed_runs']} | {s['solver_fallbacks_all_timed_runs']} | {s['coarse_dimension_min']}–{s['coarse_dimension_max']} |")
+                     f"{s['spectral_repairs_all_timed_runs']} | {s['solver_fallbacks_all_timed_runs']} | "
+                     f"{s['final_converged_failures_all_timed_runs']} | {s['final_residual_exceeds_rtol_all_timed_runs']} | "
+                     f"{s['coarse_dimension_min']}–{s['coarse_dimension_max']} |")
     lines += ["", "计数覆盖全部实际计时运行，包含重复与模型种子，不能直接把不同运行数量的方法按总计数排名。"
               "没有触发候选检查时通过率为不适用，不能报告为 100%。AMG 的维数是最粗层大小，"
-              "Schwarz 的维数是全部拼接粗基列数，两者不是同一指标。", "", "## 与 U-Net 的配对时间比较", "",
+              "Schwarz 的维数是全部拼接粗基列数，两者不是同一指标。", "",
+              f"最终未收敛按 `final_converged` 独立计数；另行直接检查最终相对残差是否超过记录容差（本次 {c['rtol']:.1e}）。"
+              "直接求解恢复不自动等同于最终收敛。旧版记录缺少该标志时从最终残差推导。"
+              f"所有方法合计非有限最终残差数量：{sum(s['nonfinite_final_residuals_all_timed_runs'] for s in methods.values())}。",
+              "", "## 与 U-Net 的配对时间比较", "",
               "比值定义为“基线总时间 / U-Net 总时间”：大于 1 表示本次观测中 U-Net 用时更少，小于 1 表示用时更多。"
               "配对先在同一几何内进行；下列数值不外推到未测场景。", "",
               "| 基线 | 配对比值中位数 | 几何间观测范围 |", "|---|---:|---:|"]
@@ -344,11 +391,20 @@ def write_report(run, manifest, summary, training, series, has_training_plot):
     lines += ["", "## 离线成本与参考解", ""]
     data = manifest.get("dataset_manifest") or {}
     lines.append(f"数据和标签生成用时：{number(data.get('generation_seconds'))} 秒；局部样本数：{data.get('samples', '未记录')}。")
+    lines += ["", "| 模型种子 | 未新增方向的验证损失 | 训练后最佳验证损失 | 验证损失相对降低 | 最佳轮数 | 训练时间 / s |",
+              "|---|---:|---:|---:|---:|---:|"]
     for t in training:
-        lines.append(f"- 模型种子 {t['seed']}：训练 {number(t.get('train_seconds'))} 秒，选择第 {t.get('best_epoch')} 轮，"
-                     f"验证损失 {t.get('best_validation_loss', float('nan')):.6g}，参数量 {t.get('parameters', '未记录')}。")
-    if training and not all(t["benchmark_local_snapshot"] for t in training):
-        lines += ["", "部分训练历史读取自当前检查点目录，并记录了文件哈希；若该目录后续发生覆盖，需对照原始基准检查点确认归属。"]
+        zero = (t.get("zero_update_baseline_loss") or {}).get("val")
+        best = t.get("best_validation_loss")
+        reduction = (1-best/zero)*100 if zero is not None and zero > 0 and best is not None else None
+        lines.append(f"| {t['seed']} | {number(zero, 6)} | {number(best, 6)} | "
+                     f"{'不适用' if reduction is None else f'{reduction:.1f}%'} | {t.get('best_epoch')} | {number(t.get('train_seconds'))} |")
+    lines += ["", "该损失衡量局部参考子空间的覆盖程度。验证损失降低说明学习到了标签中的部分缺失方向，"
+              "不等同于谱接纳率提高、PDE 误差降低或端到端时间减少。"]
+    if training and all(t["manifest_hashes_verified"] for t in training):
+        lines += ["", "所有读取的模型权重与训练历史 SHA-256 均已与本次运行清单中的 `checkpoint_sha256` 核对一致。"]
+    elif training:
+        lines += ["", "部分旧版运行清单没有完整检查点哈希，训练文件归属无法全部严格核验；现有文件哈希已记录在汇总中。"]
     if has_training_plot:
         lines += ["", "![训练历史](figures/training_curves.png)"]
     refs = [json.loads(p.read_text()) for p in sorted(run.glob("reference_seed*.json"))]

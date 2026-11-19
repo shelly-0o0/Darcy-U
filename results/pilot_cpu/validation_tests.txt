@@ -1,0 +1,22 @@
+test_global_rng_is_not_modified (test_fields.TestFields) ... ok
+test_reproducible_and_disjoint_seed_geometries (test_fields.TestFields) ... ok
+test_rhs_and_validation (test_fields.TestFields) ... ok
+test_shape_range_and_nested_geometry (test_fields.TestFields) ... ok
+test_topology_event_really_connects_and_disconnects (test_fields.TestFields) ... ok
+test_full_certificate_rejects_complement_false_positive (test_numerics.NumericalTests) ... ok
+test_incremental_orthogonalization_removes_old_directions (test_numerics.NumericalTests) ... ok
+test_ldl_matches_full_eigen_checks (test_numerics.NumericalTests) ... ok
+test_load_quadrature_and_grid_mapping (test_numerics.NumericalTests) ... ok
+test_neumann_kernel_must_be_included (test_numerics.NumericalTests) ... ok
+test_p1_manufactured_convergence (test_numerics.NumericalTests) ... ok
+test_partition_spectral_certificate_and_solve (test_numerics.NumericalTests) ... ok
+test_residual_refresh_uses_true_residual_and_counts_iterations (test_numerics.NumericalTests) ... ok
+test_existing_space_additions_do_not_change_proposal (tests_audit.LearningObjectiveAudit) ... ok
+test_gradient_is_finite_and_changes_loss (tests_audit.LearningObjectiveAudit) ... ok
+test_loss_agrees_with_independent_best_projection (tests_audit.LearningObjectiveAudit) ... ok
+test_old_and_target_basis_rotations_leave_loss_unchanged (tests_audit.LearningObjectiveAudit) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.074s
+
+OK

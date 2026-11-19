@@ -1,0 +1,19 @@
+{
+  "cpu_model": "Intel(R) Core(TM) Ultra 7 265K",
+  "benchmark_core_source_commit": "60cd29d00f0d70bc1cd6d0657a5fa372e01ec97f",
+  "all_benchmark_source_hashes_match": true,
+  "verified_sources": {
+    "learning.py": true,
+    "test_fields.py": true,
+    "tests_audit.py": true,
+    "run_experiment.py": true,
+    "fields.py": true,
+    "numerics.py": true,
+    "test_numerics.py": true
+  },
+  "postprocessing_sha256": {
+    "plot_problem.py": "ff59094177f18562b191febe249fd852b0f1feb07d59a47356c688c1048feded",
+    "report_results.py": "fe87b72ab5ffe737bc74c078caa8206efd791f74cf753ecbf74eb7caaa84b7bf"
+  },
+  "note": "Benchmark source and checkpoint hashes were captured before timing. Later commits add documentation and offline reporting only. GPU is unavailable in this execution environment."
+}

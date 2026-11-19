@@ -1,0 +1,71 @@
+{
+  "purpose": "offline visualization only",
+  "online_timing_included": false,
+  "reference_solver": "scipy.sparse.linalg.spsolve on the original P1 FE system",
+  "coefficient_file": "fields_seed90001.npz",
+  "coefficient_file_sha256": "35262820a66ea14354769828793b29711e3c1769df4300fa02dba06cf5500520",
+  "seed": 90001,
+  "n": 128,
+  "rhs": "one",
+  "selected_steps": [
+    0,
+    10,
+    15,
+    19
+  ],
+  "coefficient_color_range": [
+    1.0,
+    10000.0
+  ],
+  "pressure_color_range": [
+    0.0,
+    0.05156657617037547
+  ],
+  "snapshots": [
+    {
+      "step": 0,
+      "event": "initial",
+      "coefficient_min": 1.0,
+      "coefficient_max": 10000.0,
+      "pressure_min": 0.0,
+      "pressure_max": 0.05156657617037547,
+      "direct_relative_residual": 1.2842954083390067e-09,
+      "offline_assembly_and_solve_seconds": 0.048699866980314255
+    },
+    {
+      "step": 10,
+      "event": "bridge_connected+local_coefficient_drift",
+      "coefficient_min": 1.0,
+      "coefficient_max": 10000.0,
+      "pressure_min": 0.0,
+      "pressure_max": 0.05092731889748562,
+      "direct_relative_residual": 1.31662398554343e-09,
+      "offline_assembly_and_solve_seconds": 0.04522392898797989
+    },
+    {
+      "step": 15,
+      "event": "bridge_blocked+inclusion_moved+local_coefficient_drift",
+      "coefficient_min": 1.0,
+      "coefficient_max": 10000.0,
+      "pressure_min": 0.0,
+      "pressure_max": 0.050684057856492104,
+      "direct_relative_residual": 1.3447349943233106e-09,
+      "offline_assembly_and_solve_seconds": 0.04453064315021038
+    },
+    {
+      "step": 19,
+      "event": "local_coefficient_drift",
+      "coefficient_min": 1.0,
+      "coefficient_max": 10000.0,
+      "pressure_min": 0.0,
+      "pressure_max": 0.05069700827140537,
+      "direct_relative_residual": 1.2662203199767368e-09,
+      "offline_assembly_and_solve_seconds": 0.04388092504814267
+    }
+  ],
+  "offline_total_seconds": 2.3115902710705996,
+  "outputs": [
+    "figures/problem_snapshots.png",
+    "figures/problem_snapshots.pdf"
+  ]
+}

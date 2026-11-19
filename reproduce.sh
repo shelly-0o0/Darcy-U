@@ -11,4 +11,5 @@ DARCY_PYTHON="${DARCY_PYTHON:-python}"
 "$DARCY_PYTHON" run_experiment.py benchmark --n 128 --steps 20 \
   --test-seeds 90001 90002 90003 --model-seeds 7 17 27 --repeats 3 \
   --device cpu --run-name reproduced_cpu
+"$DARCY_PYTHON" plot_problem.py results/reproduced_cpu
 "$DARCY_PYTHON" report_results.py results/reproduced_cpu

@@ -1,0 +1,290 @@
+[
+  {
+    "step": 0,
+    "event": "initial",
+    "events": [
+      "initial"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 16384,
+    "change_fraction": 1.0,
+    "bridge_state": "open_gap"
+  },
+  {
+    "step": 1,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "open_gap"
+  },
+  {
+    "step": 2,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "open_gap"
+  },
+  {
+    "step": 3,
+    "event": "inclusion_moved+local_coefficient_drift",
+    "events": [
+      "inclusion_moved",
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 160,
+    "change_fraction": 0.009765625,
+    "bridge_state": "open_gap"
+  },
+  {
+    "step": 4,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "open_gap"
+  },
+  {
+    "step": 5,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "open_gap"
+  },
+  {
+    "step": 6,
+    "event": "inclusion_moved+local_coefficient_drift",
+    "events": [
+      "inclusion_moved",
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 160,
+    "change_fraction": 0.009765625,
+    "bridge_state": "open_gap"
+  },
+  {
+    "step": 7,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "open_gap"
+  },
+  {
+    "step": 8,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "open_gap"
+  },
+  {
+    "step": 9,
+    "event": "inclusion_moved+local_coefficient_drift",
+    "events": [
+      "inclusion_moved",
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 160,
+    "change_fraction": 0.009765625,
+    "bridge_state": "open_gap"
+  },
+  {
+    "step": 10,
+    "event": "bridge_connected+local_coefficient_drift",
+    "events": [
+      "bridge_connected",
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 256,
+    "change_fraction": 0.015625,
+    "bridge_state": "connected"
+  },
+  {
+    "step": 11,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "connected"
+  },
+  {
+    "step": 12,
+    "event": "inclusion_moved+local_coefficient_drift",
+    "events": [
+      "inclusion_moved",
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 160,
+    "change_fraction": 0.009765625,
+    "bridge_state": "connected"
+  },
+  {
+    "step": 13,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "connected"
+  },
+  {
+    "step": 14,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "connected"
+  },
+  {
+    "step": 15,
+    "event": "bridge_blocked+inclusion_moved+local_coefficient_drift",
+    "events": [
+      "bridge_blocked",
+      "inclusion_moved",
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 192,
+    "change_fraction": 0.01171875,
+    "bridge_state": "blocked"
+  },
+  {
+    "step": 16,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "blocked"
+  },
+  {
+    "step": 17,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "blocked"
+  },
+  {
+    "step": 18,
+    "event": "inclusion_moved+local_coefficient_drift",
+    "events": [
+      "inclusion_moved",
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 160,
+    "change_fraction": 0.009765625,
+    "bridge_state": "blocked"
+  },
+  {
+    "step": 19,
+    "event": "local_coefficient_drift",
+    "events": [
+      "local_coefficient_drift"
+    ],
+    "family": "mixed",
+    "seed": 90002,
+    "contrast": 10000.0,
+    "design_n": 32,
+    "changed_cells": 96,
+    "change_fraction": 0.005859375,
+    "bridge_state": "blocked"
+  }
+]
