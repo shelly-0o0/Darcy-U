@@ -5,6 +5,7 @@ data/*.pkl
 data/*.npz
 .mpl-cache/
 .venv/
+reproductions/
 *.tmp
 results/smoke/
 results/diagnostic_smoke*/

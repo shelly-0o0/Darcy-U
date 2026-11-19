@@ -1,0 +1,155 @@
+{
+  "rule": "Minimum complete-sequence median on screen geometries; accurate and no PCG failures required.",
+  "summary": {
+    "128": {
+      "fresh_history4": {
+        "median_seconds": 0.7319309860467911,
+        "by_seed": {
+          "72001": 0.7133423772174865,
+          "72002": 0.7707272997358814,
+          "72003": 0.7319309860467911
+        },
+        "all_accurate": true,
+        "pcg_failures": 0,
+        "mean_iterations": 417.0
+      },
+      "fresh_previous": {
+        "median_seconds": 0.7610459135612473,
+        "by_seed": {
+          "72001": 0.7369559479411691,
+          "72002": 0.8195930838119239,
+          "72003": 0.7610459135612473
+        },
+        "all_accurate": true,
+        "pcg_failures": 0,
+        "mean_iterations": 461.0
+      },
+      "refresh_galerkin_history4": {
+        "median_seconds": 0.5378648160258308,
+        "by_seed": {
+          "72001": 0.5352952105458826,
+          "72002": 0.5686916130362079,
+          "72003": 0.5378648160258308
+        },
+        "all_accurate": true,
+        "pcg_failures": 0,
+        "mean_iterations": 509.6666666666667
+      },
+      "refresh_galerkin_previous": {
+        "median_seconds": 0.5584367079427466,
+        "by_seed": {
+          "72001": 0.5401264269603416,
+          "72002": 0.5845224525546655,
+          "72003": 0.5584367079427466
+        },
+        "all_accurate": true,
+        "pcg_failures": 0,
+        "mean_iterations": 550.3333333333334
+      },
+      "reuse_first_history4": {
+        "median_seconds": 7.683890282642096,
+        "by_seed": {
+          "72001": 7.779130593407899,
+          "72002": 7.549827390466817,
+          "72003": 7.683890282642096
+        },
+        "all_accurate": true,
+        "pcg_failures": 74,
+        "mean_iterations": 8068.333333333333
+      },
+      "reuse_first_previous": {
+        "median_seconds": 7.899463711306453,
+        "by_seed": {
+          "72001": 7.949625426204875,
+          "72002": 7.759198185172863,
+          "72003": 7.899463711306453
+        },
+        "all_accurate": true,
+        "pcg_failures": 80,
+        "mean_iterations": 8266.0
+      }
+    },
+    "256": {
+      "fresh_history4": {
+        "median_seconds": 3.3589389335829765,
+        "by_seed": {
+          "72001": 3.3018303364515305,
+          "72002": 3.3589389335829765,
+          "72003": 3.397877988172695
+        },
+        "all_accurate": true,
+        "pcg_failures": 0,
+        "mean_iterations": 569.3333333333334
+      },
+      "fresh_previous": {
+        "median_seconds": 3.388104276964441,
+        "by_seed": {
+          "72001": 3.388104276964441,
+          "72002": 3.373540695523843,
+          "72003": 3.467148251947947
+        },
+        "all_accurate": true,
+        "pcg_failures": 0,
+        "mean_iterations": 602.3333333333334
+      },
+      "refresh_galerkin_history4": {
+        "median_seconds": 2.63825052883476,
+        "by_seed": {
+          "72001": 2.814791980315931,
+          "72002": 2.524190921569243,
+          "72003": 2.63825052883476
+        },
+        "all_accurate": true,
+        "pcg_failures": 0,
+        "mean_iterations": 642.6666666666666
+      },
+      "refresh_galerkin_previous": {
+        "median_seconds": 2.6947164945304394,
+        "by_seed": {
+          "72001": 2.687641237047501,
+          "72002": 2.6947164945304394,
+          "72003": 2.79811738722492
+        },
+        "all_accurate": true,
+        "pcg_failures": 0,
+        "mean_iterations": 699.6666666666666
+      },
+      "reuse_first_history4": {
+        "median_seconds": 34.69225570955314,
+        "by_seed": {
+          "72001": 35.208107111859135,
+          "72002": 34.69225570955314,
+          "72003": 34.6483622189844
+        },
+        "all_accurate": true,
+        "pcg_failures": 96,
+        "mean_iterations": 8571.333333333334
+      },
+      "reuse_first_previous": {
+        "median_seconds": 34.98932143475395,
+        "by_seed": {
+          "72001": 35.50160181440879,
+          "72002": 34.975435677799396,
+          "72003": 34.98932143475395
+        },
+        "all_accurate": true,
+        "pcg_failures": 102,
+        "mean_iterations": 8593.666666666666
+      }
+    }
+  },
+  "selected_by_grid": {
+    "128": {
+      "name": "refresh_galerkin_history4",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "none"
+    },
+    "256": {
+      "name": "refresh_galerkin_history4",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "none"
+    }
+  }
+}

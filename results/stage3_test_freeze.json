@@ -1,0 +1,28 @@
+{
+  "frozen_utc": "2026-11-19T04:59:19.208067+00:00",
+  "source_sha256": {
+    "fields.py": "c81b5cc4dada82e2b19344017c60d4c32cd4044cbef8721b3add0edc654bc04c",
+    "numerics.py": "5a8eb53f701142d18eb67807078db912eb29b3b87d55bfb6677206909c3a5f12",
+    "sequence_baselines.py": "6da7fa625f33cbb0d2847c948c576fdaee8cb2451a6cda17116e617eeb557936",
+    "coarse_correction.py": "068b8e4c02f881ac63c775081eb2031cf71f01f06db6e28f116745f930f025c7",
+    "correction_model.py": "6ec6a087c27c0ec671a085e6b048510a2306de7e66c255cf94d0338f79ed8e24",
+    "sequence_experiment.py": "da6cc2e11d40cd4ba34c95e6c5a4773694802fa666ceabc2a575a838613689d5"
+  },
+  "protocol_sha256": "f13ad84345259cebf4ad62c7479fcf5f5332dc33e2210b257cb978bf197e87cd",
+  "splits_sha256": "353e830d2e44326ae5ac8c95fd837d87aea173a5c97452fd9b1d6c7d88849194",
+  "selection_sha256": "5c57ceb70199fd8244abbb9dea41400799688cc1b20704653aa619efe24e619c",
+  "screen_selection_sha256": "ca248358788658306a51e2de3c5db44e088454b9d6993416aba645658f0a495e",
+  "reporting_rules_sha256": "9c6cf93a1ec6a408141ec4664d5cfad127c5ccb871eac22477eedd2626b6abb7",
+  "checkpoint_sha256": {
+    "checkpoints/correction_energy.pt": "f17b6b485d0e2c46f01e9bf57aa464c06d7a1950b4401df87b188b3f962574cc",
+    "checkpoints/correction_energy_continued.pt": "6c4d90aa51a6335bb816e3342c95ffe420e9f4634272156a38cdcb0dff5d118e",
+    "checkpoints/correction_mixed.pt": "c4d0aeca88c5f303b71232778e05ba1d0e6a5bf4f13e491bc6ce3b26f043a943"
+  },
+  "development_manifest_sha256": {
+    "stage3_screen": "8090d05236f0bf83b219f80c517494d39520b58c4d6de5fd888eb08cb81b1219",
+    "stage3_calibration_initial": "acc0f658bde9a4d9ddfa7ad0fada15d0a15303b40b9d11a01c5a459a84a71396",
+    "stage3_calibration_optimized": "df60f50b3ddf88273629882798b41ccb32180981ea55daf9d254d195d5483af6"
+  },
+  "freeze_script_sha256": "3ba0c39ceb57a26b9678d60e8c783f6355a63136a365c8821e0a986f4d7e9248",
+  "rule": "Frozen before any held-out test; final outcomes cannot select or retrain these candidates."
+}

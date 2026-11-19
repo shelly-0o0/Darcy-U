@@ -1,0 +1,5 @@
+{
+  "test128": "results/stage3_test128",
+  "test256": "results/stage3_test256",
+  "selection_sha256": "5c57ceb70199fd8244abbb9dea41400799688cc1b20704653aa619efe24e619c"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "n": 256,
+    "seed": 80001,
+    "seconds": 5.659766310127452,
+    "field_sha256": "d14b28213bb7ebbfd3220f9fb1c19aa55bddfc70308a9f547be3962a360fc698"
+  },
+  {
+    "n": 256,
+    "seed": 80002,
+    "seconds": 5.644931165035814,
+    "field_sha256": "250410ab35a70175d466392d9cf05f30be206e20bb8490ec704dee52ed6b9ef5"
+  },
+  {
+    "n": 256,
+    "seed": 80003,
+    "seconds": 5.573135040001944,
+    "field_sha256": "62c06b35ffbb11bdbb7870f0c705c249068ba1547850027be4c5f4b2a1c1ce3b"
+  }
+]

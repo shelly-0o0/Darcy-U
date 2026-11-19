@@ -1,0 +1,119 @@
+{
+  "configuration": {
+    "grids": [
+      128,
+      256
+    ],
+    "seeds": [
+      72001,
+      72002,
+      72003
+    ],
+    "specs_by_n": {
+      "128": [
+        {
+          "name": "fresh_previous",
+          "mode": "fresh",
+          "guess": "previous",
+          "correction": "none"
+        },
+        {
+          "name": "fresh_history4",
+          "mode": "fresh",
+          "guess": "history4",
+          "correction": "none"
+        },
+        {
+          "name": "reuse_first_previous",
+          "mode": "reuse_first",
+          "guess": "previous",
+          "correction": "none"
+        },
+        {
+          "name": "reuse_first_history4",
+          "mode": "reuse_first",
+          "guess": "history4",
+          "correction": "none"
+        },
+        {
+          "name": "refresh_galerkin_previous",
+          "mode": "refresh_galerkin",
+          "guess": "previous",
+          "correction": "none"
+        },
+        {
+          "name": "refresh_galerkin_history4",
+          "mode": "refresh_galerkin",
+          "guess": "history4",
+          "correction": "none"
+        }
+      ],
+      "256": [
+        {
+          "name": "fresh_previous",
+          "mode": "fresh",
+          "guess": "previous",
+          "correction": "none"
+        },
+        {
+          "name": "fresh_history4",
+          "mode": "fresh",
+          "guess": "history4",
+          "correction": "none"
+        },
+        {
+          "name": "reuse_first_previous",
+          "mode": "reuse_first",
+          "guess": "previous",
+          "correction": "none"
+        },
+        {
+          "name": "reuse_first_history4",
+          "mode": "reuse_first",
+          "guess": "history4",
+          "correction": "none"
+        },
+        {
+          "name": "refresh_galerkin_previous",
+          "mode": "refresh_galerkin",
+          "guess": "previous",
+          "correction": "none"
+        },
+        {
+          "name": "refresh_galerkin_history4",
+          "mode": "refresh_galerkin",
+          "guess": "history4",
+          "correction": "none"
+        }
+      ]
+    },
+    "repeats": 2,
+    "role": "development screen"
+  },
+  "created_utc": "2026-11-19T04:43:00Z",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "numpy": "1.26.4",
+  "scipy": "1.15.3",
+  "torch": "2.6.0+cu124",
+  "pyamg": "5.4.1",
+  "cuda_available": true,
+  "blas_threads": 1,
+  "torch_threads": 2,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "rtol": 1e-08,
+  "maxiter": 500,
+  "steps": 20,
+  "contrast": 10000.0,
+  "source_sha256": {
+    "fields.py": "c81b5cc4dada82e2b19344017c60d4c32cd4044cbef8721b3add0edc654bc04c",
+    "numerics.py": "5a8eb53f701142d18eb67807078db912eb29b3b87d55bfb6677206909c3a5f12",
+    "sequence_baselines.py": "6da7fa625f33cbb0d2847c948c576fdaee8cb2451a6cda17116e617eeb557936",
+    "coarse_correction.py": "068b8e4c02f881ac63c775081eb2031cf71f01f06db6e28f116745f930f025c7",
+    "correction_model.py": "6ec6a087c27c0ec671a085e6b048510a2306de7e66c255cf94d0338f79ed8e24",
+    "sequence_experiment.py": "da6cc2e11d40cd4ba34c95e6c5a4773694802fa666ceabc2a575a838613689d5"
+  },
+  "protocol_sha256": "f13ad84345259cebf4ad62c7479fcf5f5332dc33e2210b257cb978bf197e87cd",
+  "splits_sha256": "353e830d2e44326ae5ac8c95fd837d87aea173a5c97452fd9b1d6c7d88849194",
+  "timing": "All current-system assembly, history, hierarchy, features, transfer, network, safeguards, PCG and recovery are included. References, training and model load/prewarm are separate."
+}

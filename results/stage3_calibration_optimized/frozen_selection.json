@@ -1,0 +1,139 @@
+{
+  "classical": {
+    "name": "selected_classical",
+    "mode": "refresh_galerkin",
+    "guess": "history4",
+    "correction": "none"
+  },
+  "initial_network": {
+    "name": "energy_cuda",
+    "mode": "refresh_galerkin",
+    "guess": "history4",
+    "correction": "network",
+    "checkpoint": "checkpoints/correction_energy.pt",
+    "device": "cuda",
+    "smooth_prediction": 0
+  },
+  "budget_control_network": {
+    "name": "continued_cuda",
+    "mode": "refresh_galerkin",
+    "guess": "history4",
+    "correction": "network",
+    "checkpoint": "checkpoints/correction_energy_continued.pt",
+    "device": "cuda",
+    "smooth_prediction": 0
+  },
+  "optimized_network": {
+    "name": "mixed_cuda",
+    "mode": "refresh_galerkin",
+    "guess": "history4",
+    "correction": "network",
+    "checkpoint": "checkpoints/correction_mixed.pt",
+    "device": "cuda",
+    "smooth_prediction": 0
+  },
+  "rule": "Minimum full-sequence median on calibration only; optimization candidate restricted to mixed loss variants, same seed and pretrained energy weights.",
+  "all_specs": [
+    {
+      "name": "fresh_previous",
+      "mode": "fresh",
+      "guess": "previous",
+      "correction": "none"
+    },
+    {
+      "name": "selected_classical",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "none"
+    },
+    {
+      "name": "selected_jacobi3",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "jacobi"
+    },
+    {
+      "name": "selected_coarse32",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "coarse"
+    },
+    {
+      "name": "energy_cpu",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "network",
+      "checkpoint": "checkpoints/correction_energy.pt",
+      "device": "cpu",
+      "smooth_prediction": 0
+    },
+    {
+      "name": "energy_cuda",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "network",
+      "checkpoint": "checkpoints/correction_energy.pt",
+      "device": "cuda",
+      "smooth_prediction": 0
+    },
+    {
+      "name": "continued_cpu",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "network",
+      "checkpoint": "checkpoints/correction_energy_continued.pt",
+      "device": "cpu",
+      "smooth_prediction": 0
+    },
+    {
+      "name": "continued_cuda",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "network",
+      "checkpoint": "checkpoints/correction_energy_continued.pt",
+      "device": "cuda",
+      "smooth_prediction": 0
+    },
+    {
+      "name": "mixed_cpu",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "network",
+      "checkpoint": "checkpoints/correction_mixed.pt",
+      "device": "cpu",
+      "smooth_prediction": 0
+    },
+    {
+      "name": "mixed_cuda",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "network",
+      "checkpoint": "checkpoints/correction_mixed.pt",
+      "device": "cuda",
+      "smooth_prediction": 0
+    },
+    {
+      "name": "mixed_smooth3_cpu",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "network",
+      "checkpoint": "checkpoints/correction_mixed.pt",
+      "device": "cpu",
+      "smooth_prediction": 3
+    },
+    {
+      "name": "mixed_smooth3_cuda",
+      "mode": "refresh_galerkin",
+      "guess": "history4",
+      "correction": "network",
+      "checkpoint": "checkpoints/correction_mixed.pt",
+      "device": "cuda",
+      "smooth_prediction": 3
+    }
+  ],
+  "checkpoint_sha256": {
+    "checkpoints/correction_energy.pt": "f17b6b485d0e2c46f01e9bf57aa464c06d7a1950b4401df87b188b3f962574cc",
+    "checkpoints/correction_energy_continued.pt": "6c4d90aa51a6335bb816e3342c95ffe420e9f4634272156a38cdcb0dff5d118e",
+    "checkpoints/correction_mixed.pt": "c4d0aeca88c5f303b71232778e05ba1d0e6a5bf4f13e491bc6ce3b26f043a943"
+  }
+}

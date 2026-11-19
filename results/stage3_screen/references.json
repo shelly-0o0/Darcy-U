@@ -1,0 +1,38 @@
+[
+  {
+    "n": 128,
+    "seed": 72001,
+    "seconds": 0.8804814189206809,
+    "field_sha256": "40b3181e446cc5013c55b867cbf3f6b284872c9ab35a8eccdecc3a595fde93c3"
+  },
+  {
+    "n": 128,
+    "seed": 72002,
+    "seconds": 0.876499508973211,
+    "field_sha256": "0a8983338ee153124203093955c750a72135f074d1f10e4069c9cebcd9a95625"
+  },
+  {
+    "n": 128,
+    "seed": 72003,
+    "seconds": 0.8586809530388564,
+    "field_sha256": "2a4cf8c06e6c4e87af159ab761ab7f38aa15f01a78d5ab3836e82010e31d6a0f"
+  },
+  {
+    "n": 256,
+    "seed": 72001,
+    "seconds": 5.733522773021832,
+    "field_sha256": "7989a4da7f823f598a44ac8ec62b7c693763bb96498ff22921f278ad9957b16a"
+  },
+  {
+    "n": 256,
+    "seed": 72002,
+    "seconds": 5.752883008914068,
+    "field_sha256": "ccf82fb1b9fb9abb854568134862a21583ce0e7d6d77d00e7dc983efa012160a"
+  },
+  {
+    "n": 256,
+    "seed": 72003,
+    "seconds": 5.658679783111438,
+    "field_sha256": "14ac64addc435c32ca7f0c1c7ae75c046e296a05c9616b6e1fb2df795ec999db"
+  }
+]

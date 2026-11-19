@@ -1,0 +1,25 @@
+{"stage": "reference_audit", "n": 128, "seed": 72001, "max_relative_residual": 1.3343775142983443e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 72002, "max_relative_residual": 1.2044703233029575e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 72003, "max_relative_residual": 1.1770945463882707e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 74001, "max_relative_residual": 1.709795392469875e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 74002, "max_relative_residual": 1.0939164338950391e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 74003, "max_relative_residual": 1.5806526562353986e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80001, "max_relative_residual": 1.2527422705250545e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80002, "max_relative_residual": 1.4409829361068515e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80003, "max_relative_residual": 1.2484310119965495e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80004, "max_relative_residual": 1.7166920058874756e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80005, "max_relative_residual": 1.4662557602807583e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80006, "max_relative_residual": 1.7017395989612405e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80007, "max_relative_residual": 1.8166479754434303e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80008, "max_relative_residual": 1.2540425835195148e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80009, "max_relative_residual": 1.2048579774640386e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80010, "max_relative_residual": 1.308223404173083e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80011, "max_relative_residual": 1.808985424553346e-09, "passed": true}
+{"stage": "reference_audit", "n": 128, "seed": 80012, "max_relative_residual": 1.8061372529322007e-09, "passed": true}
+{"stage": "reference_audit", "n": 256, "seed": 72001, "max_relative_residual": 6.15628008630413e-09, "passed": true}
+{"stage": "reference_audit", "n": 256, "seed": 72002, "max_relative_residual": 5.010301418396491e-09, "passed": true}
+{"stage": "reference_audit", "n": 256, "seed": 72003, "max_relative_residual": 5.21157572442811e-09, "passed": true}
+{"stage": "reference_audit", "n": 256, "seed": 80001, "max_relative_residual": 5.821540109200195e-09, "passed": true}
+{"stage": "reference_audit", "n": 256, "seed": 80002, "max_relative_residual": 6.214508408664329e-09, "passed": true}
+{"stage": "reference_audit", "n": 256, "seed": 80003, "max_relative_residual": 5.709468100068181e-09, "passed": true}
+{"output": "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage3_reference_audit.json", "successful_reference_audit": true, "elapsed_seconds": 49.274507933994755}

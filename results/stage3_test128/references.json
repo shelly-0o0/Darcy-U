@@ -1,0 +1,74 @@
+[
+  {
+    "n": 128,
+    "seed": 80001,
+    "seconds": 0.8972189601045102,
+    "field_sha256": "2816f602c543064562a7161d00d1425aa40e9bd83f852665eba9d833bdd08ca2"
+  },
+  {
+    "n": 128,
+    "seed": 80002,
+    "seconds": 0.9036657810211182,
+    "field_sha256": "72fdcc71de55fb55d25ed7c42c2eba681b90ee9da78d6ec08571b4bc7490ec7b"
+  },
+  {
+    "n": 128,
+    "seed": 80003,
+    "seconds": 0.8313887040130794,
+    "field_sha256": "b4992c83d9c1a07000dec60c21b3751da11b88280cdd76a817397f34c2401259"
+  },
+  {
+    "n": 128,
+    "seed": 80004,
+    "seconds": 0.9296986458357424,
+    "field_sha256": "f185aa839e2f35a0439333b234d5d1b07566255b4c21d0c375e55909c6e36d83"
+  },
+  {
+    "n": 128,
+    "seed": 80005,
+    "seconds": 0.8321680421940982,
+    "field_sha256": "5f21702729c329e16af49a4d8b0348f7f7a95f75bdfcf5cdfc8aafe5b5868eb5"
+  },
+  {
+    "n": 128,
+    "seed": 80006,
+    "seconds": 0.8538132649846375,
+    "field_sha256": "287f19b407b0bb1b9bce18fe864b263271a61057e5ab938afd5228db5dc9eae1"
+  },
+  {
+    "n": 128,
+    "seed": 80007,
+    "seconds": 0.8286064390558749,
+    "field_sha256": "afdb276c8b4f2292854be3063780fbf1753823a05157046769d56ed994faf123"
+  },
+  {
+    "n": 128,
+    "seed": 80008,
+    "seconds": 0.8736856358591467,
+    "field_sha256": "3239b1897a625c023eb7b871fe244051fbf447107a05bd86cdaef280c132a8ed"
+  },
+  {
+    "n": 128,
+    "seed": 80009,
+    "seconds": 0.8525069688912481,
+    "field_sha256": "8fd8fcdc73f5c1820f5bded3d235a4d34ebaeab4a63ade1d63c8c2b86b94db1d"
+  },
+  {
+    "n": 128,
+    "seed": 80010,
+    "seconds": 0.864114762051031,
+    "field_sha256": "bb3c35f4ab16e072e184bfdb07416962b53442deb432c025116b618e5e352fb1"
+  },
+  {
+    "n": 128,
+    "seed": 80011,
+    "seconds": 0.8499137929175049,
+    "field_sha256": "a835bf00f7e397f94efe2da00fa13899ec7d578f8cee26598cbe69eb3a7f66d7"
+  },
+  {
+    "n": 128,
+    "seed": 80012,
+    "seconds": 0.8499480760656297,
+    "field_sha256": "4a16004517cf970779ba202bb55cba94a02747b0186901c64480a1a12f49b2b8"
+  }
+]
