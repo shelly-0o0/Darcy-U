@@ -1,0 +1,12 @@
+{
+  "unit_tests": 117,
+  "unit_test_seconds": 1.743,
+  "unit_test_success": true,
+  "unit_test_log": "results/stage9_tests.log",
+  "unit_test_log_sha256": "0001145c6dddf4d6827cd4097d58e1804ed31be34313c30d5f1eff1c2d29b42b",
+  "new_test_sha256": {
+    "test_nonlinear_budget.py": "705c168e537714d8b8f97f7e322f9d87602000af82a38da3b9474bdc3fd5413e",
+    "test_nonlinear_screen.py": "545e4cc625071d9b112c9776b94441598a200664efe83abb0d7e576219c05581"
+  },
+  "post_run_review": "Independent read-only recomputation checked source/protocol/case/archive hashes, all 1056 measured rows, true linear/nonlinear criteria, Armijo and accepted-step eta bookkeeping, fixed baseline selection and stopped opportunity gate. No extra PDE solves."
+}

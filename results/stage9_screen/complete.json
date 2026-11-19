@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "finished_utc": "2026-11-19T12:27:41.017182+00:00",
+  "status": "stop_current_action_family",
+  "decision_sha256": "816ca33ee08435d83965f28287790b9d63ccc75eefc30cb463658b0ce8592c34",
+  "training_authorized": false,
+  "baseline_rows": 504,
+  "branch_rows": 552,
+  "source_runs": 12,
+  "direct_references": 24,
+  "manufactured_runs": 8,
+  "warmup_runs": 7
+}

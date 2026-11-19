@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-11-19T12:27:00.318058+00:00",
+  "source_sha256": {
+    "nonlinear_budget.py": "0818c5a118e455b8c93b88be24f9d17b1832783416fc1377470745b02e99024c",
+    "nonlinear_screen_experiment.py": "d0a437f687c0f3f49a5a7ca07c8306e3aabe4876f04263babe5bedbce1d625f6"
+  },
+  "protocol_sha256": "0b6c40e6cf94eaa346b8c500a68053b48384935dcc984b91dc53b73836e9e0ca",
+  "cases_sha256": "e9076924c6551a64c3bb5d50d202bd6c3e9e4a4462e565b45c8eb369fabcce7e",
+  "methods": [
+    "ew1",
+    "ew2",
+    "fixed_0.01",
+    "fixed_0.1",
+    "fixed_0.5",
+    "fixed_0.9",
+    "direct"
+  ],
+  "repeats": 3,
+  "grids": [
+    32,
+    64
+  ],
+  "branch_grid": 64,
+  "snapshot_iterations": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "multipliers": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "threshold": 0.85,
+  "faster_required": 9,
+  "training_authorized": false,
+  "python": "3.10.21",
+  "numpy": "1.26.4",
+  "scipy": "1.15.3",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "blas": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "/home/user/miniconda3/envs/mini-rl/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Prescott"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "/home/user/miniconda3/envs/mini-rl/lib/python3.10/site-packages/scipy.libs/libscipy_openblas-68440149.so",
+      "version": "0.3.28",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ]
+}
