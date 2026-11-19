@@ -1,0 +1,99 @@
+{
+  "configuration": {
+    "n": 128,
+    "seeds": [
+      42001,
+      42002,
+      42003
+    ],
+    "specs": [
+      {
+        "name": "baseline",
+        "source": "none",
+        "interface": "warm",
+        "rank": 0
+      },
+      {
+        "name": "network_warm",
+        "source": "network",
+        "interface": "warm",
+        "rank": 1
+      },
+      {
+        "name": "network_balanced",
+        "source": "network",
+        "interface": "balanced",
+        "rank": 1
+      },
+      {
+        "name": "history_balanced4",
+        "source": "history",
+        "interface": "balanced",
+        "rank": 4
+      },
+      {
+        "name": "delta_warm4",
+        "source": "delta",
+        "interface": "warm",
+        "rank": 4
+      },
+      {
+        "name": "delta_balanced4",
+        "source": "delta",
+        "interface": "balanced",
+        "rank": 4
+      },
+      {
+        "name": "ritz_warm4",
+        "source": "ritz",
+        "interface": "warm",
+        "rank": 4
+      },
+      {
+        "name": "ritz_balanced4",
+        "source": "ritz",
+        "interface": "balanced",
+        "rank": 4
+      },
+      {
+        "name": "ritz_balanced8",
+        "source": "ritz",
+        "interface": "balanced",
+        "rank": 8
+      }
+    ],
+    "repeats": 2,
+    "role": "development mechanism screen"
+  },
+  "created_utc": "2026-11-19T05:55:12Z",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "numpy": "1.26.4",
+  "scipy": "1.15.3",
+  "torch": "2.6.0+cu124",
+  "pyamg": "5.4.1",
+  "cuda_available": true,
+  "blas_threads": 1,
+  "torch_threads": 2,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "rtol": 1e-08,
+  "maxiter": 500,
+  "steps": 20,
+  "contrast": 10000.0,
+  "source_sha256": {
+    "fields.py": "c81b5cc4dada82e2b19344017c60d4c32cd4044cbef8721b3add0edc654bc04c",
+    "numerics.py": "5a8eb53f701142d18eb67807078db912eb29b3b87d55bfb6677206909c3a5f12",
+    "sequence_baselines.py": "6da7fa625f33cbb0d2847c948c576fdaee8cb2451a6cda17116e617eeb557936",
+    "sequence_experiment.py": "da6cc2e11d40cd4ba34c95e6c5a4773694802fa666ceabc2a575a838613689d5",
+    "correction_model.py": "6ec6a087c27c0ec671a085e6b048510a2306de7e66c255cf94d0338f79ed8e24",
+    "balanced_augmentation.py": "7d0a6db1717c3679c668af7f0291a4f1c653f2dc442c96abf3cc1f28f4edfa03",
+    "traced_pcg.py": "d3112e9e046fa20f6905aac69ae44c228eb5bb093509fb241ce733bf9e0bd814",
+    "mechanism_experiment.py": "315879e59edc3e7b2da7009b876533e8805c24f0820b523df892e736434d88e4"
+  },
+  "protocol_sha256": "48e798531bf20d52a75a7770815f52d4adad92988cd22002c618ebeaacd7cb62",
+  "splits_sha256": "c5e651b838ef74137195d1d68be8aa7679c9fec0bb9d9d60f086691c9dc06957",
+  "timing": "All current-system assembly, history, hierarchy, features, transfer, network, safeguards, PCG and recovery are included. References, training and model load/prewarm are separate.",
+  "checkpoint_sha256": {
+    "checkpoints/correction_mixed.pt": "c4d0aeca88c5f303b71232778e05ba1d0e6a5bf4f13e491bc6ce3b26f043a943"
+  }
+}

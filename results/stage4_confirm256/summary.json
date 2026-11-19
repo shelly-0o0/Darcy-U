@@ -1,0 +1,40 @@
+{
+  "256": {
+    "baseline": {
+      "by_seed": {
+        "42011": 3.024361266521737,
+        "42012": 2.828389059752226
+      },
+      "median_seconds": 2.9263751631369814,
+      "all_accurate": true,
+      "pcg_failures": 0
+    },
+    "delta_warm4": {
+      "by_seed": {
+        "42011": 3.167053079465404,
+        "42012": 2.9622909324243665
+      },
+      "median_seconds": 3.0646720059448853,
+      "all_accurate": true,
+      "pcg_failures": 0
+    },
+    "network_balanced": {
+      "by_seed": {
+        "42011": 3.1833157809451222,
+        "42012": 2.984130443772301
+      },
+      "median_seconds": 3.0837231123587117,
+      "all_accurate": true,
+      "pcg_failures": 0
+    },
+    "network_warm": {
+      "by_seed": {
+        "42011": 3.0971116055734456,
+        "42012": 2.86427116766572
+      },
+      "median_seconds": 2.9806913866195828,
+      "all_accurate": true,
+      "pcg_failures": 0
+    }
+  }
+}

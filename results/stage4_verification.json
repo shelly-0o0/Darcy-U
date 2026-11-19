@@ -1,0 +1,20 @@
+{
+  "unit_tests": 59,
+  "unit_test_seconds": 0.558,
+  "unit_test_success": true,
+  "integration_smoke": {
+    "seed": 75001,
+    "n": 32,
+    "steps": 4,
+    "methods": 9,
+    "rows": 36,
+    "all_final_converged": true,
+    "pcg_failures": 0,
+    "role": "Functional validation only; seed excluded from stage-4 geometry selection; not part of formal timing records."
+  },
+  "new_test_sha256": {
+    "test_balanced_augmentation.py": "d905354485a24c86baf71e67eaad6fae24cfc1ffab9a4feaf9387bc1fddb1920",
+    "test_traced_pcg.py": "6d6a42d9082c8814909d83efe559485cb630dc202aa1ea208c0a10d415fa954d"
+  },
+  "note": "Full numerical suite and all nine integration paths passed before formal stage-4 diagnosis. Subsequent pre-run edits added runner provenance checks/diagnostic fields and clarified a docstring; numerical algorithms were unchanged."
+}
