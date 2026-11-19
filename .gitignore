@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+vendor/
+data/*.pkl
+data/*.npz
+.mpl-cache/
+.venv/
+*.tmp
+results/smoke/
+Darcy-U*.zip
+Darcy-U*.bundle
