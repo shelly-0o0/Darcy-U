@@ -1,0 +1,18 @@
+{
+  "unit_tests": 71,
+  "unit_test_seconds": 0.579,
+  "unit_test_success": true,
+  "integration_smoke": {
+    "seed": 75001,
+    "n": 32,
+    "steps": 4,
+    "methods": 8,
+    "rows": 32,
+    "all_final_converged": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0,
+    "role": "Functional check only; seed excluded from formal splits; no timings used for selection."
+  },
+  "new_test_sha256": "dbdcaa2d8739ce96efd5f073b7e781dc15a56b450bffd37537f3ec2038478bb4",
+  "note": "71 tests and successful 32-row integration check before formal audit. Initial integration reached all eight accurate methods but JSON saving exposed NumPy bool serialization in event flag; fixed before formal runs and integration repeated successfully. No numerical solver change was required."
+}

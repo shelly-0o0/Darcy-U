@@ -1,0 +1,3146 @@
+[
+  {
+    "seed": 43001,
+    "step": 0,
+    "converged": true,
+    "relative_residual": 3.911964290112228e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 32,
+      "m_applications": 31,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 2.1574087065224888e-11,
+    "mad_relative_error": 5.91435431826407e-13,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0029828000895047685
+          ],
+          "projected_ritz_residuals": [
+            9.66823167106236e-14
+          ],
+          "operator_ritz_residuals": [
+            0.00010168106684445565
+          ],
+          "orthogonality_error": 2.220446049250313e-15,
+          "gram_relative_asymmetry": 1.5553894084810523e-12,
+          "h_relative_asymmetry": 1.4131758225496079e-15,
+          "retained_condition": 1.0000000014563055,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.5556349043456032e-12,
+          "whitened_h_relative_asymmetry": 1.4076865333195502e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000014563197,
+            "orthogonality_error": 1.1827993808870442e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.002982800089494689
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            7.308771087179317e-14
+          ],
+          "operator_ritz_residuals": [
+            0.00010168106054469971
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 3.3792444866363162e-12,
+        "max_principal_angle_sine": 0.0,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0029828000895047685,
+            0.008497915053920313
+          ],
+          "projected_ritz_residuals": [
+            9.983874484523422e-14,
+            3.279149297019944e-14
+          ],
+          "operator_ritz_residuals": [
+            0.0001016810668445135,
+            2.230713154854979e-05
+          ],
+          "orthogonality_error": 2.007643537048715e-13,
+          "gram_relative_asymmetry": 1.5553894084810523e-12,
+          "h_relative_asymmetry": 1.4131758225496079e-15,
+          "retained_condition": 1.0000000014563055,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.5556349043456032e-12,
+          "whitened_h_relative_asymmetry": 1.4076865333195502e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000014563197,
+            "orthogonality_error": 1.1827993808870442e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.002982800089494689,
+            0.008497915053912715
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            6.753674410038651e-14,
+            4.385844196186811e-14
+          ],
+          "operator_ritz_residuals": [
+            0.00010168106054470864,
+            2.23071316175398e-05
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.401543140215825e-12,
+        "max_principal_angle_sine": 8.965497587019994e-07,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0029828000895047685,
+            0.008497915053920313,
+            0.24610208142261641,
+            0.2722167374650104
+          ],
+          "projected_ritz_residuals": [
+            9.983874484523422e-14,
+            3.279149297019944e-14,
+            1.0972742809152786e-15,
+            7.904651100913523e-16
+          ],
+          "operator_ritz_residuals": [
+            0.00010168106684451352,
+            2.2307131548549792e-05,
+            0.0011723079075023914,
+            0.010926541093495439
+          ],
+          "orthogonality_error": 8.172233379458632e-13,
+          "gram_relative_asymmetry": 1.5553894084810523e-12,
+          "h_relative_asymmetry": 1.4131758225496079e-15,
+          "retained_condition": 1.0000000014563055,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.5556349043456032e-12,
+          "whitened_h_relative_asymmetry": 1.4076865333195502e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000014563197,
+            "orthogonality_error": 1.1827993808870442e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.002982800089494689,
+            0.008497915053912715,
+            0.24610208142265944,
+            0.272216737464974
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            6.753674410038651e-14,
+            4.385844196186811e-14,
+            1.2395029079018998e-15,
+            1.224509805788197e-15
+          ],
+          "operator_ritz_residuals": [
+            0.00010168106054470864,
+            2.2307131617539796e-05,
+            0.001172307907759075,
+            0.010926541093297635
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.5734911466017245e-13,
+        "max_principal_angle_sine": 9.232709452307027e-07,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  {
+    "seed": 43001,
+    "step": 6,
+    "converged": true,
+    "relative_residual": 5.9431827237237015e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 37,
+      "m_applications": 35,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 2.2210689876479158e-13,
+    "mad_relative_error": 1.3978774904925666e-12,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0013749531704367135
+          ],
+          "projected_ritz_residuals": [
+            2.5123769456084726e-13
+          ],
+          "operator_ritz_residuals": [
+            0.0035904791609091386
+          ],
+          "orthogonality_error": 3.1086244689504383e-15,
+          "gram_relative_asymmetry": 1.387188084500777e-12,
+          "h_relative_asymmetry": 2.1175561839189666e-15,
+          "retained_condition": 1.0000000107422837,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.3868642501591307e-12,
+          "whitened_h_relative_asymmetry": 2.6715878353957507e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.000000010742235,
+            "orthogonality_error": 2.410356413251219e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.0013749531704326972
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.7780226658534974e-13
+          ],
+          "operator_ritz_residuals": [
+            0.0035904791622255656
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 2.9210584142959347e-12,
+        "max_principal_angle_sine": 7.630209394986693e-07,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0013749531704367135,
+            0.007367248517166354
+          ],
+          "projected_ritz_residuals": [
+            2.3491157519175157e-13,
+            6.388262751261256e-14
+          ],
+          "operator_ritz_residuals": [
+            0.0035904791609091147,
+            0.00013579784459278476
+          ],
+          "orthogonality_error": 2.7159723817728906e-13,
+          "gram_relative_asymmetry": 1.387188084500777e-12,
+          "h_relative_asymmetry": 2.1175561839189666e-15,
+          "retained_condition": 1.0000000107422837,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.3868642501591307e-12,
+          "whitened_h_relative_asymmetry": 2.6715878353957507e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.000000010742235,
+            "orthogonality_error": 2.410356413251219e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.0013749531704326972,
+            0.007367248517180152
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.828866883958243e-13,
+            5.291122960346975e-14
+          ],
+          "operator_ritz_residuals": [
+            0.00359047916222555,
+            0.00013579784378284855
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.917503450660124e-12,
+        "max_principal_angle_sine": 0.0,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0013749531704367135,
+            0.007367248517166354,
+            0.1349158518479275,
+            0.25427550838465907
+          ],
+          "projected_ritz_residuals": [
+            2.3491157519175157e-13,
+            6.388262751261256e-14,
+            2.439158527735818e-15,
+            1.5575446628042134e-15
+          ],
+          "operator_ritz_residuals": [
+            0.0035904791609091147,
+            0.00013579784459278476,
+            6.662632967949867e-07,
+            0.0017068459415885762
+          ],
+          "orthogonality_error": 1.2416358559046539e-12,
+          "gram_relative_asymmetry": 1.387188084500777e-12,
+          "h_relative_asymmetry": 2.1175561839189666e-15,
+          "retained_condition": 1.0000000107422837,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.3868642501591307e-12,
+          "whitened_h_relative_asymmetry": 2.6715878353957507e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.000000010742235,
+            "orthogonality_error": 2.410356413251219e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.0013749531704326972,
+            0.007367248517180152,
+            0.1349158518481594,
+            0.2542755083846894
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.828866883958243e-13,
+            5.291122960346975e-14,
+            1.603295992931644e-15,
+            9.56299389951379e-16
+          ],
+          "operator_ritz_residuals": [
+            0.00359047916222555,
+            0.00013579784378284855,
+            6.662633146941774e-07,
+            0.0017068459416179648
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 8.137255049705602e-13,
+        "max_principal_angle_sine": 1.223438875383497e-06,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  {
+    "seed": 43001,
+    "step": 10,
+    "converged": true,
+    "relative_residual": 7.867905946088053e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 35,
+      "m_applications": 33,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 3.46223954029548e-13,
+    "mad_relative_error": 2.6090728769396966e-13,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0021243229382417387
+          ],
+          "projected_ritz_residuals": [
+            1.2328746425774842e-13
+          ],
+          "operator_ritz_residuals": [
+            0.00016634001321686858
+          ],
+          "orthogonality_error": 8.881784197001252e-16,
+          "gram_relative_asymmetry": 4.680317849306762e-13,
+          "h_relative_asymmetry": 2.242620901700679e-15,
+          "retained_condition": 1.0000000019386095,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 4.704386075774473e-13,
+          "whitened_h_relative_asymmetry": 2.42781389497245e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000019386188,
+            "orthogonality_error": 1.0127440050719697e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.0021243229382434075
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            7.77253522852015e-14
+          ],
+          "operator_ritz_residuals": [
+            0.0001663400120837497
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 7.855698179626184e-13,
+        "max_principal_angle_sine": 1.2558593984927203e-06,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0021243229382417387,
+            0.11631950733095858
+          ],
+          "projected_ritz_residuals": [
+            1.2063127166765311e-13,
+            1.586181198484367e-15
+          ],
+          "operator_ritz_residuals": [
+            0.00016634001321690046,
+            7.356974854874726e-06
+          ],
+          "orthogonality_error": 4.812609149474172e-13,
+          "gram_relative_asymmetry": 4.680317849306762e-13,
+          "h_relative_asymmetry": 2.242620901700679e-15,
+          "retained_condition": 1.0000000019386095,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 4.704386075774473e-13,
+          "whitened_h_relative_asymmetry": 2.42781389497245e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000019386188,
+            "orthogonality_error": 1.0127440050719697e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.0021243229382434075,
+            0.11631950733102257
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            7.37831287324729e-14,
+            2.220055863292116e-15
+          ],
+          "operator_ritz_residuals": [
+            0.00016634001208376783,
+            7.356974878770038e-06
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 5.50222102168963e-13,
+        "max_principal_angle_sine": 1.3349644186750078e-06,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0021243229382417387,
+            0.11631950733095858,
+            0.1362246894864196,
+            0.2245075222723748
+          ],
+          "projected_ritz_residuals": [
+            1.2063127166765311e-13,
+            1.586181198484367e-15,
+            1.1553821868112056e-15,
+            1.3101665951463047e-15
+          ],
+          "operator_ritz_residuals": [
+            0.00016634001321690046,
+            7.356974854874726e-06,
+            0.00015448578102740944,
+            0.004398488140091455
+          ],
+          "orthogonality_error": 5.92494549328117e-13,
+          "gram_relative_asymmetry": 4.680317849306762e-13,
+          "h_relative_asymmetry": 2.242620901700679e-15,
+          "retained_condition": 1.0000000019386095,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 4.704386075774473e-13,
+          "whitened_h_relative_asymmetry": 2.42781389497245e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000019386188,
+            "orthogonality_error": 1.0127440050719697e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.0021243229382434075,
+            0.11631950733102257,
+            0.13622468948644248,
+            0.22450752227238002
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            7.37831287324729e-14,
+            2.220055863292116e-15,
+            8.98879524307771e-16,
+            1.688422317480161e-15
+          ],
+          "operator_ritz_residuals": [
+            0.00016634001208376783,
+            7.356974878770039e-06,
+            0.00015448578095796477,
+            0.00439848814009045
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 2.3736202004390643e-13,
+        "max_principal_angle_sine": 1.556796988292538e-06,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  {
+    "seed": 43001,
+    "step": 15,
+    "converged": true,
+    "relative_residual": 7.712254256761221e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 39,
+      "m_applications": 37,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 2.2248545512208276e-13,
+    "mad_relative_error": 9.701015756805854e-13,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0014641904614237401
+          ],
+          "projected_ritz_residuals": [
+            2.744047641338758e-13
+          ],
+          "operator_ritz_residuals": [
+            0.17683246424579155
+          ],
+          "orthogonality_error": 1.9984014443252818e-15,
+          "gram_relative_asymmetry": 7.244692230979512e-13,
+          "h_relative_asymmetry": 3.0152477388996383e-15,
+          "retained_condition": 1.000000000055978,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 7.255982446865881e-13,
+          "whitened_h_relative_asymmetry": 3.876328179039036e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000000554086,
+            "orthogonality_error": 1.3171789433048959e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.0014641904614219022
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            7.955018339531351e-14
+          ],
+          "operator_ritz_residuals": [
+            0.17683246424704288
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.2552598662694267e-12,
+        "max_principal_angle_sine": 1.4875807650957517e-06,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0014641904614237401,
+            0.002471757657470179
+          ],
+          "projected_ritz_residuals": [
+            2.718695983814496e-13,
+            7.812682344679566e-14
+          ],
+          "operator_ritz_residuals": [
+            0.17683246424579196,
+            0.06575439141072302
+          ],
+          "orthogonality_error": 3.355848183620665e-13,
+          "gram_relative_asymmetry": 7.244692230979512e-13,
+          "h_relative_asymmetry": 3.0152477388996383e-15,
+          "retained_condition": 1.000000000055978,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 7.255982446865881e-13,
+          "whitened_h_relative_asymmetry": 3.876328179039036e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000000554086,
+            "orthogonality_error": 1.3171789433048959e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.0014641904614219022,
+            0.0024717576574729344
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            7.753895912960031e-14,
+            9.248343532749569e-14
+          ],
+          "operator_ritz_residuals": [
+            0.17683246424704313,
+            0.06575439140994647
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.1528324649162976e-12,
+        "max_principal_angle_sine": 2.3521661125262827e-06,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0014641904614237401,
+            0.002471757657470179,
+            0.1668587758909896,
+            0.19084304886250097
+          ],
+          "projected_ritz_residuals": [
+            2.718695983814496e-13,
+            7.812682344679566e-14,
+            1.0173841407056367e-15,
+            1.428199666101297e-15
+          ],
+          "operator_ritz_residuals": [
+            0.17683246424579196,
+            0.06575439141072302,
+            0.07220750276073952,
+            0.0005139974870885588
+          ],
+          "orthogonality_error": 6.858069116344243e-13,
+          "gram_relative_asymmetry": 7.244692230979512e-13,
+          "h_relative_asymmetry": 3.0152477388996383e-15,
+          "retained_condition": 1.000000000055978,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 7.255982446865881e-13,
+          "whitened_h_relative_asymmetry": 3.876328179039036e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000000554086,
+            "orthogonality_error": 1.3171789433048959e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.0014641904614219022,
+            0.0024717576574729344,
+            0.16685877589098952,
+            0.190843048862371
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            7.753895912960031e-14,
+            9.248343532749569e-14,
+            2.0160486676346246e-15,
+            9.536948338873681e-16
+          ],
+          "operator_ritz_residuals": [
+            0.17683246424704313,
+            0.06575439140994647,
+            0.0722075027606872,
+            0.0005139974871021213
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 5.128700149127403e-13,
+        "max_principal_angle_sine": 2.3932953492300334e-06,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  {
+    "seed": 43002,
+    "step": 0,
+    "converged": true,
+    "relative_residual": 6.20985415405247e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 31,
+      "m_applications": 30,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 6.331861166857156e-11,
+    "mad_relative_error": 1.6866109367556626e-12,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0011824623350365016
+          ],
+          "projected_ritz_residuals": [
+            2.3074745827362285e-13
+          ],
+          "operator_ritz_residuals": [
+            0.00400173549840894
+          ],
+          "orthogonality_error": 2.6645352591003757e-15,
+          "gram_relative_asymmetry": 1.2685920836896662e-12,
+          "h_relative_asymmetry": 1.1657333789043918e-15,
+          "retained_condition": 1.00000000039751,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.2685599048225447e-12,
+          "whitened_h_relative_asymmetry": 1.1397886660691144e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000003976268,
+            "orthogonality_error": 1.3194799160165864e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.0011824623350374177
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            2.177724737635532e-13
+          ],
+          "operator_ritz_residuals": [
+            0.0040017354980964575
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 7.747822561479395e-13,
+        "max_principal_angle_sine": 1.9761883795381074e-06,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0011824623350365016,
+            0.003979435121152826
+          ],
+          "projected_ritz_residuals": [
+            2.2392251295361429e-13,
+            9.083898607463215e-14
+          ],
+          "operator_ritz_residuals": [
+            0.004001735498408869,
+            4.5145040758646054e-05
+          ],
+          "orthogonality_error": 2.3853179728780707e-13,
+          "gram_relative_asymmetry": 1.2685920836896662e-12,
+          "h_relative_asymmetry": 1.1657333789043918e-15,
+          "retained_condition": 1.00000000039751,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.2685599048225447e-12,
+          "whitened_h_relative_asymmetry": 1.1397886660691144e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000003976268,
+            "orthogonality_error": 1.3194799160165864e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.0011824623350374177,
+            0.003979435121160684
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            2.1751285933702987e-13,
+            1.1865571940972117e-13
+          ],
+          "operator_ritz_residuals": [
+            0.004001735498096492,
+            4.514504039117838e-05
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.905540298992916e-12,
+        "max_principal_angle_sine": 3.650024149988857e-08,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0011824623350365016,
+            0.003979435121152826,
+            0.26671983725244414,
+            0.28167073070713594
+          ],
+          "projected_ritz_residuals": [
+            2.2392251295361429e-13,
+            9.083898607463215e-14,
+            8.000523587432271e-16,
+            6.153473126681998e-16
+          ],
+          "operator_ritz_residuals": [
+            0.004001735498408869,
+            4.5145040758646054e-05,
+            5.324235437733741e-05,
+            0.00023050332195147293
+          ],
+          "orthogonality_error": 5.174906342810052e-13,
+          "gram_relative_asymmetry": 1.2685920836896662e-12,
+          "h_relative_asymmetry": 1.1657333789043918e-15,
+          "retained_condition": 1.00000000039751,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.2685599048225447e-12,
+          "whitened_h_relative_asymmetry": 1.1397886660691144e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000003976268,
+            "orthogonality_error": 1.3194799160165864e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.0011824623350374177,
+            0.003979435121160684,
+            0.2667198372521775,
+            0.2816707307071381
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            2.1751285933702987e-13,
+            1.1865571940972117e-13,
+            9.689826552877269e-16,
+            8.259155525424446e-16
+          ],
+          "operator_ritz_residuals": [
+            0.004001735498096492,
+            4.5145040391178374e-05,
+            5.324235441921388e-05,
+            0.00023050332198302044
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 6.87601809010125e-13,
+        "max_principal_angle_sine": 8.438584288816314e-07,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  {
+    "seed": 43002,
+    "step": 6,
+    "converged": true,
+    "relative_residual": 5.177514005842094e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 37,
+      "m_applications": 35,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 3.275960408992669e-13,
+    "mad_relative_error": 8.723028515244005e-13,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0006425858258502053
+          ],
+          "projected_ritz_residuals": [
+            2.772062582241091e-13
+          ],
+          "operator_ritz_residuals": [
+            0.13290561559143152
+          ],
+          "orthogonality_error": 4.884981308350689e-15,
+          "gram_relative_asymmetry": 1.6977187472483488e-12,
+          "h_relative_asymmetry": 1.999408916652593e-15,
+          "retained_condition": 1.0000000595661955,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.6963159806364655e-12,
+          "whitened_h_relative_asymmetry": 3.2140271573870888e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.000000059566244,
+            "orthogonality_error": 1.894825432677431e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.0006425858258491691
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.8316206318087944e-13
+          ],
+          "operator_ritz_residuals": [
+            0.13290561559008032
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.6125036914331377e-12,
+        "max_principal_angle_sine": 0.0,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0006425858258502053,
+            0.0037620107872267648
+          ],
+          "projected_ritz_residuals": [
+            2.60941837979292e-13,
+            6.221884788569118e-14
+          ],
+          "operator_ritz_residuals": [
+            0.1329056155914326,
+            0.00019301331305198108
+          ],
+          "orthogonality_error": 4.766432389625571e-13,
+          "gram_relative_asymmetry": 1.6977187472483488e-12,
+          "h_relative_asymmetry": 1.999408916652593e-15,
+          "retained_condition": 1.0000000595661955,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.6963159806364655e-12,
+          "whitened_h_relative_asymmetry": 3.2140271573870888e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.000000059566244,
+            "orthogonality_error": 1.894825432677431e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.0006425858258491691,
+            0.00376201078721666
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.8584150069830064e-13,
+            6.933083961171701e-14
+          ],
+          "operator_ritz_residuals": [
+            0.13290561559008035,
+            0.00019301331297553833
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 2.6615385883985908e-12,
+        "max_principal_angle_sine": 1.8130494563883698e-06,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0006425858258502053,
+            0.0037620107872267648,
+            0.12088720143795514,
+            0.27000442655854906
+          ],
+          "projected_ritz_residuals": [
+            2.60941837979292e-13,
+            6.221884788569118e-14,
+            1.8824868275307132e-15,
+            5.992905427171746e-16
+          ],
+          "operator_ritz_residuals": [
+            0.1329056155914326,
+            0.00019301331305198108,
+            4.7282443858887106e-08,
+            0.00016647521896290108
+          ],
+          "orthogonality_error": 2.2020449669531856e-12,
+          "gram_relative_asymmetry": 1.6977187472483488e-12,
+          "h_relative_asymmetry": 1.999408916652593e-15,
+          "retained_condition": 1.0000000595661955,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.6963159806364655e-12,
+          "whitened_h_relative_asymmetry": 3.2140271573870888e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.000000059566244,
+            "orthogonality_error": 1.894825432677431e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.0006425858258491691,
+            0.00376201078721666,
+            0.12088720143792063,
+            0.2700044265585694
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.8584150069830064e-13,
+            6.933083961171701e-14,
+            2.3638660059262326e-15,
+            1.0374926637803196e-15
+          ],
+          "operator_ritz_residuals": [
+            0.13290561559008035,
+            0.00019301331297553833,
+            4.7282513918635e-08,
+            0.00016647521895384607
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.3965613750287698e-13,
+        "max_principal_angle_sine": 1.829993642469646e-06,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  {
+    "seed": 43002,
+    "step": 10,
+    "converged": true,
+    "relative_residual": 7.974189905104313e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 33,
+      "m_applications": 31,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 5.548677531602072e-13,
+    "mad_relative_error": 9.288813637447894e-13,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0016507457557814896
+          ],
+          "projected_ritz_residuals": [
+            1.4221983458164238e-13
+          ],
+          "operator_ritz_residuals": [
+            0.0001397081293580623
+          ],
+          "orthogonality_error": 1.6653345369377348e-15,
+          "gram_relative_asymmetry": 9.268233873073368e-13,
+          "h_relative_asymmetry": 3.782314681503129e-15,
+          "retained_condition": 1.0000000710042691,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 9.266735891542465e-13,
+          "whitened_h_relative_asymmetry": 3.927522071730025e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000710042072,
+            "orthogonality_error": 2.5213557886268567e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.001650745755782975
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.461949388738738e-13
+          ],
+          "operator_ritz_residuals": [
+            0.000139708129090817
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 8.998096594230604e-13,
+        "max_principal_angle_sine": 0.0,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0016507457557814896,
+            0.10616311026013037
+          ],
+          "projected_ritz_residuals": [
+            1.3126238855697072e-13,
+            3.762585017649594e-15
+          ],
+          "operator_ritz_residuals": [
+            0.0001397081293580689,
+            2.4267301737931176e-07
+          ],
+          "orthogonality_error": 5.39617667247837e-13,
+          "gram_relative_asymmetry": 9.268233873073368e-13,
+          "h_relative_asymmetry": 3.782314681503129e-15,
+          "retained_condition": 1.0000000710042691,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 9.266735891542465e-13,
+          "whitened_h_relative_asymmetry": 3.927522071730025e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000710042072,
+            "orthogonality_error": 2.5213557886268567e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.001650745755782975,
+            0.10616311026035011
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.536304119055628e-13,
+            3.2228153147130552e-15
+          ],
+          "operator_ritz_residuals": [
+            0.00013970812909086007,
+            2.4267298979878064e-07
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 2.069639368393933e-12,
+        "max_principal_angle_sine": 1.8702589824363945e-06,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0016507457557814896,
+            0.10616311026013037,
+            0.14001333754363907,
+            0.23111282301350283
+          ],
+          "projected_ritz_residuals": [
+            1.3126238855697072e-13,
+            3.762585017649594e-15,
+            2.2227551077586414e-15,
+            1.4040972527199985e-15
+          ],
+          "operator_ritz_residuals": [
+            0.0001397081293580689,
+            2.4267301737931176e-07,
+            9.860809189669562e-06,
+            0.0002691253797355986
+          ],
+          "orthogonality_error": 6.795058130813804e-13,
+          "gram_relative_asymmetry": 9.268233873073368e-13,
+          "h_relative_asymmetry": 3.782314681503129e-15,
+          "retained_condition": 1.0000000710042691,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 9.266735891542465e-13,
+          "whitened_h_relative_asymmetry": 3.927522071730025e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000710042072,
+            "orthogonality_error": 2.5213557886268567e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.001650745755782975,
+            0.10616311026035011,
+            0.1400133375436641,
+            0.23111282301350983
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.536304119055628e-13,
+            3.2228153147130552e-15,
+            1.5116961773345242e-15,
+            9.423566922480203e-16
+          ],
+          "operator_ritz_residuals": [
+            0.0001397081290908601,
+            2.4267298979878053e-07,
+            9.860809247383814e-06,
+            0.0002691253796464271
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 7.621663004417673e-13,
+        "max_principal_angle_sine": 1.8738765653810939e-06,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  {
+    "seed": 43002,
+    "step": 15,
+    "converged": true,
+    "relative_residual": 6.0103196831749535e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 39,
+      "m_applications": 37,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 3.669918731850092e-13,
+    "mad_relative_error": 1.351506081056218e-12,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0007054275743343507
+          ],
+          "projected_ritz_residuals": [
+            6.307145717324996e-13
+          ],
+          "operator_ritz_residuals": [
+            0.7550188939211376
+          ],
+          "orthogonality_error": 3.552713678800501e-15,
+          "gram_relative_asymmetry": 1.3402622227222458e-12,
+          "h_relative_asymmetry": 3.649465561418614e-15,
+          "retained_condition": 1.0000000010778298,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.33813409647438e-12,
+          "whitened_h_relative_asymmetry": 4.802163926512352e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000010775836,
+            "orthogonality_error": 1.4821975952929763e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.0007054275743338239
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            2.99427213147423e-13
+          ],
+          "operator_ritz_residuals": [
+            0.7550188939219671
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 7.468007415335407e-13,
+        "max_principal_angle_sine": 0.0,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0007054275743343507,
+            0.0012575001327785364
+          ],
+          "projected_ritz_residuals": [
+            6.101581429707636e-13,
+            2.8729015194593483e-13
+          ],
+          "operator_ritz_residuals": [
+            0.755018893921139,
+            0.10675263426026131
+          ],
+          "orthogonality_error": 4.0279107007220207e-13,
+          "gram_relative_asymmetry": 1.3402622227222458e-12,
+          "h_relative_asymmetry": 3.649465561418614e-15,
+          "retained_condition": 1.0000000010778298,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.33813409647438e-12,
+          "whitened_h_relative_asymmetry": 4.802163926512352e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000010775836,
+            "orthogonality_error": 1.4821975952929763e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.0007054275743338239,
+            0.0012575001327786597
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.181015124514536e-13,
+            1.3256901802758173e-13
+          ],
+          "operator_ritz_residuals": [
+            0.7550188939219666,
+            0.10675263426161384
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 3.752601723955368e-13,
+        "max_principal_angle_sine": 1.15038508567922e-06,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0007054275743343507,
+            0.0012575001327785364,
+            0.17719143863843312,
+            0.18584427580805077
+          ],
+          "projected_ritz_residuals": [
+            6.101581429707636e-13,
+            2.8729015194593483e-13,
+            1.7634977120097582e-15,
+            1.8639791539213815e-15
+          ],
+          "operator_ritz_residuals": [
+            0.755018893921139,
+            0.10675263426026131,
+            0.14655127221624834,
+            4.962360014067707e-05
+          ],
+          "orthogonality_error": 6.912966453751726e-13,
+          "gram_relative_asymmetry": 1.3402622227222458e-12,
+          "h_relative_asymmetry": 3.649465561418614e-15,
+          "retained_condition": 1.0000000010778298,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.33813409647438e-12,
+          "whitened_h_relative_asymmetry": 4.802163926512352e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000000010775836,
+            "orthogonality_error": 1.4821975952929763e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.0007054275743338239,
+            0.0012575001327786597,
+            0.17719143863843032,
+            0.185844275807784
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.181015124514536e-13,
+            1.3256901802758173e-13,
+            1.8674645710494944e-15,
+            1.21377930361668e-15
+          ],
+          "operator_ritz_residuals": [
+            0.7550188939219666,
+            0.10675263426161384,
+            0.14655127221375794,
+            4.9623600116356086e-05
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.0389129582153932e-12,
+        "max_principal_angle_sine": 2.3162080432451834e-06,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  {
+    "seed": 43003,
+    "step": 0,
+    "converged": true,
+    "relative_residual": 8.058066008206667e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 27,
+      "m_applications": 26,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 4.241441924574371e-11,
+    "mad_relative_error": 2.5975061328314012e-12,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0010669848973598897
+          ],
+          "projected_ritz_residuals": [
+            2.41826776846029e-13
+          ],
+          "operator_ritz_residuals": [
+            2.654028311504266e-05
+          ],
+          "orthogonality_error": 1.3322676295501878e-15,
+          "gram_relative_asymmetry": 9.87833748363432e-13,
+          "h_relative_asymmetry": 7.282788416415703e-16,
+          "retained_condition": 1.0000003277586529,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 9.879700863293013e-13,
+          "whitened_h_relative_asymmetry": 9.298491410483974e-16
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000003277586218,
+            "orthogonality_error": 2.0202945375963325e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.0010669848973606417
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            2.5341181335646365e-13
+          ],
+          "operator_ritz_residuals": [
+            2.6540307487238305e-05
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 7.047921940564903e-13,
+        "max_principal_angle_sine": 4.817017875684683e-07,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0010669848973598897,
+            0.015850156598993116
+          ],
+          "projected_ritz_residuals": [
+            2.479165734103421e-13,
+            2.361903883784699e-14
+          ],
+          "operator_ritz_residuals": [
+            2.6540283115516142e-05,
+            3.267833615361285e-08
+          ],
+          "orthogonality_error": 3.9227077245861676e-13,
+          "gram_relative_asymmetry": 9.87833748363432e-13,
+          "h_relative_asymmetry": 7.282788416415703e-16,
+          "retained_condition": 1.0000003277586529,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 9.879700863293013e-13,
+          "whitened_h_relative_asymmetry": 9.298491410483974e-16
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000003277586218,
+            "orthogonality_error": 2.0202945375963325e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.0010669848973606417,
+            0.015850156598978222
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            2.4328572196329196e-13,
+            2.592356221747518e-14
+          ],
+          "operator_ritz_residuals": [
+            2.6540307487495684e-05,
+            3.267733263392985e-08
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 9.38768748897051e-13,
+        "max_principal_angle_sine": 1.6702599846365516e-06,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0010669848973598897,
+            0.015850156598993116,
+            0.32152963311976496,
+            0.3592578897909518
+          ],
+          "projected_ritz_residuals": [
+            2.479165734103421e-13,
+            2.361903883784699e-14,
+            8.318490749822655e-16,
+            8.02033833901826e-16
+          ],
+          "operator_ritz_residuals": [
+            2.6540283115516104e-05,
+            3.267833615361212e-08,
+            0.00012395758336169083,
+            6.954377914255634e-05
+          ],
+          "orthogonality_error": 6.726524120778752e-13,
+          "gram_relative_asymmetry": 9.87833748363432e-13,
+          "h_relative_asymmetry": 7.282788416415703e-16,
+          "retained_condition": 1.0000003277586529,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 9.879700863293013e-13,
+          "whitened_h_relative_asymmetry": 9.298491410483974e-16
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000003277586218,
+            "orthogonality_error": 2.0202945375963325e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.0010669848973606417,
+            0.015850156598978222,
+            0.3215296331198395,
+            0.3592578897909013
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            2.4328572196329196e-13,
+            2.592356221747518e-14,
+            6.752036951669603e-16,
+            8.0175875083959715e-16
+          ],
+          "operator_ritz_residuals": [
+            2.6540307487495674e-05,
+            3.267733263392911e-08,
+            0.0001239575833380035,
+            6.954377908437382e-05
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.892253787865503e-13,
+        "max_principal_angle_sine": 1.7277637768549615e-06,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  {
+    "seed": 43003,
+    "step": 6,
+    "converged": true,
+    "relative_residual": 9.767214164319e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 33,
+      "m_applications": 31,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 1.8204570066265592e-13,
+    "mad_relative_error": 6.097517995745474e-13,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0008581578456900973
+          ],
+          "projected_ritz_residuals": [
+            2.5025124385367367e-13
+          ],
+          "operator_ritz_residuals": [
+            0.0006852917141290272
+          ],
+          "orthogonality_error": 8.215650382226158e-15,
+          "gram_relative_asymmetry": 1.251284517336897e-12,
+          "h_relative_asymmetry": 6.909228825147241e-16,
+          "retained_condition": 1.0000001800056404,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.2554240007258211e-12,
+          "whitened_h_relative_asymmetry": 8.51141002514742e-16
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.000000180005649,
+            "orthogonality_error": 2.030761100395522e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.0008581578456906378
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.628607005922584e-13
+          ],
+          "operator_ritz_residuals": [
+            0.0006852917141939744
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 6.298081241092129e-13,
+        "max_principal_angle_sine": 0.0,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0008581578456900973,
+            0.008761063689676442
+          ],
+          "projected_ritz_residuals": [
+            2.7659515325237807e-13,
+            3.268403578833748e-14
+          ],
+          "operator_ritz_residuals": [
+            0.0006852917141289808,
+            7.674554752771224e-07
+          ],
+          "orthogonality_error": 8.373900856980527e-13,
+          "gram_relative_asymmetry": 1.251284517336897e-12,
+          "h_relative_asymmetry": 6.909228825147241e-16,
+          "retained_condition": 1.0000001800056404,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.2554240007258211e-12,
+          "whitened_h_relative_asymmetry": 8.51141002514742e-16
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.000000180005649,
+            "orthogonality_error": 2.030761100395522e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.0008581578456906378,
+            0.008761063689698523
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.433081941498872e-13,
+            4.5797184001413147e-14
+          ],
+          "operator_ritz_residuals": [
+            0.0006852917141935989,
+            7.674555011738819e-07
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 2.509136449967298e-12,
+        "max_principal_angle_sine": 1.2705370037133818e-06,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0008581578456900973,
+            0.008761063689676442,
+            0.037397749688271385,
+            0.27296360446502843
+          ],
+          "projected_ritz_residuals": [
+            2.7659515325237807e-13,
+            3.268403578833748e-14,
+            6.723172671777414e-15,
+            8.648753390241312e-16
+          ],
+          "operator_ritz_residuals": [
+            0.0006852917141289808,
+            7.67455475277122e-07,
+            1.1481208239529639e-08,
+            2.5095568332123224e-06
+          ],
+          "orthogonality_error": 9.297882559148774e-13,
+          "gram_relative_asymmetry": 1.251284517336897e-12,
+          "h_relative_asymmetry": 6.909228825147241e-16,
+          "retained_condition": 1.0000001800056404,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.2554240007258211e-12,
+          "whitened_h_relative_asymmetry": 8.51141002514742e-16
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.000000180005649,
+            "orthogonality_error": 2.030761100395522e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.0008581578456906378,
+            0.008761063689698523,
+            0.037397749688239765,
+            0.2729636044650303
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            3.433081941498872e-13,
+            4.5797184001413147e-14,
+            1.0464011913229913e-14,
+            1.3351425375694331e-15
+          ],
+          "operator_ritz_residuals": [
+            0.0006852917141935988,
+            7.674555011738827e-07,
+            1.1481209400026886e-08,
+            2.509556801242321e-06
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.4009332531628815e-13,
+        "max_principal_angle_sine": 1.3077413915345003e-06,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  {
+    "seed": 43003,
+    "step": 10,
+    "converged": true,
+    "relative_residual": 3.574364611209217e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 32,
+      "m_applications": 30,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 3.47494583763985e-13,
+    "mad_relative_error": 3.6295863072013323e-13,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0012407726145377343
+          ],
+          "projected_ritz_residuals": [
+            3.008808887443381e-13
+          ],
+          "operator_ritz_residuals": [
+            3.97159219489715e-05
+          ],
+          "orthogonality_error": 2.220446049250313e-16,
+          "gram_relative_asymmetry": 1.0490898766068852e-12,
+          "h_relative_asymmetry": 8.327874458914255e-16,
+          "retained_condition": 1.0000038714542734,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.0494224977702662e-12,
+          "whitened_h_relative_asymmetry": 9.878432387259394e-16
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000038714542763,
+            "orthogonality_error": 1.5619975783907327e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.0012407726145411883
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            1.8763246571527064e-13
+          ],
+          "operator_ritz_residuals": [
+            3.971592131285199e-05
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 2.783790712838674e-12,
+        "max_principal_angle_sine": 0.0,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0012407726145377343,
+            0.03778992754486618
+          ],
+          "projected_ritz_residuals": [
+            2.848601447344552e-13,
+            6.515492091120176e-15
+          ],
+          "operator_ritz_residuals": [
+            3.97159219489269e-05,
+            3.5918256109806326e-09
+          ],
+          "orthogonality_error": 3.0785874328072166e-14,
+          "gram_relative_asymmetry": 1.0490898766068852e-12,
+          "h_relative_asymmetry": 8.327874458914255e-16,
+          "retained_condition": 1.0000038714542734,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.0494224977702662e-12,
+          "whitened_h_relative_asymmetry": 9.878432387259394e-16
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000038714542763,
+            "orthogonality_error": 1.5619975783907327e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.0012407726145411883,
+            0.037789927544885166
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            1.8743857711508125e-13,
+            1.3391201358416827e-14
+          ],
+          "operator_ritz_residuals": [
+            3.9715921312790505e-05,
+            3.591829362505648e-09
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 5.103495854752653e-13,
+        "max_principal_angle_sine": 0.0,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0012407726145377343,
+            0.03778992754486618,
+            0.2286352262310464,
+            0.27375925041276594
+          ],
+          "projected_ritz_residuals": [
+            2.848601447344552e-13,
+            6.515492091120176e-15,
+            8.757019127602768e-16,
+            1.2580827199448626e-15
+          ],
+          "operator_ritz_residuals": [
+            3.971592194892694e-05,
+            3.59182561098075e-09,
+            1.6400760937927285e-05,
+            0.006780793038803228
+          ],
+          "orthogonality_error": 6.678760309899082e-13,
+          "gram_relative_asymmetry": 1.0490898766068852e-12,
+          "h_relative_asymmetry": 8.327874458914255e-16,
+          "retained_condition": 1.0000038714542734,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.0494224977702662e-12,
+          "whitened_h_relative_asymmetry": 9.878432387259394e-16
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000038714542763,
+            "orthogonality_error": 1.5619975783907327e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.0012407726145411883,
+            0.037789927544885166,
+            0.22863522623104499,
+            0.2737592504127649
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            1.8743857711508125e-13,
+            1.3391201358416827e-14,
+            1.307585272861046e-15,
+            1.0053933694695592e-15
+          ],
+          "operator_ritz_residuals": [
+            3.9715921312790505e-05,
+            3.591829362505736e-09,
+            1.6400760925409375e-05,
+            0.006780793038835289
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 5.402394445396541e-14,
+        "max_principal_angle_sine": 2.5809568279517847e-08,
+        "passed": true
+      }
+    },
+    "passed": true
+  },
+  {
+    "seed": 43003,
+    "step": 15,
+    "converged": true,
+    "relative_residual": 7.04102180584244e-09,
+    "captured_vectors": 24,
+    "capture_stats": {
+      "max_vectors": 24,
+      "segment_ids": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "skipped_terminal_vectors": 0,
+      "rejected_vectors": 0,
+      "a_applications": 37,
+      "m_applications": 35,
+      "captured_vectors": 24,
+      "extra_a_applications_for_cache": 0,
+      "extra_m_applications_for_cache": 0,
+      "solver": "cached_real_spd_pcg"
+    },
+    "ad_relative_error": 1.5794593488204922e-13,
+    "mad_relative_error": 3.3628841852284463e-13,
+    "ranks": {
+      "1": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 1,
+          "basis_rank": 24,
+          "rank": 1,
+          "ritz_values": [
+            0.0008848555098752383
+          ],
+          "projected_ritz_residuals": [
+            3.233298910275141e-13
+          ],
+          "operator_ritz_residuals": [
+            0.28668839063721063
+          ],
+          "orthogonality_error": 1.3322676295501878e-14,
+          "gram_relative_asymmetry": 1.3023458737095898e-12,
+          "h_relative_asymmetry": 1.1105936195636383e-15,
+          "retained_condition": 1.0000002281166716,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.2883819918522859e-12,
+          "whitened_h_relative_asymmetry": 1.1851028383110176e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000002281170106,
+            "orthogonality_error": 1.932237554173366e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 1,
+          "rank": 1,
+          "ritz_values": [
+            0.0008848555098767902
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            2.612080923754648e-13
+          ],
+          "operator_ritz_residuals": [
+            0.2866883906376178
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.7538761666431231e-12,
+        "max_principal_angle_sine": 0.0,
+        "passed": true
+      },
+      "2": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 2,
+          "basis_rank": 24,
+          "rank": 2,
+          "ritz_values": [
+            0.0008848555098752383,
+            0.0020152951553020163
+          ],
+          "projected_ritz_residuals": [
+            3.0697734555581884e-13,
+            1.4849277667327808e-13
+          ],
+          "operator_ritz_residuals": [
+            0.28668839063721085,
+            0.004747899109534794
+          ],
+          "orthogonality_error": 1.9542148585789085e-13,
+          "gram_relative_asymmetry": 1.3023458737095898e-12,
+          "h_relative_asymmetry": 1.1105936195636383e-15,
+          "retained_condition": 1.0000002281166716,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.2883819918522859e-12,
+          "whitened_h_relative_asymmetry": 1.1851028383110176e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000002281170106,
+            "orthogonality_error": 1.932237554173366e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 2,
+          "rank": 2,
+          "ritz_values": [
+            0.0008848555098767902,
+            0.0020152951553042346
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            2.381518773287144e-13,
+            1.4120803045379654e-13
+          ],
+          "operator_ritz_residuals": [
+            0.2866883906376173,
+            0.004747899109374443
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.2300138274517198e-12,
+        "max_principal_angle_sine": 1.4196044640320007e-06,
+        "passed": true
+      },
+      "4": {
+        "cached": {
+          "input_vectors": 24,
+          "valid_vectors": 24,
+          "rejected_vectors": 0,
+          "dependent_vectors": 0,
+          "requested_rank": 4,
+          "basis_rank": 24,
+          "rank": 4,
+          "ritz_values": [
+            0.0008848555098752383,
+            0.0020152951553020163,
+            0.04114096969248129,
+            0.26371378443270077
+          ],
+          "projected_ritz_residuals": [
+            3.0697734555581884e-13,
+            1.4849277667327808e-13,
+            5.59133371676628e-15,
+            9.95508096172052e-16
+          ],
+          "operator_ritz_residuals": [
+            0.28668839063721085,
+            0.004747899109534794,
+            6.276954047668486e-08,
+            0.0002666234189499149
+          ],
+          "orthogonality_error": 1.130874317713293e-12,
+          "gram_relative_asymmetry": 1.3023458737095898e-12,
+          "h_relative_asymmetry": 1.1105936195636383e-15,
+          "retained_condition": 1.0000002281166716,
+          "nonpositive_ritz_values": 0,
+          "a_applications": 0,
+          "m_applications": 0,
+          "rtol": 1e-10,
+          "symmetry_tol": 1e-07,
+          "status": "accepted",
+          "whitened_gram_relative_asymmetry": 1.2883819918522859e-12,
+          "whitened_h_relative_asymmetry": 1.1851028383110176e-15
+        },
+        "explicit": {
+          "basis": {
+            "input_vectors": 24,
+            "selected_vectors": 24,
+            "valid_vectors": 24,
+            "rejected_vectors": 0,
+            "dependent_vectors": 0,
+            "rank": 24,
+            "retained_condition": 1.0000002281170106,
+            "orthogonality_error": 1.932237554173366e-12,
+            "rtol": 1e-10,
+            "status": "accepted"
+          },
+          "requested_rank": 4,
+          "rank": 4,
+          "ritz_values": [
+            0.0008848555098767902,
+            0.0020152951553042346,
+            0.041140969692479996,
+            0.2637137844327001
+          ],
+          "nonpositive_ritz_values": 0,
+          "projected_ritz_residuals": [
+            2.381518773287144e-13,
+            1.4120803045379654e-13,
+            4.405619003290783e-15,
+            9.45967060795556e-16
+          ],
+          "operator_ritz_residuals": [
+            0.2866883906376173,
+            0.004747899109374443,
+            6.276956539487262e-08,
+            0.0002666234189589908
+          ],
+          "status": "accepted"
+        },
+        "rank_matches": true,
+        "relative_ritz_value_error": 1.1510308544624251e-14,
+        "max_principal_angle_sine": 1.500658649776713e-06,
+        "passed": true
+      }
+    },
+    "passed": true
+  }
+]

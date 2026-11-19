@@ -1,0 +1,94 @@
+{
+  "configuration": {
+    "n": 128,
+    "seeds": [
+      43001,
+      43002,
+      43003
+    ],
+    "specs": [
+      {
+        "name": "baseline_scipy",
+        "source": "none",
+        "rank": 0,
+        "interface": "warm",
+        "event_custom": false
+      },
+      {
+        "name": "baseline_event_custom",
+        "source": "none",
+        "rank": 0,
+        "interface": "warm",
+        "event_custom": true
+      },
+      {
+        "name": "capture_only",
+        "source": "capture",
+        "rank": 0,
+        "interface": "warm",
+        "event_custom": true
+      },
+      {
+        "name": "cached_balanced1",
+        "source": "cached",
+        "rank": 1,
+        "interface": "balanced",
+        "event_custom": true
+      },
+      {
+        "name": "cached_balanced2",
+        "source": "cached",
+        "rank": 2,
+        "interface": "balanced",
+        "event_custom": true
+      },
+      {
+        "name": "cached_balanced4",
+        "source": "cached",
+        "rank": 4,
+        "interface": "balanced",
+        "event_custom": true
+      },
+      {
+        "name": "explicit_balanced2",
+        "source": "explicit",
+        "rank": 2,
+        "interface": "balanced",
+        "event_custom": true
+      },
+      {
+        "name": "cached_warm2",
+        "source": "cached",
+        "rank": 2,
+        "interface": "warm",
+        "event_custom": true
+      }
+    ],
+    "repeats": 2,
+    "role": "development low-cost recycling screen",
+    "selection_sha256": null
+  },
+  "created_utc": "2026-11-19T06:21:31Z",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "numpy": "1.26.4",
+  "scipy": "1.15.3",
+  "pyamg": "5.4.1",
+  "device": "cpu",
+  "blas_threads": 1,
+  "rtol": 1e-08,
+  "maxiter": 500,
+  "steps": 20,
+  "contrast": 10000.0,
+  "timing": "All assembly, history, hierarchy, directions, capture/copies, solve, true checks, recovery and maintenance included. Offline references and diagnostics excluded.",
+  "source_sha256": {
+    "fields.py": "c81b5cc4dada82e2b19344017c60d4c32cd4044cbef8721b3add0edc654bc04c",
+    "numerics.py": "5a8eb53f701142d18eb67807078db912eb29b3b87d55bfb6677206909c3a5f12",
+    "sequence_baselines.py": "6da7fa625f33cbb0d2847c948c576fdaee8cb2451a6cda17116e617eeb557936",
+    "balanced_augmentation.py": "7d0a6db1717c3679c668af7f0291a4f1c653f2dc442c96abf3cc1f28f4edfa03",
+    "cached_pcg.py": "c936f42e028df1d24cadadcd287055059144fda5a243a3dda51396e85ff0bb38",
+    "cached_recycling_experiment.py": "dfd78404143cdd7b2a83e52fc784284d653653e11d5dfa256f0efab83debaca2"
+  },
+  "protocol_sha256": "0cb1ecd543461156484fcc93349c704bfeb5ffd09ef2fc320bf1c6b63e75d5a4",
+  "splits_sha256": "3d94868cfa2be79f6ca3ae4b99365f9aec6fe2de73a9586602db00b5f52feac4"
+}

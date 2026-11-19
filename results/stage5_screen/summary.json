@@ -1,0 +1,90 @@
+{
+  "baseline_event_custom": {
+    "by_seed": {
+      "43001": 0.568630027002655,
+      "43002": 0.5604954566806555,
+      "43003": 0.5294219702482224
+    },
+    "median_seconds": 0.5604954566806555,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0
+  },
+  "baseline_scipy": {
+    "by_seed": {
+      "43001": 0.5583538017235696,
+      "43002": 0.551383150042966,
+      "43003": 0.5251645252574235
+    },
+    "median_seconds": 0.551383150042966,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0
+  },
+  "cached_balanced1": {
+    "by_seed": {
+      "43001": 0.6772873350419104,
+      "43002": 0.6653592698276043,
+      "43003": 0.6489904522895813
+    },
+    "median_seconds": 0.6653592698276043,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0
+  },
+  "cached_balanced2": {
+    "by_seed": {
+      "43001": 0.6422589229186997,
+      "43002": 0.6429717895807698,
+      "43003": 0.6183851369423792
+    },
+    "median_seconds": 0.6422589229186997,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0
+  },
+  "cached_balanced4": {
+    "by_seed": {
+      "43001": 0.6439360950607806,
+      "43002": 0.6352423350326717,
+      "43003": 0.6056287155952305
+    },
+    "median_seconds": 0.6352423350326717,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0
+  },
+  "cached_warm2": {
+    "by_seed": {
+      "43001": 0.699536593281664,
+      "43002": 0.7199370880844072,
+      "43003": 0.6562181779881939
+    },
+    "median_seconds": 0.699536593281664,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0
+  },
+  "capture_only": {
+    "by_seed": {
+      "43001": 0.5848464167211205,
+      "43002": 0.5775337498635054,
+      "43003": 0.5488665091106668
+    },
+    "median_seconds": 0.5775337498635054,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0
+  },
+  "explicit_balanced2": {
+    "by_seed": {
+      "43001": 0.7667901414679363,
+      "43002": 0.7665423518046737,
+      "43003": 0.739822348812595
+    },
+    "median_seconds": 0.7665423518046737,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0
+  }
+}
