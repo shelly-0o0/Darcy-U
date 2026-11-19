@@ -1,0 +1,93 @@
+{
+  "baseline_event_custom": {
+    "by_seed": {
+      "44001": 0.5562063076067716,
+      "44002": 0.5719743209192529,
+      "44003": 0.5488830870017409
+    },
+    "median_seconds": 0.5562063076067716,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0,
+    "update_rejections": 0,
+    "update_budget_valid": true
+  },
+  "baseline_scipy": {
+    "by_seed": {
+      "44001": 0.556371274869889,
+      "44002": 0.5692862414289266,
+      "44003": 0.5461405470268801
+    },
+    "median_seconds": 0.556371274869889,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0,
+    "update_rejections": 0,
+    "update_budget_valid": true
+  },
+  "event_reuse_frozen4": {
+    "by_seed": {
+      "44001": 0.5800700639374554,
+      "44002": 0.6008761773118749,
+      "44003": 0.5757881852332503
+    },
+    "median_seconds": 0.5800700639374554,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0,
+    "update_rejections": 0,
+    "update_budget_valid": true
+  },
+  "event_reuse_refresh4": {
+    "by_seed": {
+      "44001": 0.6436135856201872,
+      "44002": 0.6592928619356826,
+      "44003": 0.6420430489815772
+    },
+    "median_seconds": 0.6436135856201872,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0,
+    "update_rejections": 0,
+    "update_budget_valid": true
+  },
+  "event_update_refresh4": {
+    "by_seed": {
+      "44001": 0.7272675150306895,
+      "44002": 0.7400586475851014,
+      "44003": 0.7194691909244284
+    },
+    "median_seconds": 0.7272675150306895,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0,
+    "update_rejections": 0,
+    "update_budget_valid": true
+  },
+  "event_update_transport4": {
+    "by_seed": {
+      "44001": 0.631137972464785,
+      "44002": 0.6398385196225718,
+      "44003": 0.6324873111443594
+    },
+    "median_seconds": 0.6324873111443594,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0,
+    "update_rejections": 0,
+    "update_budget_valid": true
+  },
+  "lagged_balanced4": {
+    "by_seed": {
+      "44001": 0.6438096878118813,
+      "44002": 0.6406505111372098,
+      "44003": 0.6321888642851263
+    },
+    "median_seconds": 0.6406505111372098,
+    "all_accurate": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0,
+    "update_rejections": 0,
+    "update_budget_valid": true
+  }
+}

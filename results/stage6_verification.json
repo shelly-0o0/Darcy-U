@@ -1,0 +1,20 @@
+{
+  "unit_tests": 82,
+  "unit_test_seconds": 0.601,
+  "unit_test_success": true,
+  "new_test_sha256": "3173bd40c0d2fa878819d2a1eba8a53b54693e3da140855f848b4137d2f3cfa2",
+  "integration_smoke": {
+    "seed": 75002,
+    "n": 32,
+    "steps": 20,
+    "methods": 7,
+    "rows": 140,
+    "all_final_converged": true,
+    "pcg_failures": 0,
+    "cache_rejections": 0,
+    "update_rejections": 0,
+    "update_budget_valid": true,
+    "role": "Functional check only; excluded seed; schedules and <=8A/8M budgets checked; no timings used for selection."
+  },
+  "note": "All unit tests after narrow LinAlgError fallback added; 140-row integration before that exception-only addition. No formal data used to modify algorithms."
+}
