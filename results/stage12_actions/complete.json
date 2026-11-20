@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "smoke": false,
+  "no_training": true,
+  "rows": 256,
+  "contexts": 32,
+  "fresh_pipeline_runs": 768,
+  "warmup_seconds": 1.718029960989952,
+  "experiment_wall_seconds": 163.18970149196684,
+  "freeze_sha256": "e59b4ebc71964ea0146d4b00ab9e5ba210c754d1b9bd7e38c96f96dbca18c413",
+  "output_sha256": {
+    "rows.json": "ce04c3236f5ca2953491ee4f5fbf99a32f765ca8b52d39ac3e9d2d415343c088",
+    "contexts.json": "94708b3d1e81bbdfef197649184b18f66148ec1d8ff02184747561a6008a6308"
+  }
+}

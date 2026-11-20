@@ -1,0 +1,51 @@
+{
+  "checked_utc": "2026-11-20T07:34:16.536855+00:00",
+  "baseline_commit": "f180995fe76545ee0b0374b27cbdea51498a3fd5",
+  "unit_tests": {
+    "passed": 179,
+    "new_stage12_tests": 21,
+    "log": "results/stage12_tests.log",
+    "sha256": "1058ebfeeef2b39b3227e1255afd872a5507afff6d412f5334fb1e35b0161b07"
+  },
+  "formal_freeze_sha256": "e59b4ebc71964ea0146d4b00ab9e5ba210c754d1b9bd7e38c96f96dbca18c413",
+  "formal_complete_sha256": "f782948aed64ae2dee9a19440c3b896c27904242f478e2c003e3ea899fb20b33",
+  "all_frozen_input_hashes_match": true,
+  "frozen_inputs": 44,
+  "all_output_hashes_match": true,
+  "report_complete_sha256": "a15793e66d338a44e1a29efa4a1b4168ea6e6ba99ce03fd2a2c26262846073f5",
+  "reporter_sha256": "2f2026ee14205eb7e2b9a8cc30d51934bdce887f31fb33988dceef42772ccc30",
+  "no_training_or_model_inference": true,
+  "independent_geometries": 32,
+  "method_geometry_records": 256,
+  "fresh_timing_runs": 768,
+  "adaptive_records": 224,
+  "search_records": 96,
+  "exact_added_dofs": 64,
+  "search_fallbacks": 0,
+  "original_tracked_changes_only": [
+    ".gitignore",
+    "README.md"
+  ],
+  "stages_1_through_11_sources_protocols_weights_raw_results_unchanged": true,
+  "report_audit_passed": true,
+  "report_numeric_maxima": {
+    "solve_relative_residual": 1.2637825312089186e-11,
+    "projection_orthogonality": 2.715172494420847e-13,
+    "coarse_embedding": 0.0,
+    "energy_ratio": 0.9505864686111403,
+    "schur_identity_relative_error": 8.644275982670539e-12,
+    "coupled_path_error": 2.8191007944343852e-14,
+    "schur_symmetry_defect": 1.3345559602166612e-16,
+    "coarse_relative_residual": 1.944310616262535e-12
+  },
+  "posthoc_cost": {
+    "records": 96,
+    "source": "results/stage12_report/summary.json:posthoc_cost",
+    "no_extra_experiments": true,
+    "interpretation": "Arithmetic removal of the entire measured search including state updates; excludes replacement inference; not an implemented speedup or achievable lower bound"
+  },
+  "relative_document_links_checked": 85,
+  "visual_check": "comparison.png inspected; all four panels, labels, legend, paired points and limitations readable",
+  "reference_scope": "Specified fine discrete problem only; one local refinement step; no continuum certificate or global mesh optimum",
+  "report_audit_limitations": "No PDE or Schur recomputation: stored scalar energy/residual values are range-checked, final QoI/Schur changes are cross-checked, recorded trajectories and combinatorial feasibility are reconstructed. Non-winning candidate values and full solution fields were not stored, so independent numerical argmax and energy re-evaluation are not claimed."
+}
