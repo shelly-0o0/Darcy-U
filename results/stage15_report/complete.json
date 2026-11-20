@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "source_directory": "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage15_numerical",
+  "file_sha256": {
+    "convergence.png": "de1123c94d190bbda7bca747d8c9f2fc3836551103dc3ddce1badb89e26d66e7",
+    "summary.json": "76b2156ee7a32b1a1f8ad620af7db56742eeae03dea64bc3acbd1f9b09140f69",
+    "convergence.pdf": "223d7dbfebba953af39d257d6d94e87e1553b45a25ddb2523744c16cb7fbd493",
+    "REPORT_zh.md": "6f51d34366beb3ae91566f576485c6dbd43c78e05992ea4fc237db4ee6e13e37"
+  },
+  "source_complete_sha256": "599d9b7d2e9a8d9d6e0cf4b2235871f920708d050c8dd132b3bb8bffa722f1bc"
+}

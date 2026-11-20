@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "wall_seconds": 29.504810289945453,
+  "rows": 54,
+  "quadrature_rows": 6,
+  "file_sha256": {
+    "freeze.json": "0c78fdafb1cdfd950fef8d15f2dfb8e09c303a27abd6cc5f6ebfd991c2736d3a",
+    "rows.json": "926c5da34e8c397d98cd3a154175397e29e6ef022c0bb5bc323161e469bd6eb3",
+    "quadrature.json": "127e1a50d45dc1a260db752d3e3fe1ae4e51cba6083a29c47b737b5781e5f7f8"
+  },
+  "no_training": true,
+  "G1": "not_evaluated",
+  "G2": "not_evaluated",
+  "G3": "not_evaluated"
+}

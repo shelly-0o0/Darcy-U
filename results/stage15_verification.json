@@ -1,0 +1,2252 @@
+{
+  "accepted": true,
+  "raw_numerical_audit_pass": true,
+  "scope": "Integrity and reproducibility; no new numerical or publication claim",
+  "raw_directory": "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage15_numerical",
+  "report_directory": "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage15_report",
+  "verifier_sha256": "cf2b0f5f99c39a6942c63bdd1d8746518af35036364a331bbc269b2b2e26d17a",
+  "raw_complete_sha256": "599d9b7d2e9a8d9d6e0cf4b2235871f920708d050c8dd132b3bb8bffa722f1bc",
+  "report_complete_sha256": "b9b73e1c2bd89baa0cd0114dffbd883761bfdc59e0be94c64232cff7240f39a1",
+  "summary_sha256": "76b2156ee7a32b1a1f8ad620af7db56742eeae03dea64bc3acbd1f9b09140f69",
+  "checks": [
+    {
+      "name": "unique_frozen_cases",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/8/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/8/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/8/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/8/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/8/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/16/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/16/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/16/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/16/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/16/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/32/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/32/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/32/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/32/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/32/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/64/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/64/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/64/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/64/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/64/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/128/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/128/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/128/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/128/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/uniform/128/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/initial_mesh_matches_uniform",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/selection_count",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/0/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/selection_count",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/1/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/selection_count",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/2/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "constant/adaptive/3/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/8/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/8/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/8/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/8/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/8/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/16/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/16/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/16/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/16/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/16/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/32/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/32/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/32/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/32/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/32/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/64/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/64/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/64/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/64/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/64/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/128/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/128/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/128/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/128/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/uniform/128/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/initial_mesh_matches_uniform",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/selection_count",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/0/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/selection_count",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/1/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/selection_count",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/2/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/adaptive/3/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/8/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/8/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/8/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/8/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/8/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/16/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/16/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/16/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/16/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/16/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/32/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/32/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/32/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/32/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/32/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/64/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/64/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/64/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/64/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/64/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/128/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/128/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/128/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/128/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/uniform/128/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/initial_mesh_matches_uniform",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/0/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/1/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/2/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/adaptive/3/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/8/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/8/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/8/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/8/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/8/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/16/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/16/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/16/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/16/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/16/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/32/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/32/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/32/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/32/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/32/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/64/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/64/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/64/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/64/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/64/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/128/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/128/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/128/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/128/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/uniform/128/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/initial_mesh_matches_uniform",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/0/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/1/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/2/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/adaptive/3/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/8/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/8/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/8/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/8/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/8/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/16/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/16/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/16/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/16/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/16/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/32/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/32/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/32/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/32/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/32/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/64/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/64/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/64/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/64/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/64/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/128/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/128/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/128/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/128/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/uniform/128/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/initial_mesh_matches_uniform",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/0/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/1/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/2/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/adaptive/3/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/8/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/8/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/8/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/8/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/8/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/16/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/16/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/16/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/16/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/16/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/32/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/32/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/32/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/32/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/32/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/64/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/64/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/64/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/64/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/64/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/128/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/128/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/128/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/128/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/uniform/128/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/initial_mesh_matches_uniform",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/0/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/1/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/selection_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/selection_count",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/2/captured_fraction",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/frozen_scale",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/frozen_analytic_goals",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/p1/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/p2/recomputed_q",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/scheduled_amg_degrees",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/payload_shapes",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/coordinate_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/connectivity_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/strong_local_hash",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/connectivity_indices",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/recomputed_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/stored_geometry",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/adaptive/3/recomputed_local_sum",
+      "passed": true
+    },
+    {
+      "name": "scheduled_amg_total",
+      "passed": true,
+      "observed": 12
+    },
+    {
+      "name": "adaptive_payload_total",
+      "passed": true,
+      "observed": 24
+    },
+    {
+      "name": "selection_payload_total",
+      "passed": true,
+      "observed": 18
+    },
+    {
+      "name": "constant/unique_quadrature_check",
+      "passed": true
+    },
+    {
+      "name": "constant/quadrature_schedule",
+      "passed": true
+    },
+    {
+      "name": "constant/quadrature_low_matches_finest",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/unique_quadrature_check",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/quadrature_schedule",
+      "passed": true
+    },
+    {
+      "name": "smooth_exp/quadrature_low_matches_finest",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/unique_quadrature_check",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/quadrature_schedule",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_10/quadrature_low_matches_finest",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/unique_quadrature_check",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/quadrature_schedule",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_100/quadrature_low_matches_finest",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/unique_quadrature_check",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/quadrature_schedule",
+      "passed": true
+    },
+    {
+      "name": "layered_conductive_1000/quadrature_low_matches_finest",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/unique_quadrature_check",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/quadrature_schedule",
+      "passed": true
+    },
+    {
+      "name": "layered_barrier_1000/quadrature_low_matches_finest",
+      "passed": true
+    },
+    {
+      "name": "all_saved_summary_fields_recomputed",
+      "passed": true
+    }
+  ],
+  "failed_checks": [],
+  "negative_controls": [
+    {
+      "name": "delete_amg",
+      "passed": true,
+      "rejected_by": [
+        "constant/uniform/64/scheduled_amg_degrees",
+        "scheduled_amg_total"
+      ]
+    },
+    {
+      "name": "change_row_scale",
+      "passed": true,
+      "rejected_by": [
+        "constant/uniform/8/frozen_scale"
+      ]
+    },
+    {
+      "name": "change_quadrature_low_qoi",
+      "passed": true,
+      "rejected_by": [
+        "constant/quadrature_low_matches_finest"
+      ]
+    },
+    {
+      "name": "solver_failure_retained",
+      "passed": true,
+      "rows_retained": true,
+      "failed_checks": [
+        "constant/uniform/8/p1/solver_state",
+        "constant/uniform/8/p1/rhs0_residual",
+        "constant/uniform/8/p1/rhs0_backward"
+      ]
+    },
+    {
+      "name": "filesystem_relocation",
+      "passed": true,
+      "scope": "same runtime, raw JSON moved to /tmp"
+    },
+    {
+      "name": "raw_file_content_hash_rejection",
+      "passed": true,
+      "mutation": "One newline appended to temporary rows.json only"
+    }
+  ],
+  "recomputed_counts": {
+    "uniform_contexts": 30,
+    "adaptive_contexts": 24,
+    "adaptive_decisions_rebuilt": 18,
+    "linear_solver_calls": 126,
+    "rhs_solutions": 504,
+    "amg_calls": 12,
+    "quadrature_checks": 6
+  },
+  "raw_rows": 54,
+  "frozen_files_modified": false
+}

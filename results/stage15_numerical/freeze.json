@@ -1,0 +1,336 @@
+{
+  "created_utc": "2026-11-20T13:01:07.455605+00:00",
+  "config": {
+    "uniform_n": [
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "intorder": 10,
+    "quadrature_check_order": 18,
+    "amg_n": 64,
+    "adaptive_n": 8,
+    "adaptive_refinements": 3,
+    "marking_theta": 0.5,
+    "marking": "sum_absolute_body_face_dwr_over_goals_stable_dorfler",
+    "tau_scale": 1e-05,
+    "analytic_goal_orders": [
+      64,
+      96
+    ],
+    "statistical_benchmark": false,
+    "train_models": 0
+  },
+  "cases": [
+    {
+      "name": "constant",
+      "metadata": {
+        "kind": "constant",
+        "coefficient_alignment": "element_aligned",
+        "k_min": 1.0,
+        "k_max": 1.0,
+        "interfaces": [],
+        "layer_values": [
+          1.0
+        ],
+        "c": 0.5,
+        "contrast": 1.0,
+        "barrier": false,
+        "goal_centers": [
+          [
+            0.25,
+            0.25
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            0.5,
+            0.75
+          ]
+        ],
+        "goal_radius": 0.22,
+        "goal_kind": "normalized compact tensor polynomial C3 regional average",
+        "manufactured_source": true,
+        "scale_from_input": 1.0
+      },
+      "exact_qoi": [
+        0.06334285690158238,
+        0.0633428569015824,
+        0.08496453115799364
+      ]
+    },
+    {
+      "name": "smooth_exp",
+      "metadata": {
+        "kind": "smooth",
+        "coefficient_alignment": "smooth",
+        "k_min": 1.0,
+        "k_max": 2.117000016612675,
+        "interfaces": [],
+        "goal_centers": [
+          [
+            0.25,
+            0.25
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            0.5,
+            0.75
+          ]
+        ],
+        "goal_radius": 0.22,
+        "goal_kind": "normalized compact tensor polynomial C3 regional average",
+        "manufactured_source": true,
+        "scale_from_input": 1.0
+      },
+      "exact_qoi": [
+        0.47871672079396527,
+        0.47871672079396527,
+        0.6770076790815999
+      ]
+    },
+    {
+      "name": "layered_conductive_10",
+      "metadata": {
+        "kind": "layered",
+        "coefficient_alignment": "element_aligned",
+        "k_min": 1.0,
+        "k_max": 10.0,
+        "interfaces": [
+          0.25,
+          0.5,
+          0.75
+        ],
+        "layer_values": [
+          1.0,
+          10.0,
+          1.0,
+          10.0
+        ],
+        "c": 0.3977272727272727,
+        "contrast": 10.0,
+        "barrier": false,
+        "goal_centers": [
+          [
+            0.25,
+            0.25
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            0.5,
+            0.75
+          ]
+        ],
+        "goal_radius": 0.22,
+        "goal_kind": "normalized compact tensor polynomial C3 regional average",
+        "manufactured_source": true,
+        "scale_from_input": 1.0
+      },
+      "exact_qoi": [
+        0.04384716202202981,
+        0.013356547256566875,
+        0.045006501453607954
+      ]
+    },
+    {
+      "name": "layered_conductive_100",
+      "metadata": {
+        "kind": "layered",
+        "coefficient_alignment": "element_aligned",
+        "k_min": 1.0,
+        "k_max": 100.0,
+        "interfaces": [
+          0.25,
+          0.5,
+          0.75
+        ],
+        "layer_values": [
+          1.0,
+          100.0,
+          1.0,
+          100.0
+        ],
+        "c": 0.3774752475247526,
+        "contrast": 100.0,
+        "barrier": false,
+        "goal_centers": [
+          [
+            0.25,
+            0.25
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            0.5,
+            0.75
+          ]
+        ],
+        "goal_radius": 0.22,
+        "goal_kind": "normalized compact tensor polynomial C3 regional average",
+        "manufactured_source": true,
+        "scale_from_input": 1.0
+      },
+      "exact_qoi": [
+        0.040539099796999496,
+        0.006999423554990288,
+        0.04063517576007686
+      ]
+    },
+    {
+      "name": "layered_conductive_1000",
+      "metadata": {
+        "kind": "layered",
+        "coefficient_alignment": "element_aligned",
+        "k_min": 1.0,
+        "k_max": 1000.0,
+        "interfaces": [
+          0.25,
+          0.5,
+          0.75
+        ],
+        "layer_values": [
+          1.0,
+          1000.0,
+          1.0,
+          1000.0
+        ],
+        "c": 0.37524975024975027,
+        "contrast": 1000.0,
+        "barrier": false,
+        "goal_centers": [
+          [
+            0.25,
+            0.25
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            0.5,
+            0.75
+          ]
+        ],
+        "goal_radius": 0.22,
+        "goal_kind": "normalized compact tensor polynomial C3 regional average",
+        "manufactured_source": true,
+        "scale_from_input": 1.0
+      },
+      "exact_qoi": [
+        0.04018115086246698,
+        0.006336568472803123,
+        0.04019054023921339
+      ]
+    },
+    {
+      "name": "layered_barrier_1000",
+      "metadata": {
+        "kind": "layered",
+        "coefficient_alignment": "element_aligned",
+        "k_min": 0.001,
+        "k_max": 1.0,
+        "interfaces": [
+          0.25,
+          0.5,
+          0.75
+        ],
+        "layer_values": [
+          1.0,
+          0.001,
+          1.0,
+          0.001
+        ],
+        "c": 0.6247502497502497,
+        "contrast": 1000.0,
+        "barrier": true,
+        "goal_centers": [
+          [
+            0.25,
+            0.25
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            0.5,
+            0.75
+          ]
+        ],
+        "goal_radius": 0.22,
+        "goal_kind": "normalized compact tensor polynomial C3 regional average",
+        "manufactured_source": true,
+        "scale_from_input": 1000.0
+      },
+      "exact_qoi": [
+        6.336568472803115,
+        40.18115086246697,
+        40.190540239213384
+      ]
+    }
+  ],
+  "source_sha256": {
+    "stage15_cases.py": "7ca46e92d08776a3c715ffd7654c6d7a3546751d2acedcaa135a9d570b0d7585",
+    "stage15_fem.py": "91b1d6dd6b8756ab3a2533e0ba3255facabdfe7890b3dede9e715a003f0092d3",
+    "stage15_experiment.py": "976b375431dc9d0de2753f30c803151e3e37ec37eff34042305860769a18cb96",
+    "report_stage15.py": "14085c852744c67e78d8c53ac19fdf845cbe843dd7fa4723f27f15346dab0738",
+    "test_stage15_numerics.py": "794df68567b95b1eed099fc7e9ed960b9b97ea919c9255d6c6c88ef4b1d27511",
+    "stage14_solver.py": "75073dbfc17e3a09f3fc87fe31e105544b17fdadf9c9f4f900fbbc9718b5ae69",
+    "sequence_baselines.py": "6da7fa625f33cbb0d2847c948c576fdaee8cb2451a6cda17116e617eeb557936",
+    "docs/stage15_numerical_protocol_zh.md": "6caae6a96c1002a3c15dcdb9a6efbf9fca69df44a3a7849c7db1ef23170c3b61",
+    "requirements.txt": "834152242bcece9366629e933d07dcdd62397764bb5dab67220cc4d6bcd5aea7"
+  },
+  "library_sha256": {
+    "skfem/mesh/mesh_tri_1.py": "115fac95924de07a5e1f3ca76f869ca19d7e06334eee6ac7675cb72e1077f9d9",
+    "skfem/element/element_tri/element_tri_p1.py": "e5176467db3b5fc9c7f8ad69efa6390cf42b7c8eee8d5ae693c68fb6fe01a886",
+    "skfem/element/element_tri/element_tri_p2.py": "69f4eb81b4b231fbcfc27607db63c545ecc5d6a3f6b9c79f761a90a550bee3e9",
+    "skfem/quadrature.py": "e1035c6add61fb7477ca615ed3671deba6037686a0b85466b842eb6669283e96"
+  },
+  "environment": {
+    "python": "3.10.21",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "skfem": "12.0.2",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "filepath": "/home/user/miniconda3/envs/mini-rl/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+        "version": "0.3.23.dev",
+        "threading_layer": "pthreads",
+        "architecture": "Prescott"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "/home/user/miniconda3/envs/mini-rl/lib/python3.10/site-packages/scipy.libs/libscipy_openblas-68440149.so",
+        "version": "0.3.28",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      }
+    ],
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "scope": "manufactured aligned/smooth numerical verification; G1/G2/G3 not evaluated"
+}

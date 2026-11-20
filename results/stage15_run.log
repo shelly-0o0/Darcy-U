@@ -1,0 +1,54 @@
+{"event": "uniform", "case": "constant", "n": 8, "p1_l2": 0.002757665072928151, "p2_l2": 6.648286123650918e-05}
+{"event": "uniform", "case": "constant", "n": 16, "p1_l2": 0.0007003686880772413, "p2_l2": 8.310065265216773e-06}
+{"event": "uniform", "case": "constant", "n": 32, "p1_l2": 0.00017579240781170755, "p2_l2": 1.0388403960330293e-06}
+{"event": "uniform", "case": "constant", "n": 64, "p1_l2": 4.3992153687766284e-05, "p2_l2": 1.2985992875185832e-07}
+{"event": "uniform", "case": "constant", "n": 128, "p1_l2": 1.1000796699261618e-05, "p2_l2": 1.6232689794890463e-08}
+{"event": "adaptive", "case": "constant", "step": 0, "elements": 128}
+{"event": "adaptive", "case": "constant", "step": 1, "elements": 276}
+{"event": "adaptive", "case": "constant", "step": 2, "elements": 475}
+{"event": "adaptive", "case": "constant", "step": 3, "elements": 926}
+{"event": "uniform", "case": "smooth_exp", "n": 8, "p1_l2": 0.021064311503256553, "p2_l2": 0.0005482547128931727}
+{"event": "uniform", "case": "smooth_exp", "n": 16, "p1_l2": 0.005359600790986589, "p2_l2": 6.874587311567433e-05}
+{"event": "uniform", "case": "smooth_exp", "n": 32, "p1_l2": 0.0013459307170195782, "p2_l2": 8.600752499212033e-06}
+{"event": "uniform", "case": "smooth_exp", "n": 64, "p1_l2": 0.0003368629648597345, "p2_l2": 1.0753535579311352e-06}
+{"event": "uniform", "case": "smooth_exp", "n": 128, "p1_l2": 8.423956783977449e-05, "p2_l2": 1.344278214041474e-07}
+{"event": "adaptive", "case": "smooth_exp", "step": 0, "elements": 128}
+{"event": "adaptive", "case": "smooth_exp", "step": 1, "elements": 280}
+{"event": "adaptive", "case": "smooth_exp", "step": 2, "elements": 488}
+{"event": "adaptive", "case": "smooth_exp", "step": 3, "elements": 960}
+{"event": "uniform", "case": "layered_conductive_10", "n": 8, "p1_l2": 0.0014261715383791838, "p2_l2": 4.33846936564601e-05}
+{"event": "uniform", "case": "layered_conductive_10", "n": 16, "p1_l2": 0.00036285452836807484, "p2_l2": 5.404493364817149e-06}
+{"event": "uniform", "case": "layered_conductive_10", "n": 32, "p1_l2": 9.112010661677461e-05, "p2_l2": 6.749545566126579e-07}
+{"event": "uniform", "case": "layered_conductive_10", "n": 64, "p1_l2": 2.2805638870993274e-05, "p2_l2": 8.433530410526612e-08}
+{"event": "uniform", "case": "layered_conductive_10", "n": 128, "p1_l2": 5.703013991746679e-06, "p2_l2": 1.0539591935085932e-08}
+{"event": "adaptive", "case": "layered_conductive_10", "step": 0, "elements": 128}
+{"event": "adaptive", "case": "layered_conductive_10", "step": 1, "elements": 292}
+{"event": "adaptive", "case": "layered_conductive_10", "step": 2, "elements": 555}
+{"event": "adaptive", "case": "layered_conductive_10", "step": 3, "elements": 1056}
+{"event": "uniform", "case": "layered_conductive_100", "n": 8, "p1_l2": 0.0012624329802325921, "p2_l2": 4.2532979154778734e-05}
+{"event": "uniform", "case": "layered_conductive_100", "n": 16, "p1_l2": 0.0003215168587507532, "p2_l2": 5.293281316675371e-06}
+{"event": "uniform", "case": "layered_conductive_100", "n": 32, "p1_l2": 8.076178192125697e-05, "p2_l2": 6.608929231928186e-07}
+{"event": "uniform", "case": "layered_conductive_100", "n": 64, "p1_l2": 2.0214585627213037e-05, "p2_l2": 8.256951947528277e-08}
+{"event": "uniform", "case": "layered_conductive_100", "n": 128, "p1_l2": 5.0551590557551635e-06, "p2_l2": 1.0318373912809261e-08}
+{"event": "adaptive", "case": "layered_conductive_100", "step": 0, "elements": 128}
+{"event": "adaptive", "case": "layered_conductive_100", "step": 1, "elements": 254}
+{"event": "adaptive", "case": "layered_conductive_100", "step": 2, "elements": 494}
+{"event": "adaptive", "case": "layered_conductive_100", "step": 3, "elements": 942}
+{"event": "uniform", "case": "layered_conductive_1000", "n": 8, "p1_l2": 0.001244966813465791, "p2_l2": 4.247650981195069e-05}
+{"event": "uniform", "case": "layered_conductive_1000", "n": 16, "p1_l2": 0.000317108437468075, "p2_l2": 5.28569979679102e-06}
+{"event": "uniform", "case": "layered_conductive_1000", "n": 32, "p1_l2": 7.965726278350957e-05, "p2_l2": 6.599278402169784e-07}
+{"event": "uniform", "case": "layered_conductive_1000", "n": 64, "p1_l2": 1.9938308617789078e-05, "p2_l2": 8.244804627349192e-08}
+{"event": "uniform", "case": "layered_conductive_1000", "n": 128, "p1_l2": 4.986080668622022e-06, "p2_l2": 1.0303141127409629e-08}
+{"event": "adaptive", "case": "layered_conductive_1000", "step": 0, "elements": 128}
+{"event": "adaptive", "case": "layered_conductive_1000", "step": 1, "elements": 250}
+{"event": "adaptive", "case": "layered_conductive_1000", "step": 2, "elements": 449}
+{"event": "adaptive", "case": "layered_conductive_1000", "step": 3, "elements": 873}
+{"event": "uniform", "case": "layered_barrier_1000", "n": 8, "p1_l2": 1.2449668134657605, "p2_l2": 0.04247650981199472}
+{"event": "uniform", "case": "layered_barrier_1000", "n": 16, "p1_l2": 0.3171084374680904, "p2_l2": 0.005285699796910965}
+{"event": "uniform", "case": "layered_barrier_1000", "n": 32, "p1_l2": 0.07965726278343728, "p2_l2": 0.000659927840496472}
+{"event": "uniform", "case": "layered_barrier_1000", "n": 64, "p1_l2": 0.019938308617151408, "p2_l2": 8.24480467638729e-05}
+{"event": "uniform", "case": "layered_barrier_1000", "n": 128, "p1_l2": 0.004986080663566238, "p2_l2": 1.0303142050897737e-05}
+{"event": "adaptive", "case": "layered_barrier_1000", "step": 0, "elements": 128}
+{"event": "adaptive", "case": "layered_barrier_1000", "step": 1, "elements": 249}
+{"event": "adaptive", "case": "layered_barrier_1000", "step": 2, "elements": 465}
+{"event": "adaptive", "case": "layered_barrier_1000", "step": 3, "elements": 868}
