@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "created_utc": "2026-11-20T06:56:01.186258+00:00",
+  "reporter_sha256": "0dccd5a3cde1c36b533ead5a22c1f7d05acf45e3d668d6fd8e7f932cde4d4265",
+  "source_freeze_sha256": "dac22430d46b5c87ad924338804505b9dcc1abaf2571d1f39f773b4705bbb7fb",
+  "source_complete_sha256": "9a41cce6d95f29523dacf16dade27edc8a4f7521f69c6da7058d8ea9a7251320",
+  "output_sha256": {
+    "REPORT_zh.md": "b3a0441ecab434c053e1661636a18831029df6df4daa210675d38c270fb31040",
+    "figures/comparison.pdf": "ea4551d81455a8bccadbfa87a289bd1143f46e3d5ea07c28317dd810850f0c5a",
+    "figures/comparison.png": "6f84c3ed1b75c7fe4141d6bbfc2466cb9fc1d9169ece26c48a563653f33cc76e",
+    "summary.json": "91caaab02e4e8a190f35aa142cd73ac0c231cd07f5b128e7288c1f1aaa627a98"
+  }
+}

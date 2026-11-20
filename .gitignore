@@ -10,5 +10,6 @@ reproductions/
 results/smoke/
 results/diagnostic_smoke*/
 results/stage10_smoke*/
+results/stage11_smoke*/
 Darcy-U*.zip
 Darcy-U*.bundle

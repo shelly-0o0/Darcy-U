@@ -1,0 +1,73 @@
+{
+  "checked_utc": "2026-11-20T06:57:16.562772+00:00",
+  "unit_tests": {
+    "passed": 158,
+    "new_stage11_tests": 19,
+    "log": "results/stage11_tests.log",
+    "sha256": "7a4f445def43bc6a7243fdb566fdfbb19581625b2b0e6d2e7333a0878951cc63"
+  },
+  "formal_freeze_sha256": "dac22430d46b5c87ad924338804505b9dcc1abaf2571d1f39f773b4705bbb7fb",
+  "formal_complete_sha256": "9a41cce6d95f29523dacf16dade27edc8a4f7521f69c6da7058d8ea9a7251320",
+  "all_frozen_input_hashes_match": true,
+  "frozen_inputs": 36,
+  "all_output_hashes_match": true,
+  "report_complete_sha256": "f5015cec5dbe8a051364c7e1def4256bac89c3b084ed35651d324c3fbb1f555c",
+  "independent_geometries": 32,
+  "method_geometry_records": 512,
+  "fresh_timing_runs": 2560,
+  "adaptive_records": 480,
+  "exact_added_dofs": 64,
+  "fallbacks": 0,
+  "original_tracked_changes_only": [
+    ".gitignore",
+    "README.md"
+  ],
+  "stages_1_through_10_sources_protocols_weights_raw_results_unchanged": true,
+  "posthoc_symmetric_AMG_mesh_jaccard": {
+    "id": {
+      "per_geometry_seed_median": [
+        0.8571428571428571,
+        0.9393939393939394,
+        0.8484848484848485,
+        0.9310344827586207,
+        1.0,
+        0.8,
+        0.8333333333333334,
+        0.9375,
+        0.875,
+        0.875,
+        0.8333333333333334,
+        0.9032258064516129,
+        0.8666666666666667,
+        1.0,
+        0.896551724137931,
+        0.8064516129032258
+      ],
+      "median": 0.875
+    },
+    "contrast": {
+      "per_geometry_seed_median": [
+        0.84375,
+        0.5142857142857142,
+        0.8181818181818182,
+        0.8484848484848485,
+        0.9310344827586207,
+        1.0,
+        1.0,
+        0.896551724137931,
+        0.59375,
+        0.6944444444444444,
+        0.9285714285714286,
+        0.9,
+        0.9,
+        0.8571428571428571,
+        1.0,
+        0.7586206896551724
+      ],
+      "median": 0.8768472906403941
+    }
+  },
+  "visual_check": "comparison.png inspected; labels, points and caption legible",
+  "reference_scope": "Specified fine discrete problem only; no continuum certificate; one local refinement step",
+  "limitations": "Reporter reconstructs QoI metrics and exact-budget marking; full solution fields are not persisted, so energy and solve residual scalars are range-checked, not independently recomputed by reporter"
+}

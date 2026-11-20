@@ -1,0 +1,247 @@
+{
+  "created_utc": "2026-11-20T06:52:12.289805+00:00",
+  "config": {
+    "nc": 16,
+    "new_dofs": 64,
+    "geometries_per_split": 16,
+    "repetitions": 5,
+    "splits": {
+      "id": 52000,
+      "contrast": 52100
+    },
+    "source": 0,
+    "goals": [
+      1,
+      2,
+      3
+    ],
+    "torch_threads": 1,
+    "method_order_seed": 52991,
+    "uniform_seed": 52900,
+    "near_zero_coarse_error": 1e-12,
+    "paired_denominator_floor": 1e-12,
+    "seed_aggregation": "median within geometry",
+    "accuracy_ratio_gate": 0.9,
+    "minimum_wins": 12,
+    "seed_ratio_limit": 1.1,
+    "cheap_baseline_ratio_limit": 1.0,
+    "time_ratio_limit": 1.0
+  },
+  "smoke": false,
+  "input_sha256": {
+    "stage11_experiment.py": "63766ab8a645e01eae5596ed197a4730f8b7c2bf9956035d5f13541dcbb7f93d",
+    "stage11_adaptive.py": "fe5ba438a53e429fe9605ef2a7e2ed57dbb4fbee4b32b46f29e5670ea994c1e4",
+    "test_stage11_experiment.py": "295d838f07d19546ab0b194dbe25b8ebb777ba1c7434de4967812e0a5c055a7a",
+    "test_stage11_adaptive.py": "08b498f6960cacb5b37205685bd069db37376bf8ec3a0e458ff983542aa07104",
+    "docs/stage11_protocol_zh.md": "2c99d7ddae1f19ce74ccf0853e082752940a9dfbf9a3fff9fc72e3ee5a4d31b5",
+    "stage10_experiment.py": "a9d46e3beeb282914f71dd817aab6a0b3cde1ddf6f7ea81a8bb3b8759d64fd28",
+    "stage10_error_model.py": "999536d1e8dbd8c648a2c80d83c1d6e1795d7442b682adf022c64bde2de0959b",
+    "stage10_goal_numerics.py": "beaa7d896ab79d8f738a8cf18a169ede926c6d85ec11abf9202f87a11ebf28f9",
+    "test_stage10_error_model.py": "44832aacff577eeb7676af8dc79729b363947723bc1b20fd2389cb7bdc81f2d1",
+    "test_stage10_goal_numerics.py": "b575cd15d005676be10c50eb1532f90ffe7c528336c6f05378b8d8453b407d73",
+    "test_stage10_experiment.py": "f0697e4d32e4243c7395e1816326a4850183192a853cb84d49f0acc2dd259c08",
+    "numerics.py": "5a8eb53f701142d18eb67807078db912eb29b3b87d55bfb6677206909c3a5f12",
+    "sequence_baselines.py": "6da7fa625f33cbb0d2847c948c576fdaee8cb2451a6cda17116e617eeb557936",
+    "results/stage10_pilot/freeze.json": "2b09aa698841dd8f23bccde7e91fbdb4907651d99ccfe2121c1804e60d18a57b",
+    "results/stage10_pilot/complete.json": "7989d5b6d212857ae0098316b2de5d8adeb70d595bfe56dd65b5fc4eabeb54c6",
+    "results/stage10_pilot/training_data.json": "3a99cb84a3bd13ef7e2627cb49c3d017e2b6f806ff9d1563f61e1450f25be626",
+    "results/stage10_pilot/test_data.json": "16817c18191e68a2a551e241af0c911077576db6e367518a9b11e6cb96d10e98",
+    "results/stage10_pilot/training_complete.json": "059d2ade080d0f2ab63a7b18410f459ee63ded9725146d2d297cfc4a029a765e",
+    "results/stage10_pilot/train_symmetric_51001.json": "7d570b0c7ebdd83d4e80fdcbaaf49bcd3f4fafc84272d1c63e58c5b2c6b1cfcf",
+    "results/stage10_pilot/train_symmetric_51002.json": "390825a8a2dbad4a5f4ed720fad53f70ebf3dc25a339ae9bcbfad70c38118fbf",
+    "results/stage10_pilot/train_symmetric_51003.json": "0c3744e20597ee2c4ca3e6cc1dd83028eba9c1af0465a5cc2911b547a41abfcf",
+    "results/stage10_pilot/train_untied_51001.json": "ed3a97abe3ca3ab0746bffb87fc23ea8db2d3f45fb45dc6f766cc95155d6c813",
+    "results/stage10_pilot/train_untied_51002.json": "701ab87a41758ee2ac78cc135483dbf902c5914bc93cd264c6919748d7628a49",
+    "results/stage10_pilot/train_untied_51003.json": "a04c4afd87acbf5bf1a4e7b4a85625f9957e199b119d94183ffe47f593bed6c3",
+    "results/stage10_pilot/train_nonlinear_51001.json": "739ff9c5273005d949df8ebd02da7f05bc55ebbfda5e43c4739adbaf4815f2ea",
+    "results/stage10_pilot/train_nonlinear_51002.json": "df5ff837e894be42c7ffed4665330a557ae6a08cc4e0c7cdc44544d69fba4100",
+    "results/stage10_pilot/train_nonlinear_51003.json": "5c98262c951e8d3287e1c1609bc6bdcdae389d12e47d47f83a66d4ce697d0a19",
+    "results/stage10_pilot/symmetric_51001.pt": "35287b6553ac879ca8c2d067edbb3881cfc2805e1daf207289bbacd60578836b",
+    "results/stage10_pilot/symmetric_51002.pt": "5339ae1e9b51b78b2e6280d4ff16581ad7414d974e44c70159f25c27a1393894",
+    "results/stage10_pilot/symmetric_51003.pt": "eca0897dea5eec050af7590c707e1f8a82699cfeda6d5f1b6adafbc4a5806f93",
+    "results/stage10_pilot/untied_51001.pt": "aad50e4929c54ce85ec2b19cfc72a1bf015658c696c85360936294fbab322886",
+    "results/stage10_pilot/untied_51002.pt": "b479883ebaab70c65249fcc44eb2204fa2dd23516827435d6c9060d3f2389296",
+    "results/stage10_pilot/untied_51003.pt": "c7a117893ebb3acb65981a8d4f29887f784c4d2a905ff6d1875fd94a639f605e",
+    "results/stage10_pilot/nonlinear_51001.pt": "ea31f29dea700c50ba95d3d585a41d54b2455d368c5bbca4017df1be3839796d",
+    "results/stage10_pilot/nonlinear_51002.pt": "53b6cc3282c6c79c266308f6cd775200d1cf7580c54ab7d2ae92cd5fc43c2c7f",
+    "results/stage10_pilot/nonlinear_51003.pt": "241a8fd6a1281820d134f79d1d14d5cc9b4e284f824bab1681f38644b72d2f0b"
+  },
+  "models": [
+    {
+      "kind": "symmetric",
+      "seed": 51001,
+      "seconds": 0.0014185428153723478,
+      "checkpoint": "results/stage10_pilot/symmetric_51001.pt",
+      "sha256": "35287b6553ac879ca8c2d067edbb3881cfc2805e1daf207289bbacd60578836b"
+    },
+    {
+      "kind": "symmetric",
+      "seed": 51002,
+      "seconds": 0.0005545509047806263,
+      "checkpoint": "results/stage10_pilot/symmetric_51002.pt",
+      "sha256": "5339ae1e9b51b78b2e6280d4ff16581ad7414d974e44c70159f25c27a1393894"
+    },
+    {
+      "kind": "symmetric",
+      "seed": 51003,
+      "seconds": 0.00047517498023808,
+      "checkpoint": "results/stage10_pilot/symmetric_51003.pt",
+      "sha256": "eca0897dea5eec050af7590c707e1f8a82699cfeda6d5f1b6adafbc4a5806f93"
+    },
+    {
+      "kind": "untied",
+      "seed": 51001,
+      "seconds": 0.0005791441071778536,
+      "checkpoint": "results/stage10_pilot/untied_51001.pt",
+      "sha256": "aad50e4929c54ce85ec2b19cfc72a1bf015658c696c85360936294fbab322886"
+    },
+    {
+      "kind": "untied",
+      "seed": 51002,
+      "seconds": 0.0007524050306528807,
+      "checkpoint": "results/stage10_pilot/untied_51002.pt",
+      "sha256": "b479883ebaab70c65249fcc44eb2204fa2dd23516827435d6c9060d3f2389296"
+    },
+    {
+      "kind": "untied",
+      "seed": 51003,
+      "seconds": 0.0005629949737340212,
+      "checkpoint": "results/stage10_pilot/untied_51003.pt",
+      "sha256": "c7a117893ebb3acb65981a8d4f29887f784c4d2a905ff6d1875fd94a639f605e"
+    },
+    {
+      "kind": "nonlinear",
+      "seed": 51001,
+      "seconds": 0.0005362269002944231,
+      "checkpoint": "results/stage10_pilot/nonlinear_51001.pt",
+      "sha256": "ea31f29dea700c50ba95d3d585a41d54b2455d368c5bbca4017df1be3839796d"
+    },
+    {
+      "kind": "nonlinear",
+      "seed": 51002,
+      "seconds": 0.000558807048946619,
+      "checkpoint": "results/stage10_pilot/nonlinear_51002.pt",
+      "sha256": "53b6cc3282c6c79c266308f6cd775200d1cf7580c54ab7d2ae92cd5fc43c2c7f"
+    },
+    {
+      "kind": "nonlinear",
+      "seed": 51003,
+      "seconds": 0.0005211399402469397,
+      "checkpoint": "results/stage10_pilot/nonlinear_51003.pt",
+      "sha256": "241a8fd6a1281820d134f79d1d14d5cc9b4e284f824bab1681f38644b72d2f0b"
+    }
+  ],
+  "methods": [
+    [
+      "symmetric",
+      51001
+    ],
+    [
+      "symmetric",
+      51002
+    ],
+    [
+      "symmetric",
+      51003
+    ],
+    [
+      "untied",
+      51001
+    ],
+    [
+      "untied",
+      51002
+    ],
+    [
+      "untied",
+      51003
+    ],
+    [
+      "nonlinear",
+      51001
+    ],
+    [
+      "nonlinear",
+      51002
+    ],
+    [
+      "nonlinear",
+      51003
+    ],
+    [
+      "jacobi1",
+      null
+    ],
+    [
+      "jacobi8",
+      null
+    ],
+    [
+      "amg_v1",
+      null
+    ],
+    [
+      "recovery",
+      null
+    ],
+    [
+      "geometry_uniform",
+      null
+    ],
+    [
+      "oracle_indicator",
+      null
+    ],
+    [
+      "fine_direct",
+      null
+    ]
+  ],
+  "environment": {
+    "python": "3.10.21",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "torch": "2.6.0+cu124",
+    "device": "cpu",
+    "torch_threads": 1,
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "processor": "x86_64",
+    "cpu_model": "Intel(R) Core(TM) Ultra 7 265K",
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "/home/user/miniconda3/envs/mini-rl/lib/python3.10/site-packages/scipy.libs/libscipy_openblas-68440149.so",
+        "version": "0.3.28",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "filepath": "/home/user/miniconda3/envs/mini-rl/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+        "version": "0.3.23.dev",
+        "threading_layer": "pthreads",
+        "architecture": "Prescott"
+      },
+      {
+        "user_api": "openmp",
+        "internal_api": "openmp",
+        "num_threads": 1,
+        "prefix": "libgomp",
+        "filepath": "/home/user/miniconda3/envs/mini-rl/lib/python3.10/site-packages/torch/lib/libgomp-a34b3233.so.1",
+        "version": null
+      }
+    ]
+  },
+  "timing_scope": "Five fresh warm CPU pipelines per geometry/method; own setup; model loading and imports excluded and reported; no training; references/evaluation/serialization excluded. Fine-direct uses one primal solve for all three QoIs, no coarse setup."
+}

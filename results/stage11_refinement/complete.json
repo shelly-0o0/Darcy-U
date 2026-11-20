@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "smoke": false,
+  "rows": 512,
+  "contexts": 32,
+  "fresh_pipeline_runs": 2560,
+  "warmup_seconds": 0.1442709241528064,
+  "measured_experiment_wall_seconds": 18.128603395074606,
+  "freeze_sha256": "dac22430d46b5c87ad924338804505b9dcc1abaf2571d1f39f773b4705bbb7fb",
+  "output_sha256": {
+    "rows.json": "1730748cd9d2ed35c344d5004edc43096a120443dfa00696c28f8e2a3d0e5ddf",
+    "contexts.json": "b08a6a778bc1e850a21c5fdc3b0c164ec12094be9c134ffbe93982b25db3c91b"
+  }
+}
