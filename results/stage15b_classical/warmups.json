@@ -1,0 +1,252 @@
+[
+  {
+    "method": "uniform_direct",
+    "summary": {
+      "status": "max_steps",
+      "estimated_converged": false,
+      "solved_states": 2,
+      "final_qoi": 0.042716388191517664,
+      "solver_calls": 3,
+      "rhs_count": 3,
+      "peak_p1_free_dofs": 49,
+      "peak_p2_free_dofs": 49,
+      "total_seconds": 0.005337383132427931,
+      "algorithm_seconds": 0.005337383132427931,
+      "artifact_io_seconds": 0.0,
+      "config": {
+        "theta": 0.5,
+        "safety": 0.5,
+        "max_steps": 2,
+        "max_free_dofs": 70000,
+        "max_seconds": 60.0,
+        "intorder": 10,
+        "solver": "direct",
+        "verification_interval": 3,
+        "verification_delta_factor": 0.5
+      },
+      "no_continuous_error_certificate": true,
+      "no_reference_used_online": true,
+      "kernel_algorithm_seconds": 0.00519158411771059,
+      "initial_mesh_seconds": 0.00014579901471734047
+    }
+  },
+  {
+    "method": "uniform_amg",
+    "summary": {
+      "status": "max_steps",
+      "estimated_converged": false,
+      "solved_states": 2,
+      "final_qoi": 0.042716388191517476,
+      "solver_calls": 3,
+      "rhs_count": 3,
+      "peak_p1_free_dofs": 49,
+      "peak_p2_free_dofs": 49,
+      "total_seconds": 0.028313039103522897,
+      "algorithm_seconds": 0.028313039103522897,
+      "artifact_io_seconds": 0.0,
+      "config": {
+        "theta": 0.5,
+        "safety": 0.5,
+        "max_steps": 2,
+        "max_free_dofs": 70000,
+        "max_seconds": 60.0,
+        "intorder": 10,
+        "solver": "amg",
+        "verification_interval": 3,
+        "verification_delta_factor": 0.5
+      },
+      "no_continuous_error_certificate": true,
+      "no_reference_used_online": true,
+      "kernel_algorithm_seconds": 0.02825179509818554,
+      "initial_mesh_seconds": 6.124400533735752e-05
+    }
+  },
+  {
+    "method": "coefficient",
+    "summary": {
+      "status": "max_steps",
+      "estimated_converged": false,
+      "solved_states": 2,
+      "final_qoi": 0.04271603704028498,
+      "solver_calls": 3,
+      "rhs_count": 3,
+      "peak_p1_free_dofs": 49,
+      "peak_p2_free_dofs": 49,
+      "total_seconds": 0.004663800820708275,
+      "algorithm_seconds": 0.004663800820708275,
+      "artifact_io_seconds": 0.0,
+      "config": {
+        "theta": 0.5,
+        "safety": 0.5,
+        "max_steps": 2,
+        "max_free_dofs": 70000,
+        "max_seconds": 60.0,
+        "intorder": 10,
+        "solver": "direct",
+        "verification_interval": 3,
+        "verification_delta_factor": 0.5
+      },
+      "no_continuous_error_certificate": true,
+      "no_reference_used_online": true,
+      "kernel_algorithm_seconds": 0.004596588900312781,
+      "initial_mesh_seconds": 6.721192039549351e-05
+    }
+  },
+  {
+    "method": "primal_residual",
+    "summary": {
+      "status": "max_steps",
+      "estimated_converged": false,
+      "solved_states": 2,
+      "final_qoi": 0.04250173936036002,
+      "solver_calls": 3,
+      "rhs_count": 3,
+      "peak_p1_free_dofs": 19,
+      "peak_p2_free_dofs": 49,
+      "total_seconds": 0.005437179934233427,
+      "algorithm_seconds": 0.005437179934233427,
+      "artifact_io_seconds": 0.0,
+      "config": {
+        "theta": 0.5,
+        "safety": 0.5,
+        "max_steps": 2,
+        "max_free_dofs": 70000,
+        "max_seconds": 60.0,
+        "intorder": 10,
+        "solver": "direct",
+        "verification_interval": 3,
+        "verification_delta_factor": 0.5
+      },
+      "no_continuous_error_certificate": true,
+      "no_reference_used_online": true,
+      "kernel_algorithm_seconds": 0.005377026041969657,
+      "initial_mesh_seconds": 6.0153892263770103e-05
+    }
+  },
+  {
+    "method": "joint_residual",
+    "summary": {
+      "status": "max_steps",
+      "estimated_converged": false,
+      "solved_states": 2,
+      "final_qoi": 0.04180538479946185,
+      "solver_calls": 3,
+      "rhs_count": 5,
+      "peak_p1_free_dofs": 27,
+      "peak_p2_free_dofs": 49,
+      "total_seconds": 0.006204300792887807,
+      "algorithm_seconds": 0.006204300792887807,
+      "artifact_io_seconds": 0.0,
+      "config": {
+        "theta": 0.5,
+        "safety": 0.5,
+        "max_steps": 2,
+        "max_free_dofs": 70000,
+        "max_seconds": 60.0,
+        "intorder": 10,
+        "solver": "direct",
+        "verification_interval": 3,
+        "verification_delta_factor": 0.5
+      },
+      "no_continuous_error_certificate": true,
+      "no_reference_used_online": true,
+      "kernel_algorithm_seconds": 0.006141823949292302,
+      "initial_mesh_seconds": 6.247684359550476e-05
+    }
+  },
+  {
+    "method": "dwr",
+    "summary": {
+      "status": "max_steps",
+      "estimated_converged": false,
+      "solved_states": 2,
+      "final_qoi": 0.04114895068531298,
+      "solver_calls": 4,
+      "rhs_count": 4,
+      "peak_p1_free_dofs": 36,
+      "peak_p2_free_dofs": 158,
+      "total_seconds": 0.009501922875642776,
+      "algorithm_seconds": 0.009501922875642776,
+      "artifact_io_seconds": 0.0,
+      "config": {
+        "theta": 0.5,
+        "safety": 0.5,
+        "max_steps": 2,
+        "max_free_dofs": 70000,
+        "max_seconds": 60.0,
+        "intorder": 10,
+        "solver": "direct",
+        "verification_interval": 3,
+        "verification_delta_factor": 0.5
+      },
+      "no_continuous_error_certificate": true,
+      "no_reference_used_online": true,
+      "kernel_algorithm_seconds": 0.009442216949537396,
+      "initial_mesh_seconds": 5.970592610538006e-05
+    }
+  },
+  {
+    "method": "fixed_direct",
+    "summary": {
+      "status": "fixed_mesh_completed",
+      "estimated_converged": false,
+      "solved_states": 1,
+      "final_qoi": 0.04271638819151765,
+      "solver_calls": 1,
+      "rhs_count": 1,
+      "peak_p1_free_dofs": 49,
+      "peak_p2_free_dofs": 0,
+      "algorithm_seconds": 0.0014790389686822891,
+      "total_seconds": 0.0014790389686822891,
+      "initial_mesh_seconds": 6.12339936196804e-05,
+      "kernel_algorithm_seconds": 0.0014178049750626087,
+      "artifact_io_seconds": 0.0,
+      "config": {
+        "solver": "direct",
+        "theta": 0.5,
+        "safety": 0.5,
+        "max_steps": 2,
+        "max_free_dofs": 70000,
+        "max_seconds": 60.0,
+        "intorder": 10,
+        "verification_interval": 3,
+        "verification_delta_factor": 0.5
+      },
+      "fixed_n": 8,
+      "no_continuous_error_certificate": true,
+      "no_reference_used_online": true
+    }
+  },
+  {
+    "method": "fixed_amg",
+    "summary": {
+      "status": "fixed_mesh_completed",
+      "estimated_converged": false,
+      "solved_states": 1,
+      "final_qoi": 0.04271638819151743,
+      "solver_calls": 1,
+      "rhs_count": 1,
+      "peak_p1_free_dofs": 49,
+      "peak_p2_free_dofs": 0,
+      "algorithm_seconds": 0.0033903520088642836,
+      "total_seconds": 0.0033903520088642836,
+      "initial_mesh_seconds": 5.918997339904308e-05,
+      "kernel_algorithm_seconds": 0.0033311620354652405,
+      "artifact_io_seconds": 0.0,
+      "config": {
+        "solver": "amg",
+        "theta": 0.5,
+        "safety": 0.5,
+        "max_steps": 2,
+        "max_free_dofs": 70000,
+        "max_seconds": 60.0,
+        "intorder": 10,
+        "verification_interval": 3,
+        "verification_delta_factor": 0.5
+      },
+      "fixed_n": 8,
+      "no_continuous_error_certificate": true,
+      "no_reference_used_online": true
+    }
+  }
+]

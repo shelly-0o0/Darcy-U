@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "wall_seconds": 0.9779453668743372,
+  "file_sha256": {
+    "REPORT_zh.md": "5723b7ca0c2f49c1403fc5631f7091ea6530629f1d7fe2c994e43e4e4d45d548",
+    "freeze.json": "8ec7f46663c177413efef2569cbf5481a16e66bd27de4a9b2c4b2cdd53a44d60",
+    "rows.json.gz": "80840b7417aa833daffcb789e82b2ab45ae044e84520e778f0480708720c6a29",
+    "summary.json": "7f6b9db786512db0540ae7861a1700993bc6534abba67c676c2842c2ccd79c3f",
+    "warmups.json.gz": "15c40a86c1213ac8a977bfd9d2cbe67d41c1c08cf09f805cd12e96d74675bf66"
+  }
+}

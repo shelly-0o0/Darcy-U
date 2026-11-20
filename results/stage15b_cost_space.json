@@ -1,0 +1,393 @@
+{
+  "post_hoc": true,
+  "probe_complete_sha256": "7075d6ffcc5857c35adb155b97fed761f135784fdf07f7326a5266882b1836b1",
+  "analysis_source_sha256": "e9a7852329680be5d765036aab281c68d5aff03b7cec13f8f15a8bf6fad874ad",
+  "groups": [
+    {
+      "case": "barrier_1000",
+      "tau": 0.0003,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.0036915778182446957,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.0036915778182446957,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.003731600008904934,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.003731600008904934,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.0036834650672972202,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.0036834650672972202,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.0,
+      "median_nonterminal_ms": 0.0
+    },
+    {
+      "case": "barrier_1000",
+      "tau": 0.001,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.0036177290603518486,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.0036177290603518486,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.003643111791461706,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.003643111791461706,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.003835340728983283,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.003835340728983283,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.0,
+      "median_nonterminal_ms": 0.0
+    },
+    {
+      "case": "channel_1000",
+      "tau": 0.0003,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.0036354537587612867,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.0036354537587612867,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.0037281501572579145,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.0037281501572579145,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.0037165882531553507,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.0037165882531553507,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.0,
+      "median_nonterminal_ms": 0.0
+    },
+    {
+      "case": "channel_1000",
+      "tau": 0.001,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.0037251398898661137,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.0037251398898661137,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.003716123988851905,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.003716123988851905,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.0037164820823818445,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.0037164820823818445,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.0,
+      "median_nonterminal_ms": 0.0
+    },
+    {
+      "case": "constant",
+      "tau": 0.0003,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.024827355984598398,
+          "nonterminal_estimation_seconds": 0.011172303231433034,
+          "fraction": 0.4499997195981622,
+          "hypothetical_remaining_seconds": 0.013655052753165364,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.024127580923959613,
+          "nonterminal_estimation_seconds": 0.010810263687744737,
+          "fraction": 0.44804589908181514,
+          "hypothetical_remaining_seconds": 0.013317317236214876,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.023196875117719173,
+          "nonterminal_estimation_seconds": 0.010402275016531348,
+          "fraction": 0.4484343241812542,
+          "hypothetical_remaining_seconds": 0.012794600101187825,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.4484343241812542,
+      "median_nonterminal_ms": 10.810263687744737
+    },
+    {
+      "case": "constant",
+      "tau": 0.001,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.0038751130923628807,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.0038751130923628807,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.0037809840869158506,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.0037809840869158506,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.0037760508712381124,
+          "nonterminal_estimation_seconds": 0,
+          "fraction": 0.0,
+          "hypothetical_remaining_seconds": 0.0037760508712381124,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.0,
+      "median_nonterminal_ms": 0.0
+    },
+    {
+      "case": "inclusion_1000",
+      "tau": 0.0003,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.010602776892483234,
+          "nonterminal_estimation_seconds": 0.004122983897104859,
+          "fraction": 0.3888588752657637,
+          "hypothetical_remaining_seconds": 0.006479792995378375,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.010279687121510506,
+          "nonterminal_estimation_seconds": 0.0039272974245250225,
+          "fraction": 0.3820444511688545,
+          "hypothetical_remaining_seconds": 0.006352389696985483,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.0102756901178509,
+          "nonterminal_estimation_seconds": 0.003876084927469492,
+          "fraction": 0.37720920765564625,
+          "hypothetical_remaining_seconds": 0.006399605190381408,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.3820444511688545,
+      "median_nonterminal_ms": 3.9272974245250225
+    },
+    {
+      "case": "inclusion_1000",
+      "tau": 0.001,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.010398921091109514,
+          "nonterminal_estimation_seconds": 0.003956213127821684,
+          "fraction": 0.380444576236281,
+          "hypothetical_remaining_seconds": 0.00644270796328783,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.010373304132372141,
+          "nonterminal_estimation_seconds": 0.003960129106417298,
+          "fraction": 0.3817615926307278,
+          "hypothetical_remaining_seconds": 0.006413175025954843,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.01032005762681365,
+          "nonterminal_estimation_seconds": 0.003917718771845102,
+          "fraction": 0.3796217921948475,
+          "hypothetical_remaining_seconds": 0.006402338854968548,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.380444576236281,
+      "median_nonterminal_ms": 3.956213127821684
+    },
+    {
+      "case": "layers_10",
+      "tau": 0.0003,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.021265803836286068,
+          "nonterminal_estimation_seconds": 0.009244358399882913,
+          "fraction": 0.43470533590219457,
+          "hypothetical_remaining_seconds": 0.012021445436403155,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.021929220063611865,
+          "nonterminal_estimation_seconds": 0.009991865139454603,
+          "fraction": 0.45564161016535887,
+          "hypothetical_remaining_seconds": 0.011937354924157262,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.021411665016785264,
+          "nonterminal_estimation_seconds": 0.00923217972740531,
+          "fraction": 0.4311752364969244,
+          "hypothetical_remaining_seconds": 0.012179485289379954,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.43470533590219457,
+      "median_nonterminal_ms": 9.244358399882913
+    },
+    {
+      "case": "layers_10",
+      "tau": 0.001,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.021409258944913745,
+          "nonterminal_estimation_seconds": 0.009332177927717566,
+          "fraction": 0.43589448620007637,
+          "hypothetical_remaining_seconds": 0.012077081017196178,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.02138568600639701,
+          "nonterminal_estimation_seconds": 0.009468381293118,
+          "fraction": 0.44274386569997165,
+          "hypothetical_remaining_seconds": 0.011917304713279009,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.021106380270794034,
+          "nonterminal_estimation_seconds": 0.009265251224860549,
+          "fraction": 0.4389786929822991,
+          "hypothetical_remaining_seconds": 0.011841129045933485,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.4389786929822991,
+      "median_nonterminal_ms": 9.332177927717566
+    },
+    {
+      "case": "layers_1000",
+      "tau": 0.0003,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.010468071093782783,
+          "nonterminal_estimation_seconds": 0.003956654109060764,
+          "fraction": 0.3779735610900377,
+          "hypothetical_remaining_seconds": 0.006511416984722018,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.010658650193363428,
+          "nonterminal_estimation_seconds": 0.004193292232230306,
+          "fraction": 0.3934168169663026,
+          "hypothetical_remaining_seconds": 0.0064653579611331224,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.010552805848419666,
+          "nonterminal_estimation_seconds": 0.004057045793160796,
+          "fraction": 0.3844518558794824,
+          "hypothetical_remaining_seconds": 0.00649576005525887,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.3844518558794824,
+      "median_nonterminal_ms": 4.057045793160796
+    },
+    {
+      "case": "layers_1000",
+      "tau": 0.001,
+      "measurements": [
+        {
+          "repeat": 0,
+          "online_seconds": 0.010257582878693938,
+          "nonterminal_estimation_seconds": 0.003922825213521719,
+          "fraction": 0.38243173464089997,
+          "hypothetical_remaining_seconds": 0.006334757665172219,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 1,
+          "online_seconds": 0.010493335081264377,
+          "nonterminal_estimation_seconds": 0.004072762792930007,
+          "fraction": 0.3881285369607454,
+          "hypothetical_remaining_seconds": 0.00642057228833437,
+          "assumed_same_trajectory_and_final_verification": true
+        },
+        {
+          "repeat": 2,
+          "online_seconds": 0.010317654814571142,
+          "nonterminal_estimation_seconds": 0.003994246944785118,
+          "fraction": 0.3871274060403949,
+          "hypothetical_remaining_seconds": 0.006323407869786024,
+          "assumed_same_trajectory_and_final_verification": true
+        }
+      ],
+      "median_nonterminal_fraction": 0.3871274060403949,
+      "median_nonterminal_ms": 3.994246944785118
+    }
+  ],
+  "groups_at_least_30_percent": 7,
+  "interpretation": "Fixed-trajectory arithmetic only. Final verification remains paid. No model, inference, fallback or changed trajectory was measured; no AI speed claim or G1 approval."
+}

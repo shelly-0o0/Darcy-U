@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "raw_complete_sha256": "e4a8184e21e5e0a5c258b536e267fefcdb91e2634fb69e8657294de48c0a37e6",
+  "file_sha256": {
+    "REPORT_zh.md": "f6d5aec531f8fd0b73de7631b2e45b86abbe7a1d58b9d335af64751b47bd1f1b",
+    "complete_time.pdf": "6f08dfc41ec20cb6f48b229e71da71668224f022da317084fb15d3a804537d10",
+    "complete_time.png": "33dc211dffa930d5abc8db0dccdf40b7a0bd0d2267cac826bebef6db156146d1",
+    "goal_error.pdf": "1e77486006bee940d0d8a9aa5a687f85393409befb8f8ebe48ad9f670c44c137",
+    "goal_error.png": "dc32cffa0e7c4e9836f7048b24aeee4009e7c4f3ba45c6ddebdecc6496600e9e",
+    "integrity_checks.json": "0b3730a75f24ba84ee46f6c2f2d64093efd28f57eb40b9ce795b746f61cade06",
+    "summary.json": "210a4b0ece41c5adb8f82c2ee491ebb0b3feacda29d5732ecf704e447a907126"
+  }
+}

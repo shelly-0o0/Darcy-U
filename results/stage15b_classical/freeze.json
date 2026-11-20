@@ -1,0 +1,253 @@
+{
+  "created_utc": "2026-11-20T13:58:07.573156+00:00",
+  "config": {
+    "taus": [
+      0.001,
+      0.0003
+    ],
+    "methods": [
+      "uniform_direct",
+      "uniform_amg",
+      "coefficient",
+      "primal_residual",
+      "joint_residual",
+      "dwr",
+      "fixed_direct",
+      "fixed_amg"
+    ],
+    "repeats": 3,
+    "initial_n": 8,
+    "fixed_n": 256,
+    "adaptive": {
+      "theta": 0.5,
+      "safety": 0.5,
+      "max_steps": 13,
+      "max_free_dofs": 70000,
+      "max_seconds": 60.0,
+      "intorder": 10,
+      "verification_interval": 3,
+      "verification_delta_factor": 0.5
+    },
+    "reference": {
+      "p2_n": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "intorder": 10,
+      "high_order": 18,
+      "p1_cross_n": 512,
+      "min_tau": 0.0003,
+      "finest_difference_fraction": 0.05,
+      "quadrature_fraction": 0.01,
+      "independent_order_fraction": 0.1,
+      "growth_allowance": 1.1
+    },
+    "randomized_statistical_sample": false,
+    "models_trained": 0
+  },
+  "cases": [
+    {
+      "name": "constant",
+      "metadata": {
+        "k_min": 1.0,
+        "k_max": 1.0,
+        "contrast": 1.0,
+        "source_center": [
+          0.25,
+          0.5
+        ],
+        "goal_center": [
+          0.75,
+          0.5
+        ],
+        "radius": 0.18,
+        "source_integral": 1.0,
+        "goal_integral": 1.0,
+        "manufactured": false,
+        "coefficient_alignment": "element_aligned",
+        "interface_x": [],
+        "interface_y": []
+      }
+    },
+    {
+      "name": "layers_10",
+      "metadata": {
+        "k_min": 0.1,
+        "k_max": 1.0,
+        "contrast": 10.0,
+        "source_center": [
+          0.25,
+          0.5
+        ],
+        "goal_center": [
+          0.75,
+          0.5
+        ],
+        "radius": 0.18,
+        "source_integral": 1.0,
+        "goal_integral": 1.0,
+        "manufactured": false,
+        "coefficient_alignment": "element_aligned",
+        "interface_x": [
+          0.25,
+          0.5,
+          0.75
+        ],
+        "interface_y": []
+      }
+    },
+    {
+      "name": "layers_1000",
+      "metadata": {
+        "k_min": 0.001,
+        "k_max": 1.0,
+        "contrast": 1000.0,
+        "source_center": [
+          0.25,
+          0.5
+        ],
+        "goal_center": [
+          0.75,
+          0.5
+        ],
+        "radius": 0.18,
+        "source_integral": 1.0,
+        "goal_integral": 1.0,
+        "manufactured": false,
+        "coefficient_alignment": "element_aligned",
+        "interface_x": [
+          0.25,
+          0.5,
+          0.75
+        ],
+        "interface_y": []
+      }
+    },
+    {
+      "name": "barrier_1000",
+      "metadata": {
+        "k_min": 0.001,
+        "k_max": 1.0,
+        "contrast": 1000.0,
+        "source_center": [
+          0.25,
+          0.5
+        ],
+        "goal_center": [
+          0.75,
+          0.5
+        ],
+        "radius": 0.18,
+        "source_integral": 1.0,
+        "goal_integral": 1.0,
+        "manufactured": false,
+        "coefficient_alignment": "element_aligned",
+        "interface_x": [
+          0.5,
+          0.625
+        ],
+        "interface_y": []
+      }
+    },
+    {
+      "name": "channel_1000",
+      "metadata": {
+        "k_min": 0.001,
+        "k_max": 1.0,
+        "contrast": 1000.0,
+        "source_center": [
+          0.25,
+          0.5
+        ],
+        "goal_center": [
+          0.75,
+          0.5
+        ],
+        "radius": 0.18,
+        "source_integral": 1.0,
+        "goal_integral": 1.0,
+        "manufactured": false,
+        "coefficient_alignment": "element_aligned",
+        "interface_x": [],
+        "interface_y": [
+          0.375,
+          0.625
+        ]
+      }
+    },
+    {
+      "name": "inclusion_1000",
+      "metadata": {
+        "k_min": 0.001,
+        "k_max": 1.0,
+        "contrast": 1000.0,
+        "source_center": [
+          0.25,
+          0.5
+        ],
+        "goal_center": [
+          0.75,
+          0.5
+        ],
+        "radius": 0.18,
+        "source_integral": 1.0,
+        "goal_integral": 1.0,
+        "manufactured": false,
+        "coefficient_alignment": "element_aligned",
+        "interface_x": [
+          0.5,
+          0.75
+        ],
+        "interface_y": [
+          0.25,
+          0.75
+        ]
+      }
+    }
+  ],
+  "source_sha256": {
+    "stage15b_cases.py": "da1a29fae9a5928488fef0a7150d9c7893e29c64802a61c20f9eb9b761e048bd",
+    "stage15b_adaptive.py": "dc19704659b5c3338d3f6888ca2540d32251314faab35aa2264c3b10f24be858",
+    "stage15b_reference.py": "0cc2ca38f062277a69e451d1daf1ed5b338bfa975479f9af8a0b0a66486162e3",
+    "stage15b_experiment.py": "077c029a745cbd471da590b0d6ced599753c51bae86fde6d67c6fdbb596fb8d0",
+    "test_stage15b.py": "98976d42a4fc7764e33bd0f0538070c5b9829e94fbcc70c9d9ce34a59e8413f9",
+    "report_stage15b.py": "63dc6e54685807cebf50d511f55f3ebcb421a1d7fae9c64ddcdd1f1464d7a0cf",
+    "stage15_cases.py": "7ca46e92d08776a3c715ffd7654c6d7a3546751d2acedcaa135a9d570b0d7585",
+    "stage15_fem.py": "91b1d6dd6b8756ab3a2533e0ba3255facabdfe7890b3dede9e715a003f0092d3",
+    "stage14_solver.py": "75073dbfc17e3a09f3fc87fe31e105544b17fdadf9c9f4f900fbbc9718b5ae69",
+    "sequence_baselines.py": "6da7fa625f33cbb0d2847c948c576fdaee8cb2451a6cda17116e617eeb557936",
+    "requirements.txt": "834152242bcece9366629e933d07dcdd62397764bb5dab67220cc4d6bcd5aea7",
+    "docs/stage15b_protocol_zh.md": "ad85414b31f74e9b8943c5189abd9680b30960f2cb3979c4f6478cf043b9e006"
+  },
+  "environment": {
+    "python": "3.10.21",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "skfem": "12.0.2",
+    "threadpools": [
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libopenblas",
+        "filepath": "/home/user/miniconda3/envs/mini-rl/lib/python3.10/site-packages/numpy.libs/libopenblas64_p-r0-0cf96a72.3.23.dev.so",
+        "version": "0.3.23.dev",
+        "threading_layer": "pthreads",
+        "architecture": "Prescott"
+      },
+      {
+        "user_api": "blas",
+        "internal_api": "openblas",
+        "num_threads": 1,
+        "prefix": "libscipy_openblas",
+        "filepath": "/home/user/miniconda3/envs/mini-rl/lib/python3.10/site-packages/scipy.libs/libscipy_openblas-68440149.so",
+        "version": "0.3.28",
+        "threading_layer": "pthreads",
+        "architecture": "Haswell"
+      }
+    ]
+  },
+  "scope": "Six fixed aligned single-goal non-manufactured problems; development screen only"
+}
