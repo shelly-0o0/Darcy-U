@@ -1,0 +1,63 @@
+{
+  "complete": true,
+  "created_utc": "2026-11-20T08:29:33.060712+00:00",
+  "smoke": false,
+  "source": "results/stage13_cost",
+  "reporter_sha256": "e1c046fce4c0f32cde385e7e084c300759717257c0cf5f5f0c0937275ced4b4b",
+  "source_sha256": {
+    "freeze.json": "d861ce62814e3b538780f05467a1172406fd91bde19e9210f629423ac68dcabc",
+    "rows.json": "d4676d933fb1367ab0d4beb5877d462ce7144cf17c387e2db59bbde3316c8039",
+    "contexts.json": "6fecb6ca2aa6108162bbfda5ec598139eb201b4a7a3fb650406b7c9df588001d",
+    "complete.json": "c25366dcc8eb09c496bfc5767d938d32e88947c02a701b03fc78403d47ba38c7"
+  },
+  "output_sha256": {
+    "summary.json": "fc0f86bab98e827a64411fe8d70b2eedd84cd353d736916a23a12c36b9c50161",
+    "REPORT_zh.md": "428c2259e1609cd6eff18e02c361953555d50632d6e98e85d46a795e57b5361f",
+    "figures/comparison.png": "7ffa1f566b43c3da02d363e2cba5dfece9fed599bd0166fee3785dcf106eaf7f",
+    "figures/comparison.pdf": "f63e088ff79c7e4b41e2d42b8509f6d4f47c137766e510f6b3f1dc714e59b0d1"
+  },
+  "decision": {
+    "formal": true,
+    "primary_method": "coarse_goal_local",
+    "gate_nc": 64,
+    "criteria": {
+      "id": {
+        "fine_direct": {
+          "median_ratio": 0.5042805825452766,
+          "strict_time_wins": 16,
+          "median_passed": true,
+          "wins_passed": true
+        },
+        "fine_amg_pcg": {
+          "median_ratio": 0.6061247455550054,
+          "strict_time_wins": 16,
+          "median_passed": true,
+          "wins_passed": true
+        }
+      },
+      "contrast": {
+        "fine_direct": {
+          "median_ratio": 0.5034863071484743,
+          "strict_time_wins": 16,
+          "median_passed": true,
+          "wins_passed": true
+        },
+        "fine_amg_pcg": {
+          "median_ratio": 0.5786032893637265,
+          "strict_time_wins": 16,
+          "median_passed": true,
+          "wins_passed": true
+        }
+      }
+    },
+    "numerical_audit_passed": false,
+    "nondegenerate_required_denominators": true,
+    "cost_gate_passed": false,
+    "continue_cost_structure_research": false,
+    "same_accuracy_speedup_established": false,
+    "ai_training_performed": false,
+    "note": "The primary coarse-solve plus single-refinement pipeline fails the frozen cost-only gate. Do not replace it with a secondary method or claim learned acceleration."
+  },
+  "no_pde_solver_imported": true,
+  "no_ai_model_used": true
+}

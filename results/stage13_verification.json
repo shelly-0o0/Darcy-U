@@ -1,0 +1,104 @@
+{
+  "checked_utc": "2026-11-20T08:33:01.406654+00:00",
+  "baseline_commit": "3401cc854e36e655f69edf856fee34c1d46c9684",
+  "unit_tests": {
+    "passed": 199,
+    "new_stage13_tests": 20,
+    "log": "results/stage13_tests.log",
+    "sha256": "1284b161f67652bbb702ad30ebb7f5e25fbd0a23352d6a3655a8666ff0d6d905"
+  },
+  "formal_freeze_sha256": "d861ce62814e3b538780f05467a1172406fd91bde19e9210f629423ac68dcabc",
+  "formal_complete_sha256": "c25366dcc8eb09c496bfc5767d938d32e88947c02a701b03fc78403d47ba38c7",
+  "all_frozen_input_hashes_match": true,
+  "frozen_inputs": 52,
+  "all_output_hashes_match": true,
+  "report_complete_sha256": "97d3f7162bd5c05b5d0632f72be50178f0f28696c7f6b1a52d978e6b5bea5051",
+  "reporter_sha256": "e1c046fce4c0f32cde385e7e084c300759717257c0cf5f5f0c0937275ced4b4b",
+  "independent_geometries": 32,
+  "geometry_scale_contexts": 96,
+  "method_geometry_scale_records": 576,
+  "fresh_timing_runs": 1728,
+  "adaptive_records": 384,
+  "all_adaptive_budgets_exact": true,
+  "matched_implementation_contexts": 96,
+  "all_matched_implementations_pass": true,
+  "numerical_gate_passed": false,
+  "cost_gate_passed": false,
+  "time_criteria_only_passed": true,
+  "failed_method_contexts": [
+    {
+      "nc": 64,
+      "geometry": 54103,
+      "split": "contrast",
+      "method": "fine_amg_pcg",
+      "relative_residual": 1.499123128383695e-10,
+      "threshold": 1e-10,
+      "repeated_failures": 3,
+      "solver": {
+        "iterations": 33,
+        "info": 0,
+        "seconds": 0.03034213907085359,
+        "initial_info": 0,
+        "initial_relative_residual": 2.8328977217229516e-10,
+        "restarts": 3,
+        "relative_residual": 1.499123128383695e-10,
+        "converged": false
+      }
+    },
+    {
+      "nc": 64,
+      "geometry": 54115,
+      "split": "contrast",
+      "method": "fine_amg_pcg",
+      "relative_residual": 1.459210269378054e-10,
+      "threshold": 1e-10,
+      "repeated_failures": 3,
+      "solver": {
+        "iterations": 34,
+        "info": 0,
+        "seconds": 0.03108376800082624,
+        "initial_info": 0,
+        "initial_relative_residual": 2.679491854940098e-10,
+        "restarts": 3,
+        "relative_residual": 1.459210269378054e-10,
+        "converged": false
+      }
+    }
+  ],
+  "failed_repeat_count": 6,
+  "failure_interpretation": "Two high-contrast AMG contexts miss the frozen strict residual threshold in all repeats. Kept in raw data and descriptive timing; no tolerance relaxation or formal pass.",
+  "original_tracked_changes_only": [
+    ".gitignore",
+    "README.md"
+  ],
+  "stages_1_through_12_sources_protocols_weights_raw_results_unchanged": true,
+  "report_numeric_maxima": {
+    "relative_residual": 2.447234877317405e-10,
+    "coarse_relative_residual": 6.678218911420638e-11,
+    "energy_error_ratio": 0.9770908003262336,
+    "matched_solution_difference": 3.190296471783215e-12,
+    "matched_scaled_qoi_difference": 6.608233978435715e-12,
+    "pcg_relative_residual": 1.499123128383695e-10,
+    "pcg_error_reduction_ratio": 2.531458582608482e-10
+  },
+  "relative_document_links_checked": 91,
+  "posthoc_selection": {
+    "script": "stage13_selection_diagnostic.py",
+    "output": "results/stage13_selection_diagnostic.json",
+    "output_sha256": "f7253cae9a3bb434e5187c9c99ba9fc3948f5fff1b60e1c00265af8ea6412772",
+    "records": 96,
+    "geometry_hashes_verified": 32,
+    "no_new_pde_solves": true,
+    "changes_formal_gate": false,
+    "interpretation": "Descriptive coverage of within-coarse-cell binary phase crossings; not causal attribution or a general error estimator."
+  },
+  "smoke_status": "v1 numerical smoke completed before final protocol wording was frozen; preserved separately. v2 final-protocol smoke and independent report passed structural checks; no smoke result enters formal statistics.",
+  "visual_check": "comparison.png inspected; four panels and captions readable, two failed AMG baseline points marked red crosses",
+  "report_audit_limits": [
+    "No PDE solver or numerical experiment module is imported.",
+    "Raw coefficient arrays and coarse solution fields are not persisted; score formula values are not regenerated.",
+    "Full solution fields are not persisted; their hashes cannot reconstruct energy norms, residuals, or field agreement.",
+    "All repetitions retain solver/residual/error validity summaries; full repeated fields, selected meshes and energies are not persisted, so their determinism remains a frozen runner check.",
+    "Independent sparse-assembly equivalence is established by frozen numerical tests, not reconstructed by this report."
+  ]
+}

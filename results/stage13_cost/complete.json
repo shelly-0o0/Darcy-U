@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "smoke": false,
+  "no_training": true,
+  "rows": 576,
+  "contexts": 96,
+  "independent_geometries": 32,
+  "fresh_pipeline_runs": 1728,
+  "warmup_seconds": 0.37702232506126165,
+  "experiment_wall_seconds": 47.425881628878415,
+  "freeze_sha256": "d861ce62814e3b538780f05467a1172406fd91bde19e9210f629423ac68dcabc",
+  "output_sha256": {
+    "rows.json": "d4676d933fb1367ab0d4beb5877d462ce7144cf17c387e2db59bbde3316c8039",
+    "contexts.json": "6fecb6ca2aa6108162bbfda5ec598139eb201b4a7a3fb650406b7c9df588001d"
+  }
+}
