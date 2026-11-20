@@ -1,0 +1,68 @@
+{
+  "review_date": "2026-11-20",
+  "purpose": "Reassess scientific value, novelty and next-stage design before further training",
+  "review_type": "Focused primary-source review; not exhaustive systematic review",
+  "research_paper_count": 24,
+  "groups": {"classical": 9, "learning": 14, "benchmark_paper": 1},
+  "source_ledgers": ["research_review_classical_sources.json", "research_review_learning_sources.json"],
+  "search_channels": ["Web search", "arXiv version histories and author full text", "Publisher and official conference full text", "Author institutional PDFs", "Author repository and software documentation"],
+  "query_families": [
+    "goal oriented adaptive mesh refinement machine learning quantity of interest Darcy 2025 2026",
+    "goal oriented adaptive mesh refinement learning high contrast diffusion 2025",
+    "goal-oriented mesh adaptation learning neural graph",
+    "learned marking adaptive mesh refinement reinforcement learning",
+    "goal oriented adaptive FEM convergence rates multigoal computational complexity",
+    "high contrast diffusion robust equilibrated a posteriori error estimator",
+    "neural network guided dual weighted residual",
+    "neural goal-oriented certified error estimation elliptic",
+    "learning equilibrated flux error estimator neural",
+    "machine learning goal-oriented high contrast",
+    "SPE10 benchmark model 2 permeability official SINTEF MRST",
+    "PDEBench Darcy flow steady state data generation"
+  ],
+  "selection": "Prioritize sources that change novelty, comparator selection, mathematical applicability, deployment information or full-cost evaluation; trace references and newer author work from E2N, ASMR, UM2N and GOAFEM",
+  "exclusions": ["Unverified third-party paper summaries as evidence", "Search crawler dates as publication dates", "Software README year where publisher metadata differs", "Unverified dataset-bug allegations", "An inaccessible archive treated as reproduced code"],
+  "limitations": ["No completeness or first-in-literature claim", "Full-text access means reading specified key sections, not every proof", "No third-party implementation executed", "No new PDE experiment or model training in this review"],
+  "additional_primary_sources": [
+    {
+      "id": "B1", "type": "research_paper",
+      "title": "PDEBench: An Extensive Benchmark for Scientific Machine Learning",
+      "authors": ["Makoto Takamoto", "Timothy Praditia", "Raphael Leiteritz", "Dan MacKinlay", "Francesco Alesiani", "Dirk Pflüger", "Mathias Niepert"],
+      "year": 2022, "version": "arXiv:2210.07182v2, 2022-10-17",
+      "url": "https://arxiv.org/html/2210.07182v2",
+      "access": "author_full_text", "read_sections": ["D.4 Darcy Flow, equations 13-15", "4.4 runtime comparison", "5 limitations", "K data sheet selected entries"],
+      "relevance": "Supplementary public benchmark; time-marching data generation is not an optimized steady elliptic solver comparator"
+    },
+    {
+      "id": "S1", "type": "official_software_documentation",
+      "title": "deal.II step-14 tutorial", "version": "9.7.0",
+      "url": "https://dealii.org/9.7.0/doxygen/deal.II/step_14.html",
+      "access": "official_full_page", "read_sections": ["Introduction: the maths", "PrimalSolver and DualSolver", "WeightedResidual and refine_grid", "Conclusions and outlook"],
+      "relevance": "Reference implementation for enriched-adjoint DWR; smooth Laplace example not a ready high-contrast Darcy benchmark",
+      "executed": false
+    },
+    {
+      "id": "S2", "type": "official_dataset_documentation",
+      "title": "MRST public data sets", "organization": "SINTEF",
+      "url": "https://www.sintef.no/projectweb/mrst/modules/mrst-core/data-sets/",
+      "access": "official_full_page", "read_sections": ["SPE10", "Dataset access description"],
+      "relevance": "SPE10 originally an upscaling benchmark with two-phase model; not equivalent to a new 2D single-phase adaptation",
+      "downloaded_dataset": false
+    },
+    {
+      "id": "S3", "type": "official_software_documentation",
+      "title": "spe10: Access to the SPE10 benchmark case", "organization": "SINTEF", "version": "MRST 2019b documentation",
+      "url": "https://www.sintef.no/contentassets/2551f5f85547478590ceca14bc13ad51/spe10.html/",
+      "access": "official_full_page", "read_sections": ["SPE10_rock and deprecation note", "getSPE10rock", "SPE10_setup layer selection and units"],
+      "relevance": "60 by 220 by 85 model, layer extraction, directional permeability and unit handling must be specified",
+      "executed": false
+    },
+    {
+      "id": "S4", "type": "official_benchmark_description",
+      "title": "SPE10: GeoScale direct reservoir simulation", "organization": "SINTEF", "publication_date": "2008-04-17",
+      "url": "https://www.sintef.no/projectweb/geoscale/results/msmfem/spe10/",
+      "access": "official_full_page", "read_sections": ["10th SPE comparative solution project model 2", "Layer formations and model purpose", "Comparison limitations"],
+      "relevance": "Physical context and distinction between original benchmark and 2D pressure stress test"
+    }
+  ]
+}

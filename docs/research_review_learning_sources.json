@@ -1,0 +1,435 @@
+{
+  "review_cutoff": "2026-11-20",
+  "scope": "Primary-source targeted literature review; not exhaustive; no reproduction or experiment run",
+  "record_count": 14,
+  "notes": [
+    "year is the journal/conference year when confirmed; for preprints it is the reviewed version year and full version history appears in status",
+    "authors uses et_al when the complete author list was not independently checked",
+    "code_url may identify an archive, a template, or an author landing page; consult code_verified_vs_run before calling it a runnable reproduction",
+    "Source-access failures and limited reading are recorded; absence of a verified code link does not mean code does not exist"
+  ],
+  "sources": [
+    {
+      "id": "e2n_2022",
+      "title": "E2N: Error Estimation Networks for Goal-Oriented Mesh Adaptation",
+      "authors": [
+        "Joseph G. Wallwork",
+        "Jingyi Lu",
+        "Mingrui Zhang",
+        "Matthew D. Piggott"
+      ],
+      "year": 2022,
+      "status": "arXiv preprint; v1 2022-07-22; no formal publication verified in this review",
+      "url": "https://arxiv.org/abs/2207.11233",
+      "access": "Author arXiv record and HTML full text accessed; Zenodo archive could not be accessed",
+      "read_sections": [
+        "2.1–2.2",
+        "3",
+        "4.5",
+        "Appendix B"
+      ],
+      "code_url": "https://doi.org/10.5281/zenodo.6811761",
+      "code_verified_vs_run": {
+        "verification": "Archive DOI and purpose verified from paper Appendix B; archive file contents not verified",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://arxiv.org/html/2207.11233v1",
+        "https://doi.org/10.5281/zenodo.6722155"
+      ]
+    },
+    {
+      "id": "chen_fidkowski_cnn_2021",
+      "title": "Output-based adaptive aerodynamic simulations using convolutional neural networks",
+      "authors": [
+        "Guodong Chen",
+        "Krzysztof J. Fidkowski"
+      ],
+      "year": 2021,
+      "status": "Published journal article; Computers & Fluids 223:104947; DOI 10.1016/j.compfluid.2021.104947",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0045793021001146",
+      "access": "Publisher abstract/method excerpts and author publication list accessed; full author PDF parsing failed because of size",
+      "read_sections": [
+        "Abstract",
+        "Publisher introduction and method excerpts",
+        "Publisher Results and Conclusion excerpts"
+      ],
+      "code_url": null,
+      "code_verified_vs_run": {
+        "verification": "No complete official implementation verified",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://public.websites.umich.edu/kfid/publications.html",
+        "https://public.websites.umich.edu/kfid/MYPUBS/Chen_Fidkowski_2021_CNN.pdf"
+      ]
+    },
+    {
+      "id": "roth_schroeder_wick_2022",
+      "title": "Neural network guided adjoint computations in dual weighted residual error estimation",
+      "authors": [
+        "Julian Roth",
+        "Max Schröder",
+        "Thomas Wick"
+      ],
+      "year": 2022,
+      "status": "Published journal article; SN Applied Sciences 4; DOI 10.1007/s42452-022-04938-9; preprint first submitted 2021-02-24",
+      "url": "https://link.springer.com/article/10.1007/s42452-022-04938-9",
+      "access": "Publisher full text and arXiv record accessed",
+      "read_sections": [
+        "3",
+        "4",
+        "5",
+        "Conclusion",
+        "Data availability"
+      ],
+      "code_url": "https://github.com/tommeswick/goal-oriented-fsi",
+      "code_verified_vs_run": {
+        "verification": "Paper identifies this as an FEM template, not a complete reproduction of the neural-adjoint method; paper says parts available on request",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://arxiv.org/abs/2102.12450"
+      ]
+    },
+    {
+      "id": "multigoal_pinn_dwr_2025",
+      "title": "Multigoal-oriented dual-weighted-residual error estimation using PINNs",
+      "authors": [
+        "Ayan Chakraborty",
+        "Thomas Wick",
+        "Timon Rabczuk",
+        "Xiaoying Zhuang"
+      ],
+      "year": 2025,
+      "status": "Published journal article; Machine Learning for Computational Science and Engineering 1:13; 2025-02-17; DOI 10.1007/s44379-025-00012-4",
+      "url": "https://link.springer.com/article/10.1007/s44379-025-00012-4",
+      "access": "Publisher full text accessed",
+      "read_sections": [
+        "Abstract",
+        "3, particularly combined multigoal weights in Eq. 8",
+        "6 Conclusions",
+        "Data availability"
+      ],
+      "code_url": null,
+      "code_verified_vs_run": {
+        "verification": "No directly runnable official implementation verified",
+        "downloaded": false,
+        "run": false
+      }
+    },
+    {
+      "id": "fidkowski_chen_metric_2021",
+      "title": "Metric-based, goal-oriented mesh adaptation using machine learning",
+      "authors": [
+        "Krzysztof J. Fidkowski",
+        "Guodong Chen"
+      ],
+      "year": 2021,
+      "status": "Published journal article; Journal of Computational Physics 426:109957; DOI 10.1016/j.jcp.2020.109957; author manuscript dated 2020-10-26",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021999120307312",
+      "access": "Publisher record/abstract and author full PDF accessed",
+      "read_sections": [
+        "3",
+        "4",
+        "5",
+        "Table 1"
+      ],
+      "code_url": null,
+      "code_verified_vs_run": {
+        "verification": "No complete official training implementation verified",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://public.websites.umich.edu/~kfid/MYPUBS/Fidkowski_Chen_2020_JCP.pdf",
+        "https://public.websites.umich.edu/kfid/publications.html"
+      ]
+    },
+    {
+      "id": "robust_marking_2024",
+      "title": "Learning Robust Marking Policies for Adaptive Mesh Refinement",
+      "authors": [
+        "Andrew Gillette",
+        "Brendan Keith",
+        "Socratis Petrides"
+      ],
+      "year": 2024,
+      "status": "Published journal article; SIAM Journal on Scientific Computing 46(1):A264–A289; DOI 10.1137/22M1510613; arXiv v2 2023-12-26",
+      "url": "https://epubs.siam.org/doi/10.1137/22M1510613",
+      "access": "Publisher record/reproducibility statement and author HTML full text accessed; HTML dynamic 2026 date not used as publication year",
+      "read_sections": [
+        "2.4–2.5",
+        "3",
+        "4",
+        "5",
+        "Publisher reproducibility statement"
+      ],
+      "code_url": "https://codeocean.com/capsule/0890995/tree",
+      "code_verified_vs_run": {
+        "verification": "Publisher-linked Code Ocean capsule and reproducibility badge verified; capsule contents not installed or run",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://arxiv.org/abs/2207.06339",
+        "https://arxiv.org/html/2207.06339v2"
+      ]
+    },
+    {
+      "id": "vdgn_2023",
+      "title": "Multi-Agent Reinforcement Learning for Adaptive Mesh Refinement",
+      "authors": [
+        "Jiachen Yang",
+        "Ketan Mittal",
+        "Tarik Dzanic",
+        "Socratis Petrides",
+        "Brendan Keith",
+        "Brenden Petersen",
+        "Daniel Faissol",
+        "Robert Anderson"
+      ],
+      "year": 2023,
+      "status": "Published conference paper; AAMAS 2023, pp. 14–22; arXiv v3 2023-02-23",
+      "url": "https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p14.pdf",
+      "access": "Author HTML full text and official author-code README accessed; publication identity cross-checked",
+      "read_sections": [
+        "3–7",
+        "5.4 Multi-objective VDGN",
+        "7.2 Pareto optimality",
+        "Official code README"
+      ],
+      "code_url": "https://github.com/LLNL/marl-amr",
+      "code_verified_vs_run": {
+        "verification": "Official repository README, environment, training configuration and provided checkpoint paths checked; no execution",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://arxiv.org/html/2211.00801v3"
+      ]
+    },
+    {
+      "id": "asmr_2023",
+      "title": "Swarm Reinforcement Learning for Adaptive Mesh Refinement",
+      "authors": [
+        "Niklas Freymuth",
+        "Philipp Dahlinger",
+        "Tobias Würth",
+        "Simon Reisch",
+        "Luise Kärger",
+        "Gerhard Neumann"
+      ],
+      "year": 2023,
+      "status": "Published conference paper; NeurIPS 2023",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/e85454a113e8b41e017c81875ae68d47-Abstract-Conference.html",
+      "access": "Official conference record and author arXiv v3 HTML full text accessed",
+      "read_sections": [
+        "3, especially local/global return Eq. 4",
+        "4",
+        "Appendix C reward ablations"
+      ],
+      "code_url": "https://github.com/NiklasFreymuth/ASMR",
+      "code_verified_vs_run": {
+        "verification": "Official repository association corroborated by author papers; not installed or run",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://arxiv.org/html/2304.00818v3"
+      ]
+    },
+    {
+      "id": "asmrplusplus_2026",
+      "title": "Adaptive Swarm Mesh Refinement Using Deep Reinforcement Learning with Local Rewards",
+      "authors": [
+        "Niklas Freymuth",
+        "Philipp Dahlinger",
+        "Tobias Würth",
+        "Simon Reisch",
+        "Luise Kärger",
+        "Gerhard Neumann"
+      ],
+      "year": 2026,
+      "status": "Published journal article; Machine Learning 115:169; 2026-07-03; DOI 10.1007/s10994-026-07064-4; preprint first submitted 2024-06-12",
+      "url": "https://link.springer.com/article/10.1007/s10994-026-07064-4",
+      "access": "Publisher full text and official repository README accessed; obsolete README citation not used for publication metadata",
+      "read_sections": [
+        "2.4–2.6",
+        "4.3",
+        "Code availability",
+        "Official repository README"
+      ],
+      "code_url": "https://github.com/NiklasFreymuth/ASMRplusplus",
+      "code_verified_vs_run": {
+        "verification": "Official repository README, CPU/GPU environment/configuration and task entry points checked; no execution",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://arxiv.org/abs/2406.08440"
+      ]
+    },
+    {
+      "id": "um2n_2024",
+      "title": "Towards Universal Mesh Movement Networks",
+      "authors": [
+        "Mingrui Zhang",
+        "et_al"
+      ],
+      "year": 2024,
+      "status": "Published conference paper; NeurIPS 2024",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/1b0da24d136f46bfaee78e8da907127e-Abstract-Conference.html",
+      "access": "Official conference record, author arXiv v4 HTML, and official repository README/release page accessed",
+      "read_sections": [
+        "4",
+        "Appendix G limitations",
+        "Official code README/release record"
+      ],
+      "code_url": "https://github.com/mesh-adaptation/UM2N",
+      "code_verified_vs_run": {
+        "verification": "Official README installation, Firedrake/Movement dependencies, and release entry verified; no execution",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://arxiv.org/html/2407.00382v4",
+        "https://github.com/mesh-adaptation/UM2N/releases"
+      ]
+    },
+    {
+      "id": "ugm2n_2025",
+      "title": "UGM2N: An Unsupervised and Generalizable Mesh Movement Network via M-Uniform Loss",
+      "authors": [
+        "Zhichao Wang",
+        "Xinhai Chen",
+        "Qinglin Wang",
+        "Xiang Gao",
+        "Qingyang Zhang",
+        "Menghan Jia",
+        "Xiang Zhang",
+        "Jie Liu"
+      ],
+      "year": 2025,
+      "status": "Published conference paper; NeurIPS 2025; arXiv v1 2025-08-12, v2 2025-10-29",
+      "url": "https://openreview.net/pdf?id=UspcIEkK0y",
+      "access": "Conference PDF and author arXiv full HTML accessed; OpenReview forum page required browser verification",
+      "read_sections": [
+        "3",
+        "Appendix C.4 monitor definitions",
+        "Appendix E.6 efficiency",
+        "Appendix F limitations"
+      ],
+      "code_url": null,
+      "code_verified_vs_run": {
+        "verification": "No runnable official code repository verified",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://arxiv.org/abs/2508.08615",
+        "https://arxiv.org/html/2508.08615v2"
+      ]
+    },
+    {
+      "id": "amber_2025",
+      "title": "AMBER: Adaptive Mesh Generation by Iterative Mesh Resolution Prediction",
+      "authors": [
+        "Niklas Freymuth",
+        "Tobias Würth",
+        "Nicolas Schreiber",
+        "Balázs Gyenes",
+        "Andreas Boltres",
+        "Johannes Mitsch",
+        "Aleksandar Taranovic",
+        "Tai Hoang",
+        "Philipp Dahlinger",
+        "Philipp Becker",
+        "Luise Kärger",
+        "Gerhard Neumann"
+      ],
+      "year": 2025,
+      "status": "Published conference paper; NeurIPS 2025; DOI 10.52202/085713-0803; distinct from the earlier 2024 AMBER manuscript",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/221b2665260a582f7eb821b9871e8001-Abstract-Conference.html",
+      "access": "Official conference page, author arXiv v2 HTML and author project page accessed",
+      "read_sections": [
+        "3",
+        "5",
+        "Appendix G/H",
+        "Author project page"
+      ],
+      "code_url": "https://niklasfreymuth.github.io/AMBER/",
+      "code_verified_vs_run": {
+        "verification": "Author project page with code link verified; code_url is the landing page, not a verified repository checkout; no execution",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://arxiv.org/html/2505.23663v2"
+      ]
+    },
+    {
+      "id": "hyper_2026_v2",
+      "title": "HypeR Adaptivity: Joint hr-Adaptive Meshing via Hypergraph Multi-Agent Deep Reinforcement Learning",
+      "authors": [
+        "Niccolò Grillo",
+        "James Rowbottom",
+        "Pietro Liò",
+        "Carola Bibiane Schönlieb",
+        "Stefania Fresca"
+      ],
+      "year": 2026,
+      "status": "arXiv preprint update; v1 2025-12-11, reviewed v2 2026-05-23; no formal publication verified",
+      "url": "https://arxiv.org/abs/2512.10439",
+      "access": "Official arXiv version history and v2 HTML full text accessed",
+      "read_sections": [
+        "3.1–3.5",
+        "4.1–4.3",
+        "Acknowledgements/code provenance"
+      ],
+      "code_url": null,
+      "code_verified_vs_run": {
+        "verification": "No independent HypeR release verified; acknowledged use of ASMR++ does not make ASMR++ its implementation",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://arxiv.org/html/2512.10439v2"
+      ]
+    },
+    {
+      "id": "learning_to_discretize_2026",
+      "title": "Learning to Discretize: Diffusion-Based Adaptive Mesh with Spectral Guidance",
+      "authors": [
+        "Zixuan Shen",
+        "Bingchuan Wang",
+        "Zhi Wang",
+        "Yong Wang"
+      ],
+      "year": 2026,
+      "status": "arXiv preprint; v1 2026-07-13; no formal publication verified",
+      "url": "https://arxiv.org/abs/2607.11974",
+      "access": "Official arXiv version record and v1 HTML full text accessed",
+      "read_sections": [
+        "Method",
+        "Overall Learning Objective",
+        "Appendix Hardware and Software Environment",
+        "Appendix Runtime Cost of Learned Discretization",
+        "Appendix Baseline Models",
+        "Appendix Future Work"
+      ],
+      "code_url": null,
+      "code_verified_vs_run": {
+        "verification": "No official executable code verified",
+        "downloaded": false,
+        "run": false
+      },
+      "additional_urls": [
+        "https://arxiv.org/html/2607.11974v1"
+      ]
+    }
+  ]
+}

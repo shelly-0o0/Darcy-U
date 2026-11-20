@@ -1,0 +1,139 @@
+{
+  "scope": "Focused classical numerical analysis literature review; not exhaustive; no new PDE experiments",
+  "sources": [
+    {
+      "id": "C1",
+      "title": "An optimal control approach to a posteriori error estimation in finite element methods",
+      "authors": [
+        "Roland Becker",
+        "Rolf Rannacher"
+      ],
+      "year": 2001,
+      "doi": "10.1017/S0962492901000010",
+      "primary_url": "https://www.cambridge.org/core/journals/acta-numerica/article/abs/an-optimal-control-approach-to-a-posteriori-error-estimation-in-finite-element-methods/5C67A03F528C6FA69F37A97DF5C3BE19",
+      "access_level": "publisher_abstract",
+      "read_scope": "Abstract and bibliographic record",
+      "verified_date": "2026-11-20"
+    },
+    {
+      "id": "C2",
+      "title": "A goal-oriented adaptive finite element method with convergence rates",
+      "authors": [
+        "Mario S. Mommer",
+        "Rob Stevenson"
+      ],
+      "year": 2009,
+      "doi": "10.1137/060675666",
+      "primary_url": "https://pure.uva.nl/ws/files/1107059/69765_Stevenson_SIAM_JNumAnalysis.pdf",
+      "access_level": "institution_full_text",
+      "read_scope": "Sections 1,5,6; equation (1.1); Example 7.3",
+      "verified_date": "2026-11-20"
+    },
+    {
+      "id": "C3",
+      "title": "An abstract analysis of optimal goal-oriented adaptivity",
+      "authors": [
+        "Michael Feischl",
+        "Dirk Praetorius",
+        "Kristoffer G. van der Zee"
+      ],
+      "year": 2016,
+      "doi": "10.1137/15M1021982",
+      "primary_url": "https://arxiv.org/html/1505.04536v1",
+      "access_level": "author_preprint_full_text",
+      "read_scope": "Sections 1.2,2.1-2.4,4.1-4.4; equations (4)-(7); Algorithms A/B/C",
+      "verified_date": "2026-11-20"
+    },
+    {
+      "id": "C4",
+      "title": "A Posteriori Error Estimators for Elliptic Equations with Discontinuous Coefficients",
+      "authors": [
+        "Martin Petzoldt"
+      ],
+      "year": 2002,
+      "doi": "10.1023/A:1014221125034",
+      "primary_url": "https://www.wias-berlin.de/preprint/533/wias_preprints_533.pdf",
+      "access_level": "institution_preprint_full_text_plus_publisher_metadata",
+      "read_scope": "1999 preprint section 5 Theorem 8/Corollary 1; section 6 saturation discussion; preprint title includes 'diffusion'",
+      "verified_date": "2026-11-20"
+    },
+    {
+      "id": "C5",
+      "title": "Robust equilibrated a posteriori error estimator for higher order finite element approximations to diffusion problems",
+      "authors": [
+        "Difeng Cai",
+        "Zhiqiang Cai",
+        "Shun Zhang"
+      ],
+      "year": 2020,
+      "doi": "10.1007/s00211-019-01075-1",
+      "primary_url": "https://www.math.purdue.edu/~caiz/pdf-paper/20CaCaZh.pdf",
+      "access_level": "author_hosted_journal_full_text",
+      "read_scope": "Sections 2-5,6.3; Definition 6.1, Theorem 6.1; coefficient alignment and data oscillation assumptions",
+      "verified_date": "2026-11-20"
+    },
+    {
+      "id": "C6",
+      "title": "Adaptive Finite Element Methods for Elliptic Problems with Discontinuous Coefficients",
+      "authors": [
+        "Andrea Bonito",
+        "Ronald A. DeVore",
+        "Ricardo H. Nochetto"
+      ],
+      "year": 2013,
+      "doi": "10.1137/130905757",
+      "primary_url": "https://andreabonito.org/Publications/Preprints/2013_BDN_DiscCoeff.pdf",
+      "access_level": "author_preprint_full_text",
+      "read_scope": "Sections 1,2.1-2.2,5.2; Theorem 2.1 coefficient perturbation",
+      "verified_date": "2026-11-20"
+    },
+    {
+      "id": "C7",
+      "title": "Multigoal-oriented error estimates for non-linear problems",
+      "authors": [
+        "Bernhard Endtmayer",
+        "Ulrich Langer",
+        "Thomas Wick"
+      ],
+      "year": 2019,
+      "doi": "10.1515/jnma-2018-0038",
+      "primary_url": "https://www.ricam.oeaw.ac.at/files/reports/18/rep18-08.pdf",
+      "access_level": "institution_preprint_full_text_plus_institution_journal_metadata",
+      "read_scope": "Sections 3-5; equations (16),(20)-(25); Algorithm 3 and Remarks 5.5-5.7; selected section 6 error tables",
+      "verified_date": "2026-11-20"
+    },
+    {
+      "id": "C8",
+      "title": "Goal-oriented adaptive finite element methods with optimal computational complexity",
+      "authors": [
+        "Roland Becker",
+        "Gregor Gantner",
+        "Michael Innerberger",
+        "Dirk Praetorius"
+      ],
+      "year": 2023,
+      "doi": "10.1007/s00211-022-01334-8",
+      "primary_url": "https://link.springer.com/article/10.1007/s00211-022-01334-8",
+      "access_level": "publisher_open_full_text",
+      "read_scope": "Sections 2.5-2.7 and 3; equations (17)-(22),(26),(31)-(33), Theorems 6 and 8; online publication 2022-11-16",
+      "verified_date": "2026-11-20"
+    },
+    {
+      "id": "C9",
+      "title": "Multigoal-oriented adaptive finite element methods with convergence rates",
+      "authors": [
+        "Roland Becker",
+        "Maximilian Brunner",
+        "Paula Hilbert",
+        "Michael Innerberger",
+        "Dirk Praetorius"
+      ],
+      "year": 2026,
+      "doi": "10.1007/s00211-026-01576-w",
+      "primary_url": "https://link.springer.com/article/10.1007/s00211-026-01576-w",
+      "access_level": "publisher_and_author_open_full_text",
+      "read_scope": "Publisher sections 1.2,2.2-2.3; author https://arxiv.org/html/2601.01965v1 Theorems 3.1/4.1 and section 5.2; published 2026-10-29",
+      "verified_date": "2026-11-20"
+    }
+  ]
+}
