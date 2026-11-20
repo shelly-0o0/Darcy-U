@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "development_only": true,
+  "geometries": 8,
+  "rows": 40,
+  "wall_seconds": 3.7410838399082422,
+  "freeze_sha256": "9a84b216a579465624d9f1b514c48f5c615141be79eae1ee46444085fc92d659",
+  "rows_sha256": "be7b48ee678a73df736695f9d68c4db9555b0e92be66ce4968c5adbc523591e7"
+}

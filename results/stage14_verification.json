@@ -1,0 +1,68 @@
+{
+  "created_utc": "2026-11-20T09:27:28.752238+00:00",
+  "stage": 14,
+  "tests": {
+    "passed": 217,
+    "new_tests": 18,
+    "log": "results/stage14_tests.log",
+    "log_sha256": "ae06810748a6321aca08e0295731d883f0c630aa1d1d6f38868acd505b27c6a0"
+  },
+  "frozen_inputs_verified": 70,
+  "formal_independent_geometries": 32,
+  "baseline_runs": 288,
+  "candidate_solves": 896,
+  "all_candidate_numerical_checks": true,
+  "all_baseline_numerical_checks": true,
+  "exact_budget_rows": 896,
+  "fallback_rows": 0,
+  "locked_ring_rows": 448,
+  "repeated_baselines_deterministic": true,
+  "decision": {
+    "primary_mode": "locked_ring",
+    "numerical_gate_passed": true,
+    "structural_gate_passed": true,
+    "accuracy_condition_per_split": {
+      "id": false,
+      "contrast": false
+    },
+    "accuracy_condition_passed": false,
+    "potential_per_split": {
+      "id": false,
+      "contrast": false
+    },
+    "potential_passed": false,
+    "robustness_per_split": {
+      "id": true,
+      "contrast": true
+    },
+    "robust_potential_passed": false,
+    "primary_ratio_limit": 0.8,
+    "required_ten_percent_improvements": 12,
+    "audit_and_energy_median_limit": 1.05,
+    "interpretation": "Only finite-bank offline potential; not learnability, AI benefit, global mesh optimality, or a speedup."
+  },
+  "historical_tracked_changes": [
+    "README.md"
+  ],
+  "historical_stage1_to13_code_protocol_weights_raw_unchanged": true,
+  "installed_versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "torch": "2.6.0+cu124",
+    "matplotlib": "3.10.7",
+    "threadpoolctl": "3.7.0",
+    "pyamg": "5.4.1"
+  },
+  "pyamg_provided_by": "repository-local vendor/pyamg; install matching PyAMG version for reproduction",
+  "raw_format": "gzip-compressed JSON, no candidate records omitted",
+  "raw_bytes": 31979105,
+  "storage_only_rerun_verification": "results/stage14_mechanism_development/storage_verification.json",
+  "report_verification": "results/stage14_report/verification.json",
+  "report_visual_review_passed": true,
+  "findings_independently_reviewed": true,
+  "checked_local_doc_links": 105,
+  "no_ai_training_or_inference": true,
+  "no_equal_accuracy_speedup_claim": true,
+  "completion_sha256": "74c7a31595ac5f4bf581f5c856c343e7dfe2daf0f03e2658681c7417b8a8ac1d",
+  "summary_sha256": "f418e5381c99d248b250d390c382ed199a0bb912a2e9d5a1fdfe609dc420868a"
+}

@@ -1,0 +1,44 @@
+{
+  "complete": true,
+  "created_utc": "2026-11-20T09:16:21.210404+00:00",
+  "source": "results/stage14_mechanism_development",
+  "reporter_sha256": "50409e94c3b43948e84e8029bed1c66b8892f2eabb0497578ad9a7df24490a79",
+  "source_sha256": {
+    "freeze.json": "533c01155ea54735c738f43773169d989b021449d879ba708f81c3e98920738c",
+    "complete.json": "26800160066fff86608f15c81b305feb096d24cea758291d1f9d512e232c515a",
+    "contexts.json": "5b38cd67bf34b5b5c1db6ba22cc932993d304c4a2ba6c955e2567769eb905e53",
+    "rows.json.gz": "4b742f8c46b5eb2710efa5fc1242480a8040204049cfc51d167c1b583fc597f0"
+  },
+  "output_sha256": {
+    "summary.json": "773a573de1004a27ec7040b924032bfcbec382cc1fd8b99151694f09e0872916",
+    "REPORT_zh.md": "5b568ffd8a3a4d934f7aba46632499f8d65f36587306e75e78c606a7c3fe44b8",
+    "figures/comparison.png": "962964c91ee6c50527cae8fa4877514ed2705e2a3796cf2687c0be9f674e9968",
+    "figures/comparison.pdf": "6bad43e25738a871f88f3312d3bbdc518b4ffc8d0280fc90a30f2629ca91b899"
+  },
+  "decision": {
+    "primary_mode": "locked_ring",
+    "numerical_gate_passed": true,
+    "structural_gate_passed": true,
+    "accuracy_condition_per_split": {
+      "id": false,
+      "contrast": false
+    },
+    "accuracy_condition_passed": false,
+    "potential_per_split": {
+      "id": false,
+      "contrast": false
+    },
+    "potential_passed": false,
+    "robustness_per_split": {
+      "id": true,
+      "contrast": true
+    },
+    "robust_potential_passed": false,
+    "primary_ratio_limit": 0.8,
+    "required_ten_percent_improvements": 12,
+    "audit_and_energy_median_limit": 1.05,
+    "interpretation": "Only finite-bank offline potential; not learnability, AI benefit, global mesh optimality, or a speedup."
+  },
+  "no_pde_solver_imported": true,
+  "no_ai_model_used": true
+}

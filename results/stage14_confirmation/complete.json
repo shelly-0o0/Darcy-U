@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "development": false,
+  "smoke": false,
+  "no_training": true,
+  "contexts": 32,
+  "rows": 896,
+  "independent_geometries": 32,
+  "baseline_pipeline_runs": 288,
+  "offline_candidate_solves": 896,
+  "warmup_seconds": 0.14154630294069648,
+  "wall_seconds": 183.3533580249641,
+  "freeze_sha256": "890af91420ad5c1ab155f301792b8c6da14678964d16588e745997f1ecf04fb6",
+  "output_sha256": {
+    "contexts.json": "13a0fb9a85dc55260324625eabf9572d73d01f9ca9d3640805e4efb5c2227bda",
+    "rows.json.gz": "8f404ba7676348f07ca6178fcea08d4688c17a4d5b4583ff0fc6b421addc0523"
+  }
+}

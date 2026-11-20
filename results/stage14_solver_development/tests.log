@@ -1,0 +1,14 @@
+test_cg_failure_is_retained_even_if_returned_solution_is_exact (test_stage14_solver.CertifiedSolverTests) ... ok
+test_componentwise_backward_error_rejects_bad_small_load_row (test_stage14_solver.CertifiedSolverTests) ... ok
+test_direct_and_amg_match_independent_solution_for_three_rhs (test_stage14_solver.CertifiedSolverTests) ... ok
+test_extended_residual_reveals_double_cancellation (test_stage14_solver.CertifiedSolverTests) ... ok
+test_false_cg_success_does_not_override_true_residual (test_stage14_solver.CertifiedSolverTests) ... ok
+test_invalid_shape_finiteness_symmetry_and_method_fail_explicitly (test_stage14_solver.CertifiedSolverTests) ... ok
+test_residual_correction_reuses_lu_and_is_charged (test_stage14_solver.CertifiedSolverTests) ... ok
+test_scaled_amg_handles_heterogeneous_diagonal_without_changing_problem (test_stage14_solver.CertifiedSolverTests) ... ok
+test_vector_shape_and_inputs_are_unchanged (test_stage14_solver.CertifiedSolverTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.041s
+
+OK

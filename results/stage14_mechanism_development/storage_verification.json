@@ -1,0 +1,12 @@
+{
+  "reason": "Lossless gzip JSON to keep raw records below GitHub single-file size limit; no mathematical or gate change",
+  "candidate_nontiming_records_exactly_equal": true,
+  "context_nontiming_records_exactly_equal": true,
+  "candidate_records": 224,
+  "old_run_local_archive": "/tmp/stage14_mechanism_development_verbose",
+  "old_runner_sha256": "75ff617e9c9cd68d53ee0c593c73d4818ea4db0f8239d258dcabf78d4ed6aa32",
+  "new_runner_sha256": "0972fa11b3ea709bad676e2a0be184d02f374ed78c917a562fda3d65f315c4b7",
+  "old_rows_sha256": "d684f66979a43f444c225e5c3cb1724b26497e32ce2a0c5d3ecce895d2fd7aa1",
+  "new_rows_sha256": "4b742f8c46b5eb2710efa5fc1242480a8040204049cfc51d167c1b583fc597f0",
+  "new_rows_bytes": 8003073
+}

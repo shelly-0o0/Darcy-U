@@ -1,0 +1,44 @@
+{
+  "complete": true,
+  "created_utc": "2026-11-20T09:20:38.020928+00:00",
+  "source": "results/stage14_confirmation",
+  "reporter_sha256": "50409e94c3b43948e84e8029bed1c66b8892f2eabb0497578ad9a7df24490a79",
+  "source_sha256": {
+    "freeze.json": "890af91420ad5c1ab155f301792b8c6da14678964d16588e745997f1ecf04fb6",
+    "complete.json": "74c7a31595ac5f4bf581f5c856c343e7dfe2daf0f03e2658681c7417b8a8ac1d",
+    "contexts.json": "13a0fb9a85dc55260324625eabf9572d73d01f9ca9d3640805e4efb5c2227bda",
+    "rows.json.gz": "8f404ba7676348f07ca6178fcea08d4688c17a4d5b4583ff0fc6b421addc0523"
+  },
+  "output_sha256": {
+    "summary.json": "f418e5381c99d248b250d390c382ed199a0bb912a2e9d5a1fdfe609dc420868a",
+    "REPORT_zh.md": "15bafc2ad4b55ab34c29db4219f02a7e7093da08cce03152119f750843900a31",
+    "figures/comparison.png": "cab26782a38fadc4916360d0e46b374c2e247892a9ddbda8253b12971c1c20fa",
+    "figures/comparison.pdf": "6c69078b034e5b206d18e051647fa12f27418bb3bf658387b6c8b905721b1ff7"
+  },
+  "decision": {
+    "primary_mode": "locked_ring",
+    "numerical_gate_passed": true,
+    "structural_gate_passed": true,
+    "accuracy_condition_per_split": {
+      "id": false,
+      "contrast": false
+    },
+    "accuracy_condition_passed": false,
+    "potential_per_split": {
+      "id": false,
+      "contrast": false
+    },
+    "potential_passed": false,
+    "robustness_per_split": {
+      "id": true,
+      "contrast": true
+    },
+    "robust_potential_passed": false,
+    "primary_ratio_limit": 0.8,
+    "required_ten_percent_improvements": 12,
+    "audit_and_energy_median_limit": 1.05,
+    "interpretation": "Only finite-bank offline potential; not learnability, AI benefit, global mesh optimality, or a speedup."
+  },
+  "no_pde_solver_imported": true,
+  "no_ai_model_used": true
+}

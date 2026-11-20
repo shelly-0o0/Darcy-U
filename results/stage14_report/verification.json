@@ -1,0 +1,74 @@
+{
+  "verified_utc": "2026-11-20T09:22:32.138242+00:00",
+  "reporter_sha256": "50409e94c3b43948e84e8029bed1c66b8892f2eabb0497578ad9a7df24490a79",
+  "source_sha256": {
+    "freeze.json": "890af91420ad5c1ab155f301792b8c6da14678964d16588e745997f1ecf04fb6",
+    "complete.json": "74c7a31595ac5f4bf581f5c856c343e7dfe2daf0f03e2658681c7417b8a8ac1d",
+    "contexts.json": "13a0fb9a85dc55260324625eabf9572d73d01f9ca9d3640805e4efb5c2227bda",
+    "rows.json.gz": "8f404ba7676348f07ca6178fcea08d4688c17a4d5b4583ff0fc6b421addc0523"
+  },
+  "summary_sha256": "f418e5381c99d248b250d390c382ed199a0bb912a2e9d5a1fdfe609dc420868a",
+  "independent_audit": {
+    "passed": true,
+    "independent_geometries": 32,
+    "frozen_input_count": 70,
+    "regenerated_coefficient_hashes": 32,
+    "regenerated_candidate_scores_and_decodings": 896,
+    "baseline_runs": 288,
+    "candidate_numerical_failures": 0,
+    "structural_failures": 0
+  },
+  "visual_inspection": {
+    "passed": true,
+    "artifact": "figures/comparison.png",
+    "notes": "Four panels, all labels and footer visible; individual geometry scatter retains outliers."
+  },
+  "relocation": {
+    "passed": true,
+    "root": "/tmp/stage14-relocation-3shoj86_",
+    "copied_files": 75,
+    "subprocess_exit_code": 0,
+    "summary_identical_bytes": true,
+    "summary_sha256": "f418e5381c99d248b250d390c382ed199a0bb912a2e9d5a1fdfe609dc420868a"
+  },
+  "rejection_tests": {
+    "root": "/tmp/stage14-rejection-n1tuvcou",
+    "tests": [
+      {
+        "scenario": "changed_candidate_score",
+        "rejected": true,
+        "reason": "Recomputed value differs: Independent candidate score formula",
+        "raw_hashes_recomputed": true
+      },
+      {
+        "scenario": "changed_interface_mask",
+        "rejected": true,
+        "reason": "Independently regenerated interface mask differs",
+        "raw_hashes_recomputed": true
+      },
+      {
+        "scenario": "changed_qoi_with_stale_error",
+        "rejected": true,
+        "reason": "Recomputed value differs: ('id', 55200, 'locked_ring', 0) known.signed_scaled_error",
+        "raw_hashes_recomputed": true
+      },
+      {
+        "scenario": "retained_numeric_failure",
+        "accepted_as_consistent_failure": true,
+        "numeric_failure_count": 1,
+        "numerical_gate_passed": false,
+        "potential_passed": false,
+        "raw_hashes_recomputed": true,
+        "limitation": "Synthetic stored diagnostics test only; no physical solve was modified or rerun."
+      }
+    ]
+  },
+  "formal_results_unchanged": true,
+  "boundaries": [
+    "No PDE solver or online model was imported or executed by the independent reporter.",
+    "Residuals, backward errors and energies are saved diagnostics; full solution fields are absent and these quantities were not independently recomputed.",
+    "Gaussian parameters and reference-free score formulas were regenerated, but load quadrature and load-array hashes were not recomputed.",
+    "Failure injection modifies temporary copies and recomputes their raw hashes to exercise mathematical and consistency checks beyond hash mismatch.",
+    "The formal accuracy condition fails even though all numerical checks pass; the finite-bank potential gate remains false."
+  ]
+}
