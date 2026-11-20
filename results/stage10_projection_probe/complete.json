@@ -1,0 +1,41 @@
+{
+  "complete": true,
+  "post_hoc": true,
+  "formal_gate_unchanged": true,
+  "rows": 768,
+  "contexts": 64,
+  "input_sha256": {
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/freeze.json": "2b09aa698841dd8f23bccde7e91fbdb4907651d99ccfe2121c1804e60d18a57b",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/complete.json": "7989d5b6d212857ae0098316b2de5d8adeb70d595bfe56dd65b5fc4eabeb54c6",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/evaluation.json": "430a0eb2ba66da3e9138ed150d67b016e2fe97415f76e83139b845fd922f5619",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/test_data.json": "16817c18191e68a2a551e241af0c911077576db6e367518a9b11e6cb96d10e98",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/training_data.json": "3a99cb84a3bd13ef7e2627cb49c3d017e2b6f806ff9d1563f61e1450f25be626",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/training_complete.json": "059d2ade080d0f2ab63a7b18410f459ee63ded9725146d2d297cfc4a029a765e",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/train_symmetric_51001.json": "7d570b0c7ebdd83d4e80fdcbaaf49bcd3f4fafc84272d1c63e58c5b2c6b1cfcf",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/train_symmetric_51002.json": "390825a8a2dbad4a5f4ed720fad53f70ebf3dc25a339ae9bcbfad70c38118fbf",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/train_symmetric_51003.json": "0c3744e20597ee2c4ca3e6cc1dd83028eba9c1af0465a5cc2911b547a41abfcf",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/train_untied_51001.json": "ed3a97abe3ca3ab0746bffb87fc23ea8db2d3f45fb45dc6f766cc95155d6c813",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/train_untied_51002.json": "701ab87a41758ee2ac78cc135483dbf902c5914bc93cd264c6919748d7628a49",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/train_untied_51003.json": "a04c4afd87acbf5bf1a4e7b4a85625f9957e199b119d94183ffe47f593bed6c3",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/train_nonlinear_51001.json": "739ff9c5273005d949df8ebd02da7f05bc55ebbfda5e43c4739adbaf4815f2ea",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/train_nonlinear_51002.json": "df5ff837e894be42c7ffed4665330a557ae6a08cc4e0c7cdc44544d69fba4100",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/train_nonlinear_51003.json": "5c98262c951e8d3287e1c1609bc6bdcdae389d12e47d47f83a66d4ce697d0a19",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/symmetric_51001.pt": "35287b6553ac879ca8c2d067edbb3881cfc2805e1daf207289bbacd60578836b",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/symmetric_51002.pt": "5339ae1e9b51b78b2e6280d4ff16581ad7414d974e44c70159f25c27a1393894",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/symmetric_51003.pt": "eca0897dea5eec050af7590c707e1f8a82699cfeda6d5f1b6adafbc4a5806f93",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/untied_51001.pt": "aad50e4929c54ce85ec2b19cfc72a1bf015658c696c85360936294fbab322886",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/untied_51002.pt": "b479883ebaab70c65249fcc44eb2204fa2dd23516827435d6c9060d3f2389296",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/untied_51003.pt": "c7a117893ebb3acb65981a8d4f29887f784c4d2a905ff6d1875fd94a639f605e",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/nonlinear_51001.pt": "ea31f29dea700c50ba95d3d585a41d54b2455d368c5bbca4017df1be3839796d",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/nonlinear_51002.pt": "53b6cc3282c6c79c266308f6cd775200d1cf7580c54ab7d2ae92cd5fc43c2c7f",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/results/stage10_pilot/nonlinear_51003.pt": "241a8fd6a1281820d134f79d1d14d5cc9b4e284f824bab1681f38644b72d2f0b",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/stage10_projection_probe.py": "6d2683223c40313efe38788087d1051ac1636e3f484c5bfc407330fddc7f8776",
+    "/home/user/.codex/.chatgpt-projects/g-p-6a1950a0c764819196b02b187f8f80c8/experiments/darcy_incremental/docs/stage10_projection_probe_zh.md": "4c9d1d46b12292ebfe2a6133fb5f635588b42a61aafe5b4c3f0370383f98708b"
+  },
+  "output_sha256": {
+    "manifest.json": "4bc013e998352c459c0535728534f550a9b0e3dd50d8e4f49880d1ae1f2cfd6f",
+    "rows.json": "eceab4d13b448e180061cd8bf2db1fc0dcfd2cc78ef63e0ba07d2affdfbb1621",
+    "contexts.json": "f07708ad6d8e30b30ecdfc903f6520fcd7d0f814bc02928742f517516fc441f1",
+    "summary.json": "d8ba42e76550c0a601012259eec614ef4c729e9ec751043069c1d2e0ca20d810"
+  }
+}

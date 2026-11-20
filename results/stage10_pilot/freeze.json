@@ -1,0 +1,45 @@
+{
+  "config": {
+    "train_geometries": 64,
+    "validation_geometries": 12,
+    "test_geometries": 16,
+    "goals": 4,
+    "coarse_cells": 16,
+    "epochs": 60,
+    "batch_geometries": 4,
+    "learning_rate": 0.002,
+    "weight_decay": 1e-05,
+    "width": 8,
+    "levels": 3,
+    "gram_loss_weight": 0.25,
+    "seeds": [
+      51001,
+      51002,
+      51003
+    ],
+    "kinds": [
+      "symmetric",
+      "untied",
+      "nonlinear"
+    ]
+  },
+  "smoke": false,
+  "source_sha256": {
+    "stage10_experiment.py": "a9d46e3beeb282914f71dd817aab6a0b3cde1ddf6f7ea81a8bb3b8759d64fd28",
+    "stage10_error_model.py": "999536d1e8dbd8c648a2c80d83c1d6e1795d7442b682adf022c64bde2de0959b",
+    "stage10_goal_numerics.py": "beaa7d896ab79d8f738a8cf18a169ede926c6d85ec11abf9202f87a11ebf28f9",
+    "test_stage10_error_model.py": "44832aacff577eeb7676af8dc79729b363947723bc1b20fd2389cb7bdc81f2d1",
+    "test_stage10_goal_numerics.py": "b575cd15d005676be10c50eb1532f90ffe7c528336c6f05378b8d8453b407d73",
+    "test_stage10_experiment.py": "f0697e4d32e4243c7395e1816326a4850183192a853cb84d49f0acc2dd259c08",
+    "numerics.py": "5a8eb53f701142d18eb67807078db912eb29b3b87d55bfb6677206909c3a5f12",
+    "sequence_baselines.py": "6da7fa625f33cbb0d2847c948c576fdaee8cb2451a6cda17116e617eeb557936"
+  },
+  "protocol_sha256": "f09ca0b7c4cf3e3e3d291d0ab3ea9baabd16f856c632a18a4982eb31c6bf2b40",
+  "environment": {
+    "python": "3.10.21",
+    "torch": "2.6.0+cu124",
+    "numpy": "1.26.4",
+    "device": "cuda",
+    "device_name": "NVIDIA GeForce RTX 4090"
+  }
+}

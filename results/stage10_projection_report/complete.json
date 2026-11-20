@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "audit_passed": true,
+  "rows": 768,
+  "reporter_sha256": "67dbe10a5768782b9ac8f2c242066fa4cc8329a6370ba14f400fffe1afbaed2c",
+  "source_complete_sha256": "fcfae5b07b2554a3e483067df246b5b81eb949cd7082beb1f07deabde8bc1e7a",
+  "output_sha256": {
+    "summary.json": "48b106db9754f6260424a0f56c71bba7efcd43d2f3cc9a653370326906994e75",
+    "REPORT_zh.md": "08522bcd0eead721cc2aa973a717edfada310e3239c8c93a46f0db75157816dd",
+    "figures/projection.png": "081ffe92b29e66523adb8de6306b217e48a0f807148fcf1032599d7ee18aafbd",
+    "figures/projection.pdf": "767ccd1df8f54a66cd87a2a2aeeacf2748bb1a8640b0d38d5b2078b4f9faedb3"
+  }
+}

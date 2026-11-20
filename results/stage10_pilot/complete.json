@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "freeze_sha256": "2b09aa698841dd8f23bccde7e91fbdb4907651d99ccfe2121c1804e60d18a57b",
+  "rows": 768,
+  "models": 9,
+  "training_seconds": 22.383066308917478,
+  "source_sha256": {
+    "stage10_experiment.py": "a9d46e3beeb282914f71dd817aab6a0b3cde1ddf6f7ea81a8bb3b8759d64fd28",
+    "stage10_error_model.py": "999536d1e8dbd8c648a2c80d83c1d6e1795d7442b682adf022c64bde2de0959b",
+    "stage10_goal_numerics.py": "beaa7d896ab79d8f738a8cf18a169ede926c6d85ec11abf9202f87a11ebf28f9",
+    "test_stage10_error_model.py": "44832aacff577eeb7676af8dc79729b363947723bc1b20fd2389cb7bdc81f2d1",
+    "test_stage10_goal_numerics.py": "b575cd15d005676be10c50eb1532f90ffe7c528336c6f05378b8d8453b407d73",
+    "test_stage10_experiment.py": "f0697e4d32e4243c7395e1816326a4850183192a853cb84d49f0acc2dd259c08",
+    "numerics.py": "5a8eb53f701142d18eb67807078db912eb29b3b87d55bfb6677206909c3a5f12",
+    "sequence_baselines.py": "6da7fa625f33cbb0d2847c948c576fdaee8cb2451a6cda17116e617eeb557936"
+  },
+  "result_sha256": {
+    "evaluation.json": "430a0eb2ba66da3e9138ed150d67b016e2fe97415f76e83139b845fd922f5619",
+    "test_data.json": "16817c18191e68a2a551e241af0c911077576db6e367518a9b11e6cb96d10e98",
+    "training_data.json": "3a99cb84a3bd13ef7e2627cb49c3d017e2b6f806ff9d1563f61e1450f25be626",
+    "training_complete.json": "059d2ade080d0f2ab63a7b18410f459ee63ded9725146d2d297cfc4a029a765e"
+  },
+  "scope": "Representation pilot only; no runtime, adaptivity, continuum accuracy or novelty claim"
+}

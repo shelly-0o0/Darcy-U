@@ -1,0 +1,38 @@
+{
+  "checked_utc": "2026-11-20T06:35:10.622533+00:00",
+  "unit_tests": {
+    "passed": 139,
+    "new_stage10_tests": 22,
+    "log": "results/stage10_tests.log",
+    "sha256": "4f7423bc9d2037991a9ec77d1e6755d86b7bcc2a42f352530992eb79665e9793"
+  },
+  "formal_freeze_sha256": "2b09aa698841dd8f23bccde7e91fbdb4907651d99ccfe2121c1804e60d18a57b",
+  "formal_complete_sha256": "7989d5b6d212857ae0098316b2de5d8adeb70d595bfe56dd65b5fc4eabeb54c6",
+  "formal_source_hashes_match": true,
+  "projection_complete_sha256": "fcfae5b07b2554a3e483067df246b5b81eb949cd7082beb1f07deabde8bc1e7a",
+  "projection_all_hashes_match": true,
+  "original_tracked_changes_only": [
+    ".gitignore",
+    "README.md"
+  ],
+  "stages_1_through_9_source_and_raw_data_unchanged": true,
+  "cpu_replay_max_absolute_recorded_metric_difference": {
+    "defect_energy_error_mean": 2.601023288972826e-07,
+    "marker_mass_ratio": 0.0002449715840903144,
+    "indicator_relative_l1": 1.0419972035213831e-07
+  },
+  "cpu_replay_marker_rows_changed": 1,
+  "cpu_replay_scope": "Recorded metrics only; GPU full prediction vectors were not saved. Projection comparisons use the same CPU before/after vectors.",
+  "package_versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "torch": "2.6.0+cu124",
+    "matplotlib": "3.10.7",
+    "pyamg": "5.4.1"
+  },
+  "formal_models": 9,
+  "formal_prediction_rows": 768,
+  "posthoc_projection_rows": 768,
+  "independent_test_geometries": 32,
+  "report_checks": "Independent formal reporter reconstructs small-matrix metrics; projection reporter independently audits and aggregates all matching records; figures visually inspected."
+}

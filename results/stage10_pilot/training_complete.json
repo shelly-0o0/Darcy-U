@@ -1,0 +1,49 @@
+{
+  "checkpoints": [
+    {
+      "kind": "symmetric",
+      "seed": 51001,
+      "sha256": "35287b6553ac879ca8c2d067edbb3881cfc2805e1daf207289bbacd60578836b"
+    },
+    {
+      "kind": "untied",
+      "seed": 51001,
+      "sha256": "aad50e4929c54ce85ec2b19cfc72a1bf015658c696c85360936294fbab322886"
+    },
+    {
+      "kind": "nonlinear",
+      "seed": 51001,
+      "sha256": "ea31f29dea700c50ba95d3d585a41d54b2455d368c5bbca4017df1be3839796d"
+    },
+    {
+      "kind": "symmetric",
+      "seed": 51002,
+      "sha256": "5339ae1e9b51b78b2e6280d4ff16581ad7414d974e44c70159f25c27a1393894"
+    },
+    {
+      "kind": "untied",
+      "seed": 51002,
+      "sha256": "b479883ebaab70c65249fcc44eb2204fa2dd23516827435d6c9060d3f2389296"
+    },
+    {
+      "kind": "nonlinear",
+      "seed": 51002,
+      "sha256": "53b6cc3282c6c79c266308f6cd775200d1cf7580c54ab7d2ae92cd5fc43c2c7f"
+    },
+    {
+      "kind": "symmetric",
+      "seed": 51003,
+      "sha256": "eca0897dea5eec050af7590c707e1f8a82699cfeda6d5f1b6adafbc4a5806f93"
+    },
+    {
+      "kind": "untied",
+      "seed": 51003,
+      "sha256": "c7a117893ebb3acb65981a8d4f29887f784c4d2a905ff6d1875fd94a639f605e"
+    },
+    {
+      "kind": "nonlinear",
+      "seed": 51003,
+      "sha256": "241a8fd6a1281820d134f79d1d14d5cc9b4e284f824bab1681f38644b72d2f0b"
+    }
+  ]
+}
