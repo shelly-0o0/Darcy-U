@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "raw_complete_sha256": "009f71df03066ce9301dfaf96c642ae6cd4fd0171742d69565b3cd9bb1ad0659",
+  "report_source_sha256": "6f53b3370bced7c57121d47ad9cb2b9b1061859da867ce47be2e397b21df11cd",
+  "file_sha256": {
+    "integrity_checks.json": "059ece58a4516e6ded9e790a56fcecb9ff4329b155f9c4ac19f4726b749bdc67",
+    "time_inclusion.pdf": "7f19c6de4c0ee887b67b596ffb9afb199436017442b27d174a66aa9f5b3f486d",
+    "time_barrier.png": "a2c8212731845ae460e7a806f1fd7eb8be93a0e00f4c3bc913d451a95f9d7eb9",
+    "time_layers.pdf": "fbcb94b8e0d8d741ca890d1427c68e3bc2b432ea80aa781a2b74d5e2a89061c8",
+    "time_inclusion.png": "e41539287bfebccc3f48392ee85860b205d63ba446fffd1bbbb88a4372d1352d",
+    "summary.json": "c868de7baef491f8cec56f8fb67f7044a4e36e2228e8308e6c09b39179ea152b",
+    "time_layers.png": "6ea708c8046713070d5b71ea9b7d4856904a1f30dee78773aab21eef7415e055",
+    "time_barrier.pdf": "4858bacb7657359697001584ce20e52a33705b998be82a295ef63d126ebfae64",
+    "time_channel.png": "3702cfc0c3b9c84dcc480439088ffb81480f0cb76244c137c4219c96596f8ec6",
+    "time_channel.pdf": "ae4a4341d339bdcf5742cb02481b5dac7e3573b45b5d4cefcfc6504e2aef3b9f",
+    "REPORT_zh.md": "7a5a6e301cb065c708631776a87ecb6407f46734d3da832106a77843ffd2b697"
+  }
+}
